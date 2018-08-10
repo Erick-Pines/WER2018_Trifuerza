@@ -2,7 +2,7 @@
 <VJCC TYPE="7" NAME="Go" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="12">
+        <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="10">
             <BLOCK ID="41"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -23,38 +23,23 @@
                     <NAME ID="GoStation"/>
                     <INDEX ID="9"/>
                 </VAL>
+                <CHILD ID="NEXT">
+                    <BLOCK ID="12"/>
+                    <POS Y="363" X="341"/>
+                    <VAL>
+                        <DELAY ID="1"/>
+                    </VAL>
+                    <CHILD ID="NEXT">
+                        <BLOCK ID="11"/>
+                        <POS Y="450" X="341"/>
+                        <VAL>
+                            <NAME ID="GoReturn"/>
+                            <INDEX ID="5"/>
+                        </VAL>
+                    </CHILD>
+                </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM Y="104" TYPE="1" NAME="90der" X="341" ID="1">
-            <BLOCK ID="25"/>
-            <POS Y="190" X="341"/>
-            <VAL>
-                <MOTORPARAMETER ID="132,175,-90;0,0,-20;0,0,-20;132,175,90"/>
-                <CURRENTPORT ID="0"/>
-            </VAL>
-            <CHILD ID="NEXT">
-                <BLOCK ID="12"/>
-                <POS Y="276" X="341"/>
-                <VAL>
-                    <DELAY ID="0.2"/>
-                </VAL>
-            </CHILD>
-        </SUBPROGRAM>
-        <SUBPROGRAM Y="104" TYPE="1" NAME="90izq" X="341" ID="2">
-            <BLOCK ID="25"/>
-            <POS Y="190" X="341"/>
-            <VAL>
-                <MOTORPARAMETER ID="132,173,90;0,0,-20;0,0,-20;132,173,-90"/>
-                <CURRENTPORT ID="0"/>
-            </VAL>
-            <CHILD ID="NEXT">
-                <BLOCK ID="12"/>
-                <POS Y="276" X="341"/>
-                <VAL>
-                    <DELAY ID="0.2"/>
-                </VAL>
-            </CHILD>
-        </SUBPROGRAM>
         <SUBPROGRAM Y="104" TYPE="1" NAME="NiStation" X="341" ID="3">
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
@@ -557,8 +542,8 @@
                                 <POS Y="623" X="341"/>
                                 <VAL>
                                     <NUMBERS ID="1"/>
-                                    <LEFTSPEED ID="-50"/>
-                                    <RIGHTSPEED ID="50"/>
+                                    <LEFTSPEED ID="-40"/>
+                                    <RIGHTSPEED ID="40"/>
                                     <ENDPOSITION ID="0"/>
                                     <TYPE ID="1"/>
                                 </VAL>
@@ -922,8 +907,6 @@
     <Catalog GLOBALMTN="VJC6.0"/>
     <Catalog GLOABLETIP="VJC6.0">
         <Catalog ID="0"/>
-        <Catalog ID="1"/>
-        <Catalog ID="2"/>
         <Catalog ID="3"/>
         <Catalog ID="4"/>
         <Catalog ID="5"/>
@@ -941,5 +924,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="23"/>
+    <Catalog SIZE="195"/>
 </VJCC>
