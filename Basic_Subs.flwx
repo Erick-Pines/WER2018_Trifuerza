@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <VJCC NAME="Ni" ID="6.0" TYPE="7">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
         <Catalog MAIN="VJC6.0" SUBCOUNT="11" ROTX="341">
+=======
+<VJCC TYPE="7" NAME="Hachi" ID="6.0">
+    <Catalog GLOBALVAL="VJC6.0"/>
+    <Catalog GLOBALTREE="VJC6.0">
+        <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="11">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
 <VJCC TYPE="7" NAME="Hachi" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
@@ -23,6 +30,7 @@
                 <MOTORPLACETYPE ID="0"/>
                 <MOTORTHRESHOLD ID="1"/>
             </VAL>
+<<<<<<< HEAD
 <<<<<<< HEAD
             <CHILD ID="NEXT">
                 <BLOCK ID="11"/>
@@ -112,6 +120,8 @@
             </CHILD>
 =======
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
+=======
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
         </Catalog>
         <SUBPROGRAM X="341" Y="104" NAME="ShichiStat" ID="1" TYPE="1">
             <BLOCK ID="25"/>
@@ -181,6 +191,7 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM X="341" Y="104" NAME="ShichiRetu" ID="2" TYPE="1">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
@@ -239,6 +250,8 @@
         </SUBPROGRAM>
         <SUBPROGRAM X="341" Y="104" NAME="NiStation" ID="3" TYPE="1">
 =======
+=======
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
         <SUBPROGRAM Y="104" TYPE="1" NAME="NiStation" X="341" ID="3">
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="25"/>
@@ -250,7 +263,11 @@
             <CHILD ID="NEXT">
                 <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <POS X="341" Y="276"/>
+=======
+                <POS Y="276" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                 <POS Y="276" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -276,7 +293,11 @@
                     <CHILD ID="NEXT">
                         <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <POS X="341" Y="449"/>
+=======
+                        <POS Y="449" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                         <POS Y="449" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -289,8 +310,13 @@
                         </VAL>
                         <CHILD ID="NEXT">
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <BLOCK ID="43"/>
                             <POS X="341" Y="536"/>
+=======
+                            <BLOCK ID="44"/>
+                            <POS Y="536" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                             <BLOCK ID="44"/>
                             <POS Y="536" X="341"/>
@@ -304,9 +330,12 @@
                             </VAL>
                             <CHILD ID="NEXT">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <BLOCK ID="46"/>
                                 <POS X="341" Y="623"/>
 =======
+=======
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                                 <BLOCK ID="43"/>
                                 <POS Y="623" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -320,6 +349,7 @@
                                     <CROSSING ID="1"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     <BLOCK ID="25"/>
                                     <POS X="341" Y="709"/>
@@ -341,6 +371,18 @@
                                         <TYPE ID="1"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
+=======
+                                    <BLOCK ID="46"/>
+                                    <POS Y="709" X="341"/>
+                                    <VAL>
+                                        <NUMBERS ID="1"/>
+                                        <LEFTSPEED ID="50"/>
+                                        <RIGHTSPEED ID="-50"/>
+                                        <ENDPOSITION ID="0"/>
+                                        <TYPE ID="1"/>
+                                    </VAL>
+                                    <CHILD ID="NEXT">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                                         <BLOCK ID="25"/>
                                         <POS Y="796" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -350,8 +392,13 @@
                                         </VAL>
                                         <CHILD ID="NEXT">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <BLOCK ID="43"/>
                                             <POS X="341" Y="882"/>
+=======
+                                            <BLOCK ID="46"/>
+                                            <POS Y="882" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                                             <BLOCK ID="46"/>
                                             <POS Y="882" X="341"/>
@@ -365,8 +412,13 @@
                                             </VAL>
                                             <CHILD ID="NEXT">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <BLOCK ID="46"/>
                                                 <POS X="341" Y="969"/>
+=======
+                                                <BLOCK ID="43"/>
+                                                <POS Y="969" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                                                 <BLOCK ID="43"/>
                                                 <POS Y="969" X="341"/>
@@ -382,9 +434,12 @@
                                                 </VAL>
                                                 <CHILD ID="NEXT">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                     <BLOCK ID="44"/>
                                                     <POS X="341" Y="1056"/>
 =======
+=======
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                                                     <BLOCK ID="46"/>
                                                     <POS Y="1056" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -644,7 +699,11 @@
             <CHILD ID="NEXT">
                 <BLOCK ID="43"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <POS X="341" Y="276"/>
+=======
+                <POS Y="276" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                 <POS Y="276" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -669,8 +728,13 @@
                     </VAL>
                     <CHILD ID="NEXT">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <BLOCK ID="43"/>
                         <POS X="341" Y="449"/>
+=======
+                        <BLOCK ID="25"/>
+                        <POS Y="449" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                         <BLOCK ID="25"/>
                         <POS Y="449" X="341"/>
@@ -682,7 +746,11 @@
                         <CHILD ID="NEXT">
                             <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <POS X="341" Y="536"/>
+=======
+                            <POS Y="536" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                             <POS Y="536" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -706,7 +774,11 @@
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="43"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <POS X="341" Y="709"/>
+=======
+                                    <POS Y="709" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                                     <POS Y="709" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -732,7 +804,11 @@
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="43"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <POS X="341" Y="882"/>
+=======
+                                            <POS Y="882" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                                             <POS Y="882" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -748,9 +824,15 @@
                                             <CHILD ID="NEXT">
                                                 <BLOCK ID="25"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <POS X="341" Y="969"/>
                                                 <VAL>
                                                     <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
+=======
+                                                <POS Y="969" X="341"/>
+                                                <VAL>
+                                                    <MOTORPARAMETER ID="132,360,50;0,0,-20;0,0,-20;132,360,50"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                                                 <POS Y="969" X="341"/>
                                                 <VAL>
@@ -875,7 +957,11 @@
             <CHILD ID="NEXT">
                 <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <POS X="341" Y="276"/>
+=======
+                <POS Y="276" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                 <POS Y="276" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -901,7 +987,11 @@
                     <CHILD ID="NEXT">
                         <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <POS X="341" Y="449"/>
+=======
+                        <POS Y="449" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                         <POS Y="449" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -915,7 +1005,11 @@
                         <CHILD ID="NEXT">
                             <BLOCK ID="43"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <POS X="341" Y="536"/>
+=======
+                            <POS Y="536" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                             <POS Y="536" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -941,7 +1035,11 @@
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="12"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <POS X="341" Y="709"/>
+=======
+                                    <POS Y="709" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
                                     <POS Y="709" X="341"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
@@ -1320,7 +1418,11 @@
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Catalog SIZE="33"/>
+=======
+    <Catalog SIZE="209"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 =======
     <Catalog SIZE="209"/>
 >>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
