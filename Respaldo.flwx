@@ -1,39 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <VJCC ID="6.0" NAME="Hachi" TYPE="7">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
         <Catalog ROTX="320" SUBCOUNT="11" MAIN="VJC6.0">
             <BLOCK ID="41"/>
             <POS Y="190" X="320"/>
-
-<VJCC NAME="Ni" ID="6.0" TYPE="7">
-    <Catalog GLOBALVAL="VJC6.0"/>
-    <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" SUBCOUNT="11" ROTX="341">
-=======
-<VJCC TYPE="7" NAME="Hachi" ID="6.0">
-    <Catalog GLOBALVAL="VJC6.0"/>
-    <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="11">
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-<VJCC TYPE="7" NAME="Hachi" ID="6.0">
-    <Catalog GLOBALVAL="VJC6.0"/>
-    <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="11">
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-            <BLOCK ID="41"/>
-            <POS X="341" Y="190"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-<VJCC TYPE="7" NAME="Shichi" ID="6.0">
-    <Catalog GLOBALVAL="VJC6.0"/>
-    <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="12">
-            <BLOCK ID="41"/>
-            <POS Y="190" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
             <VAL>
                 <MOTORTYPE ID="0"/>
                 <LEFTMOTORCHANNEL ID="3"/>
@@ -45,63 +16,17 @@
                 <MOTORPLACETYPE ID="0"/>
                 <MOTORTHRESHOLD ID="1"/>
             </VAL>
-<<<<<<< HEAD
         </Catalog>
         <SUBPROGRAM ID="1" NAME="ShichiStat" Y="104" X="341" TYPE="1">
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <CHILD ID="NEXT">
-                <BLOCK ID="11"/>
-                <POS Y="277" X="341"/>
-                <VAL>
-                    <NAME ID="ShichiStat"/>
-                    <INDEX ID="1"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="12"/>
-                    <POS Y="363" X="341"/>
-                    <VAL>
-                        <DELAY ID="1"/>
-                    </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="11"/>
-                        <POS Y="450" X="341"/>
-                        <VAL>
-                            <NAME ID="ShichiRetu"/>
-                            <INDEX ID="2"/>
-                        </VAL>
-                    </CHILD>
-                </CHILD>
-            </CHILD>
-=======
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-        </Catalog>
-<<<<<<< HEAD
-        <SUBPROGRAM X="341" Y="104" NAME="ShichiStat" ID="1" TYPE="1">
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="ShichiStat" X="341" ID="1">
->>>>>>> parent of c0691b8... Ronda 1
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
                 <MOTORPARAMETER ID="136,2,70;0,0,-20;0,0,-20;136,2,70"/>
-                <CURRENTPORT ID="3"/>
+                <CURRENTPORT ID="0"/>
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="46"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <POS Y="276" X="341"/>
-=======
-                <POS X="341" Y="276"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                <POS Y="277" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                 <VAL>
                     <NUMBERS ID="1"/>
                     <LEFTSPEED ID="50"/>
@@ -123,15 +48,7 @@
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="46"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <POS Y="449" X="341"/>
-=======
-                        <POS X="341" Y="449"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                        <POS Y="450" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                         <VAL>
                             <NUMBERS ID="1"/>
                             <LEFTSPEED ID="0"/>
@@ -141,15 +58,7 @@
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="43"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                             <POS Y="536" X="341"/>
-=======
-                            <POS X="341" Y="536"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                            <POS Y="537" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                             <VAL>
                                 <TYPE ID="0"/>
                                 <SPEED ID="50"/>
@@ -175,82 +84,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <SUBPROGRAM ID="3" NAME="NiStation" Y="104" X="341" TYPE="1">
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <SUBPROGRAM X="341" Y="104" NAME="ShichiRetu" ID="2" TYPE="1">
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="ShichiRetu" X="341" ID="2">
->>>>>>> parent of c0691b8... Ronda 1
-            <BLOCK ID="46"/>
-            <POS Y="190" X="341"/>
-            <VAL>
-                <NUMBERS ID="1"/>
-                <LEFTSPEED ID="50"/>
-                <RIGHTSPEED ID="-50"/>
-                <ENDPOSITION ID="2"/>
-                <TYPE ID="1"/>
-            </VAL>
-            <CHILD ID="NEXT">
-                <BLOCK ID="43"/>
-                <POS Y="277" X="341"/>
-                <VAL>
-                    <TYPE ID="0"/>
-                    <SPEED ID="50"/>
-                    <LEFTSPEED ID="0"/>
-                    <RIGHTSPEED ID="0"/>
-                    <CYCLETIMES ID="2"/>
-                    <CROSSINGTIME ID="0.3"/>
-                    <CROSSING ID="1"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="46"/>
-                    <POS Y="363" X="341"/>
-                    <VAL>
-                        <NUMBERS ID="1"/>
-                        <LEFTSPEED ID="-50"/>
-                        <RIGHTSPEED ID="50"/>
-                        <ENDPOSITION ID="1"/>
-                        <TYPE ID="1"/>
-                    </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="43"/>
-                        <POS Y="450" X="341"/>
-                        <VAL>
-                            <TYPE ID="0"/>
-                            <SPEED ID="50"/>
-                            <LEFTSPEED ID="0"/>
-                            <RIGHTSPEED ID="0"/>
-                            <CYCLETIMES ID="1"/>
-                            <CROSSINGTIME ID="0"/>
-                            <CROSSING ID="1"/>
-                        </VAL>
-                        <CHILD ID="NEXT">
-                            <BLOCK ID="25"/>
-                            <POS Y="537" X="341"/>
-                            <VAL>
-                                <MOTORPARAMETER ID="136,1,80;0,0,-20;0,0,-20;136,1,80"/>
-                                <CURRENTPORT ID="0"/>
-                            </VAL>
-                        </CHILD>
-                    </CHILD>
-                </CHILD>
-            </CHILD>
-        </SUBPROGRAM>
-<<<<<<< HEAD
-        <SUBPROGRAM X="341" Y="104" NAME="NiStation" ID="3" TYPE="1">
-=======
-=======
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-        <SUBPROGRAM Y="104" TYPE="1" NAME="NiStation" X="341" ID="3">
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="NiStation" X="341" ID="3">
->>>>>>> parent of c0691b8... Ronda 1
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -259,23 +93,7 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="46"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <POS Y="276" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <POS X="341" Y="276"/>
-=======
-                <POS Y="276" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                <POS Y="276" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                <POS Y="277" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                 <VAL>
                     <NUMBERS ID="1"/>
                     <LEFTSPEED ID="50"/>
@@ -297,23 +115,7 @@
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="46"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <POS Y="449" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        <POS X="341" Y="449"/>
-=======
-                        <POS Y="449" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                        <POS Y="449" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                        <POS Y="450" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                         <VAL>
                             <NUMBERS ID="1"/>
                             <LEFTSPEED ID="-50"/>
@@ -322,27 +124,8 @@
                             <TYPE ID="1"/>
                         </VAL>
                         <CHILD ID="NEXT">
-<<<<<<< HEAD
                             <BLOCK ID="44"/>
                             <POS Y="536" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            <BLOCK ID="43"/>
-<<<<<<< HEAD
-                            <POS X="341" Y="536"/>
-=======
-                            <BLOCK ID="44"/>
-                            <POS Y="536" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                            <BLOCK ID="44"/>
-                            <POS Y="536" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                            <POS Y="537" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                             <VAL>
                                 <SPEED ID="50"/>
                                 <LEFTSPEED ID="0"/>
@@ -351,23 +134,8 @@
                                 <TYPE ID="1"/>
                             </VAL>
                             <CHILD ID="NEXT">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <BLOCK ID="46"/>
-<<<<<<< HEAD
-                                <POS X="341" Y="623"/>
-=======
-=======
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
                                 <BLOCK ID="43"/>
                                 <POS Y="623" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                                <POS Y="623" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                 <VAL>
                                     <TYPE ID="1"/>
                                     <SPEED ID="50"/>
@@ -378,7 +146,6 @@
                                     <CROSSING ID="1"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
-<<<<<<< HEAD
                                     <BLOCK ID="46"/>
                                     <POS Y="709" X="341"/>
                                     <VAL>
@@ -389,75 +156,15 @@
                                         <TYPE ID="1"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                    <BLOCK ID="25"/>
-                                    <POS Y="710" X="341"/>
-                                    <VAL>
-                                        <MOTORPARAMETER ID="132,280,50;0,0,-20;0,0,-20;132,280,50"/>
-                                        <CURRENTPORT ID="3"/>
-                                    </VAL>
-                                    <CHILD ID="NEXT">
-                                        <BLOCK ID="46"/>
-<<<<<<< HEAD
-                                        <POS X="341" Y="796"/>
-=======
-                                    <BLOCK ID="46"/>
-                                    <POS Y="709" X="341"/>
-                                    <VAL>
-                                        <NUMBERS ID="1"/>
-                                        <LEFTSPEED ID="50"/>
-                                        <RIGHTSPEED ID="-50"/>
-                                        <ENDPOSITION ID="0"/>
-                                        <TYPE ID="1"/>
-                                    </VAL>
-                                    <CHILD ID="NEXT">
-=======
-                                    <BLOCK ID="46"/>
-                                    <POS Y="709" X="341"/>
-                                    <VAL>
-                                        <NUMBERS ID="1"/>
-                                        <LEFTSPEED ID="50"/>
-                                        <RIGHTSPEED ID="-50"/>
-                                        <ENDPOSITION ID="0"/>
-                                        <TYPE ID="1"/>
-                                    </VAL>
-                                    <CHILD ID="NEXT">
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
                                         <BLOCK ID="25"/>
                                         <POS Y="796" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                                        <POS Y="796" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                         <VAL>
                                             <MOTORPARAMETER ID="132,210,50;0,0,-20;0,0,-20;132,210,50"/>
                                             <CURRENTPORT ID="0"/>
                                         </VAL>
                                         <CHILD ID="NEXT">
-<<<<<<< HEAD
                                             <BLOCK ID="46"/>
                                             <POS Y="882" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                            <BLOCK ID="43"/>
-<<<<<<< HEAD
-                                            <POS X="341" Y="882"/>
-=======
-                                            <BLOCK ID="46"/>
-                                            <POS Y="882" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                                            <BLOCK ID="46"/>
-                                            <POS Y="882" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                                            <POS Y="883" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                             <VAL>
                                                 <NUMBERS ID="2"/>
                                                 <LEFTSPEED ID="-50"/>
@@ -466,27 +173,8 @@
                                                 <TYPE ID="1"/>
                                             </VAL>
                                             <CHILD ID="NEXT">
-<<<<<<< HEAD
                                                 <BLOCK ID="43"/>
                                                 <POS Y="969" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                                <BLOCK ID="46"/>
-<<<<<<< HEAD
-                                                <POS X="341" Y="969"/>
-=======
-                                                <BLOCK ID="43"/>
-                                                <POS Y="969" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                                                <BLOCK ID="43"/>
-                                                <POS Y="969" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                                                <POS Y="970" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                                 <VAL>
                                                     <TYPE ID="0"/>
                                                     <SPEED ID="50"/>
@@ -497,23 +185,8 @@
                                                     <CROSSING ID="1"/>
                                                 </VAL>
                                                 <CHILD ID="NEXT">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                                    <BLOCK ID="44"/>
-<<<<<<< HEAD
-                                                    <POS X="341" Y="1056"/>
-=======
-=======
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
                                                     <BLOCK ID="46"/>
                                                     <POS Y="1056" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                                                    <POS Y="1056" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                                     <VAL>
                                                         <NUMBERS ID="1"/>
                                                         <LEFTSPEED ID="-50"/>
@@ -543,15 +216,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <SUBPROGRAM ID="4" NAME="HachiRetur" Y="104" X="341" TYPE="1">
-=======
-        <SUBPROGRAM X="341" Y="104" NAME="HachiRetur" ID="4" TYPE="1">
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="HachiRetur" X="341" ID="4">
->>>>>>> parent of c0691b8... Ronda 1
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -657,135 +322,8 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <SUBPROGRAM ID="5" NAME="GoReturn" Y="104" X="341" TYPE="1">
-=======
-        <SUBPROGRAM X="341" Y="104" NAME="NiReturn" ID="6" TYPE="1">
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
             <BLOCK ID="46"/>
-<<<<<<< HEAD
-            <POS X="341" Y="190"/>
-=======
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="GoReturn" X="341" ID="5">
-            <BLOCK ID="46"/>
-            <POS Y="190" X="341"/>
-            <VAL>
-                <NUMBERS ID="1"/>
-                <LEFTSPEED ID="50"/>
-                <RIGHTSPEED ID="-50"/>
-                <ENDPOSITION ID="0"/>
-                <TYPE ID="1"/>
-            </VAL>
-            <CHILD ID="NEXT">
-                <BLOCK ID="44"/>
-                <POS Y="277" X="341"/>
-                <VAL>
-                    <SPEED ID="50"/>
-                    <LEFTSPEED ID="0"/>
-                    <RIGHTSPEED ID="0"/>
-                    <CROSSINGTIME ID="0.2"/>
-                    <TYPE ID="1"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="43"/>
-                    <POS Y="363" X="341"/>
-                    <VAL>
-                        <TYPE ID="1"/>
-                        <SPEED ID="50"/>
-                        <LEFTSPEED ID="0"/>
-                        <RIGHTSPEED ID="0"/>
-                        <CYCLETIMES ID="1"/>
-                        <CROSSINGTIME ID="0.3"/>
-                        <CROSSING ID="1"/>
-                    </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="46"/>
-                        <POS Y="450" X="341"/>
-                        <VAL>
-                            <NUMBERS ID="1"/>
-                            <LEFTSPEED ID="50"/>
-                            <RIGHTSPEED ID="-50"/>
-                            <ENDPOSITION ID="2"/>
-                            <TYPE ID="1"/>
-                        </VAL>
-                        <CHILD ID="NEXT">
-                            <BLOCK ID="43"/>
-                            <POS Y="537" X="341"/>
-                            <VAL>
-                                <TYPE ID="0"/>
-                                <SPEED ID="50"/>
-                                <LEFTSPEED ID="0"/>
-                                <RIGHTSPEED ID="0"/>
-                                <CYCLETIMES ID="1"/>
-                                <CROSSINGTIME ID="0.2"/>
-                                <CROSSING ID="1"/>
-                            </VAL>
-                            <CHILD ID="NEXT">
-                                <BLOCK ID="46"/>
-                                <POS Y="623" X="341"/>
-                                <VAL>
-                                    <NUMBERS ID="1"/>
-                                    <LEFTSPEED ID="0"/>
-                                    <RIGHTSPEED ID="-50"/>
-                                    <ENDPOSITION ID="2"/>
-                                    <TYPE ID="1"/>
-                                </VAL>
-                                <CHILD ID="NEXT">
-                                    <BLOCK ID="43"/>
-                                    <POS Y="710" X="341"/>
-                                    <VAL>
-                                        <TYPE ID="0"/>
-                                        <SPEED ID="50"/>
-                                        <LEFTSPEED ID="0"/>
-                                        <RIGHTSPEED ID="0"/>
-                                        <CYCLETIMES ID="1"/>
-                                        <CROSSINGTIME ID="0.4"/>
-                                        <CROSSING ID="1"/>
-                                    </VAL>
-                                    <CHILD ID="NEXT">
-                                        <BLOCK ID="46"/>
-                                        <POS Y="796" X="341"/>
-                                        <VAL>
-                                            <NUMBERS ID="1"/>
-                                            <LEFTSPEED ID="-50"/>
-                                            <RIGHTSPEED ID="50"/>
-                                            <ENDPOSITION ID="0"/>
-                                            <TYPE ID="1"/>
-                                        </VAL>
-                                        <CHILD ID="NEXT">
-                                            <BLOCK ID="43"/>
-                                            <POS Y="883" X="341"/>
-                                            <VAL>
-                                                <TYPE ID="1"/>
-                                                <SPEED ID="50"/>
-                                                <LEFTSPEED ID="0"/>
-                                                <RIGHTSPEED ID="0"/>
-                                                <CYCLETIMES ID="1"/>
-                                                <CROSSINGTIME ID="0"/>
-                                                <CROSSING ID="1"/>
-                                            </VAL>
-                                            <CHILD ID="NEXT">
-                                                <BLOCK ID="25"/>
-                                                <POS Y="970" X="341"/>
-                                                <VAL>
-                                                    <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
-                                                    <CURRENTPORT ID="3"/>
-                                                </VAL>
-                                            </CHILD>
-                                        </CHILD>
-                                    </CHILD>
-                                </CHILD>
-                            </CHILD>
-                        </CHILD>
-                    </CHILD>
-                </CHILD>
-            </CHILD>
-        </SUBPROGRAM>
-        <SUBPROGRAM Y="104" TYPE="1" NAME="NiReturn" X="341" ID="6">
-            <BLOCK ID="46"/>
->>>>>>> parent of c0691b8... Ronda 1
             <POS Y="190" X="341"/>
             <VAL>
                 <NUMBERS ID="1"/>
@@ -796,15 +334,7 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="43"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <POS Y="276" X="341"/>
-=======
-                <POS Y="277" X="341"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                <POS Y="277" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                 <VAL>
                     <TYPE ID="1"/>
                     <SPEED ID="50"/>
@@ -826,15 +356,7 @@
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="43"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <POS Y="449" X="341"/>
-=======
-                        <POS Y="450" X="341"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                        <POS Y="450" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                         <VAL>
                             <TYPE ID="0"/>
                             <SPEED ID="50"/>
@@ -846,15 +368,7 @@
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="46"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                             <POS Y="536" X="341"/>
-=======
-                            <POS Y="537" X="341"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                            <POS Y="537" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                             <VAL>
                                 <NUMBERS ID="1"/>
                                 <LEFTSPEED ID="0"/>
@@ -876,11 +390,7 @@
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="46"/>
-<<<<<<< HEAD
                                     <POS Y="709" X="341"/>
-=======
-                                    <POS Y="710" X="341"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
                                     <VAL>
                                         <NUMBERS ID="1"/>
                                         <LEFTSPEED ID="-50"/>
@@ -902,17 +412,10 @@
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="25"/>
-<<<<<<< HEAD
                                             <POS Y="882" X="341"/>
                                             <VAL>
                                                 <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
                                                 <CURRENTPORT ID="0"/>
-=======
-                                            <POS Y="883" X="341"/>
-                                            <VAL>
-                                                <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
-                                                <CURRENTPORT ID="3"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
                                             </VAL>
                                         </CHILD>
                                     </CHILD>
@@ -926,7 +429,6 @@
         <SUBPROGRAM ID="6" NAME="NiReturn" Y="104" X="341" TYPE="1">
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <VAL>
                 <NUMBERS ID="1"/>
                 <LEFTSPEED ID="-50"/>
@@ -936,19 +438,7 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="43"/>
-<<<<<<< HEAD
                 <POS Y="276" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <POS X="341" Y="276"/>
-=======
-                <POS Y="276" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                <POS Y="276" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
                 <VAL>
                     <TYPE ID="1"/>
                     <SPEED ID="50"/>
@@ -960,7 +450,7 @@
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="46"/>
-                    <POS X="341" Y="363"/>
+                    <POS Y="363" X="341"/>
                     <VAL>
                         <NUMBERS ID="1"/>
                         <LEFTSPEED ID="50"/>
@@ -969,42 +459,15 @@
                         <TYPE ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
-<<<<<<< HEAD
                         <BLOCK ID="25"/>
                         <POS Y="449" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        <BLOCK ID="43"/>
-                        <POS X="341" Y="449"/>
-=======
-                        <BLOCK ID="25"/>
-                        <POS Y="449" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                        <BLOCK ID="25"/>
-                        <POS Y="449" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
                         <VAL>
                             <MOTORPARAMETER ID="132,190,50;0,0,-20;0,0,-20;132,190,50"/>
                             <CURRENTPORT ID="0"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="46"/>
-<<<<<<< HEAD
                             <POS Y="536" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            <POS X="341" Y="536"/>
-=======
-                            <POS Y="536" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                            <POS Y="536" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
                             <VAL>
                                 <NUMBERS ID="1"/>
                                 <LEFTSPEED ID="-50"/>
@@ -1024,23 +487,7 @@
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="43"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                                     <POS Y="709" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                    <POS X="341" Y="709"/>
-=======
-                                    <POS Y="709" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                                    <POS Y="709" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                                    <POS Y="710" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                     <VAL>
                                         <TYPE ID="1"/>
                                         <SPEED ID="50"/>
@@ -1062,23 +509,7 @@
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="43"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                                             <POS Y="882" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                            <POS X="341" Y="882"/>
-=======
-                                            <POS Y="882" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                                            <POS Y="882" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                                            <POS Y="883" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                             <VAL>
                                                 <TYPE ID="1"/>
                                                 <SPEED ID="50"/>
@@ -1090,35 +521,10 @@
                                             </VAL>
                                             <CHILD ID="NEXT">
                                                 <BLOCK ID="25"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                                                 <POS Y="969" X="341"/>
                                                 <VAL>
                                                     <MOTORPARAMETER ID="132,360,50;0,0,-20;0,0,-20;132,360,50"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                                <POS X="341" Y="969"/>
-                                                <VAL>
-                                                    <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
-=======
-                                                <POS Y="969" X="341"/>
-                                                <VAL>
-                                                    <MOTORPARAMETER ID="132,360,50;0,0,-20;0,0,-20;132,360,50"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                                                <POS Y="969" X="341"/>
-                                                <VAL>
-                                                    <MOTORPARAMETER ID="132,360,50;0,0,-20;0,0,-20;132,360,50"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
                                                     <CURRENTPORT ID="0"/>
-=======
-                                                <POS Y="970" X="341"/>
-                                                <VAL>
-                                                    <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
-                                                    <CURRENTPORT ID="3"/>
->>>>>>> parent of c0691b8... Ronda 1
                                                 </VAL>
                                             </CHILD>
                                         </CHILD>
@@ -1130,15 +536,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <SUBPROGRAM ID="7" NAME="HachiStati" Y="104" X="341" TYPE="1">
-=======
-        <SUBPROGRAM X="341" Y="104" NAME="HachiStati" ID="7" TYPE="1">
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="HachiStati" X="341" ID="7">
->>>>>>> parent of c0691b8... Ronda 1
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -1235,15 +633,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <SUBPROGRAM ID="8" NAME="IchiStatio" Y="104" X="341" TYPE="1">
-=======
-        <SUBPROGRAM X="341" Y="104" NAME="IchiStatio" ID="8" TYPE="1">
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="IchiStatio" X="341" ID="8">
->>>>>>> parent of c0691b8... Ronda 1
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -1252,23 +642,7 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="46"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <POS Y="276" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <POS X="341" Y="276"/>
-=======
-                <POS Y="276" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                <POS Y="276" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                <POS Y="277" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                 <VAL>
                     <NUMBERS ID="1"/>
                     <LEFTSPEED ID="50"/>
@@ -1290,23 +664,7 @@
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="46"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <POS Y="449" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        <POS X="341" Y="449"/>
-=======
-                        <POS Y="449" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                        <POS Y="449" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                        <POS Y="450" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                         <VAL>
                             <NUMBERS ID="1"/>
                             <LEFTSPEED ID="0"/>
@@ -1316,23 +674,7 @@
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="43"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                             <POS Y="536" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            <POS X="341" Y="536"/>
-=======
-                            <POS Y="536" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                            <POS Y="536" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                            <POS Y="537" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                             <VAL>
                                 <TYPE ID="0"/>
                                 <SPEED ID="50"/>
@@ -1354,23 +696,7 @@
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="12"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                                     <POS Y="709" X="341"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                    <POS X="341" Y="709"/>
-=======
-                                    <POS Y="709" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-                                    <POS Y="709" X="341"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                                    <POS Y="710" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                     <VAL>
                                         <DELAY ID="0.2"/>
                                     </VAL>
@@ -1392,32 +718,16 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <SUBPROGRAM ID="9" NAME="GoStation" Y="104" X="341" TYPE="1">
-=======
-        <SUBPROGRAM X="341" Y="104" NAME="GoStation" ID="9" TYPE="1">
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="GoStation" X="341" ID="9">
->>>>>>> parent of c0691b8... Ronda 1
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
                 <MOTORPARAMETER ID="136,2,70;0,0,-20;0,0,-20;136,2,70"/>
-                <CURRENTPORT ID="3"/>
+                <CURRENTPORT ID="0"/>
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="46"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <POS Y="276" X="341"/>
-=======
-                <POS X="341" Y="276"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                <POS Y="277" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                 <VAL>
                     <NUMBERS ID="1"/>
                     <LEFTSPEED ID="50"/>
@@ -1439,15 +749,7 @@
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="46"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <POS Y="449" X="341"/>
-=======
-                        <POS X="341" Y="449"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                        <POS Y="450" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                         <VAL>
                             <NUMBERS ID="1"/>
                             <LEFTSPEED ID="-50"/>
@@ -1457,15 +759,7 @@
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="43"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                             <POS Y="536" X="341"/>
-=======
-                            <POS X="341" Y="536"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                            <POS Y="537" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                             <VAL>
                                 <TYPE ID="1"/>
                                 <SPEED ID="50"/>
@@ -1487,15 +781,7 @@
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="43"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                                     <POS Y="709" X="341"/>
-=======
-                                    <POS X="341" Y="709"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                                    <POS Y="710" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                     <VAL>
                                         <TYPE ID="1"/>
                                         <SPEED ID="50"/>
@@ -1517,30 +803,14 @@
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="25"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                                             <POS Y="882" X="341"/>
-=======
-                                            <POS X="341" Y="882"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                                            <POS Y="883" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                             <VAL>
                                                 <MOTORPARAMETER ID="132,90,50;0,0,-20;0,0,-20;132,90,50"/>
-                                                <CURRENTPORT ID="3"/>
+                                                <CURRENTPORT ID="0"/>
                                             </VAL>
                                             <CHILD ID="NEXT">
                                                 <BLOCK ID="46"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
                                                 <POS Y="969" X="341"/>
-=======
-                                                <POS X="341" Y="969"/>
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-                                                <POS Y="970" X="341"/>
->>>>>>> parent of c0691b8... Ronda 1
                                                 <VAL>
                                                     <NUMBERS ID="2"/>
                                                     <LEFTSPEED ID="40"/>
@@ -1558,15 +828,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <SUBPROGRAM ID="10" NAME="IchiReturn" Y="104" X="341" TYPE="1">
-=======
-        <SUBPROGRAM X="341" Y="104" NAME="IchiReturn" ID="10" TYPE="1">
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="IchiReturn" X="341" ID="10">
->>>>>>> parent of c0691b8... Ronda 1
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -1622,15 +884,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <SUBPROGRAM ID="11" NAME="KyuStation" Y="104" X="341" TYPE="1">
-=======
-        <SUBPROGRAM X="341" Y="104" NAME="KyuStation" ID="11" TYPE="1">
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="KyuStation" X="341" ID="11">
->>>>>>> parent of c0691b8... Ronda 1
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -1716,15 +970,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <SUBPROGRAM ID="12" NAME="KyuReturn" Y="104" X="341" TYPE="1">
-=======
-        <SUBPROGRAM X="341" Y="104" NAME="KyuReturn" ID="12" TYPE="1">
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-        <SUBPROGRAM Y="104" TYPE="1" NAME="KyuReturn" X="341" ID="12">
->>>>>>> parent of c0691b8... Ronda 1
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -1826,21 +1072,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <Catalog SIZE="231"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <Catalog SIZE="33"/>
-=======
-    <Catalog SIZE="209"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
-=======
-    <Catalog SIZE="209"/>
->>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
->>>>>>> 8e4ad016ce4d0d8a67c9a98330def8641ecfdcaa
-=======
-    <Catalog SIZE="70"/>
->>>>>>> parent of c0691b8... Ronda 1
 </VJCC>
