@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <VJCC NAME="San" ID="6.0" TYPE="7">
+=======
+<VJCC TYPE="7" NAME="San" ID="6.0">
+>>>>>>> parent of ca5bbfe... Shi completo
 =======
 <VJCC TYPE="7" NAME="San" ID="6.0">
 >>>>>>> parent of ca5bbfe... Shi completo
@@ -39,8 +43,13 @@
                         <POS X="341" Y="450"/>
                         <VAL>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <MOTORPARAMETER ID="0,0,-20;132,250,-20;0,0,-20;0,0,-20"/>
                             <CURRENTPORT ID="1"/>
+=======
+                            <NAME ID="SanReturn"/>
+                            <INDEX ID="5"/>
+>>>>>>> parent of ca5bbfe... Shi completo
 =======
                             <NAME ID="SanReturn"/>
                             <INDEX ID="5"/>
@@ -90,10 +99,13 @@
             </CHILD>
         </Catalog>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM X="341" Y="104" NAME="ShiReturn" ID="1" TYPE="1">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
 =======
+=======
+>>>>>>> parent of ca5bbfe... Shi completo
         <SUBPROGRAM Y="104" TYPE="1" NAME="90der" X="341" ID="1">
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
@@ -104,8 +116,13 @@
             </VAL>
             <CHILD ID="NEXT">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <BLOCK ID="43"/>
                 <POS X="341" Y="276"/>
+=======
+                <BLOCK ID="12"/>
+                <POS Y="276" X="341"/>
+>>>>>>> parent of ca5bbfe... Shi completo
 =======
                 <BLOCK ID="12"/>
                 <POS Y="276" X="341"/>
@@ -128,6 +145,7 @@
                 <VAL>
                     <DELAY ID="0.2"/>
                 </VAL>
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <CHILD ID="NEXT">
                     <BLOCK ID="46"/>
@@ -209,6 +227,8 @@
                         </CHILD>
                     </CHILD>
                 </CHILD>
+=======
+>>>>>>> parent of ca5bbfe... Shi completo
 =======
 >>>>>>> parent of ca5bbfe... Shi completo
             </CHILD>
@@ -711,6 +731,7 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM X="341" Y="104" NAME="ShiStation" ID="9" TYPE="1">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
@@ -815,6 +836,8 @@
         </SUBPROGRAM>
         <SUBPROGRAM X="341" Y="104" NAME="IchiReturn" ID="10" TYPE="1">
 =======
+=======
+>>>>>>> parent of ca5bbfe... Shi completo
         <SUBPROGRAM Y="104" TYPE="1" NAME="IchiReturn" X="341" ID="10">
 >>>>>>> parent of ca5bbfe... Shi completo
             <BLOCK ID="46"/>
@@ -1061,7 +1084,11 @@
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Catalog SIZE="150"/>
+=======
+    <Catalog SIZE="219"/>
+>>>>>>> parent of ca5bbfe... Shi completo
 =======
     <Catalog SIZE="219"/>
 >>>>>>> parent of ca5bbfe... Shi completo
