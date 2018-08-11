@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <VJCC TYPE="7" NAME="Shichi" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
         <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="12">
+=======
+<VJCC TYPE="7" NAME="Hachi" ID="6.0">
+    <Catalog GLOBALVAL="VJC6.0"/>
+    <Catalog GLOBALTREE="VJC6.0">
+        <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="11">
+>>>>>>> parent of d93b08c... Revert "Roku completo"
 =======
 <VJCC TYPE="7" NAME="Hachi" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
@@ -115,6 +122,7 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM Y="104" TYPE="1" NAME="ShichiRetu" X="341" ID="2">
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
@@ -171,6 +179,8 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
+=======
+>>>>>>> parent of d93b08c... Revert "Roku completo"
 =======
 >>>>>>> parent of d93b08c... Revert "Roku completo"
         <SUBPROGRAM Y="104" TYPE="1" NAME="NiStation" X="341" ID="3">
@@ -415,6 +425,9 @@
                 <BLOCK ID="44"/>
 =======
                 <BLOCK ID="43"/>
+<<<<<<< HEAD
+>>>>>>> parent of d93b08c... Revert "Roku completo"
+=======
 >>>>>>> parent of d93b08c... Revert "Roku completo"
                 <POS Y="277" X="341"/>
                 <VAL>
@@ -441,6 +454,9 @@
                         <BLOCK ID="46"/>
 =======
                         <BLOCK ID="43"/>
+<<<<<<< HEAD
+>>>>>>> parent of d93b08c... Revert "Roku completo"
+=======
 >>>>>>> parent of d93b08c... Revert "Roku completo"
                         <POS Y="450" X="341"/>
                         <VAL>
@@ -455,6 +471,9 @@
                             <BLOCK ID="43"/>
 =======
                             <BLOCK ID="46"/>
+<<<<<<< HEAD
+>>>>>>> parent of d93b08c... Revert "Roku completo"
+=======
 >>>>>>> parent of d93b08c... Revert "Roku completo"
                             <POS Y="537" X="341"/>
                             <VAL>
@@ -481,6 +500,9 @@
                                     <BLOCK ID="43"/>
 =======
                                     <BLOCK ID="46"/>
+<<<<<<< HEAD
+>>>>>>> parent of d93b08c... Revert "Roku completo"
+=======
 >>>>>>> parent of d93b08c... Revert "Roku completo"
                                     <POS Y="710" X="341"/>
                                     <VAL>
@@ -520,6 +542,9 @@
                                             <VAL>
                                                 <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
                                                 <CURRENTPORT ID="3"/>
+<<<<<<< HEAD
+>>>>>>> parent of d93b08c... Revert "Roku completo"
+=======
 >>>>>>> parent of d93b08c... Revert "Roku completo"
                                             </VAL>
                                             <CHILD ID="NEXT">
@@ -1192,7 +1217,11 @@
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Catalog SIZE="70"/>
+=======
+    <Catalog SIZE="209"/>
+>>>>>>> parent of d93b08c... Revert "Roku completo"
 =======
     <Catalog SIZE="209"/>
 >>>>>>> parent of d93b08c... Revert "Roku completo"
