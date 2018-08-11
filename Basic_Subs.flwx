@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 <VJCC ID="6.0" NAME="Hachi" TYPE="7">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
         <Catalog ROTX="320" SUBCOUNT="11" MAIN="VJC6.0">
             <BLOCK ID="41"/>
             <POS Y="190" X="320"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 <VJCC NAME="Ni" ID="6.0" TYPE="7">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
