@@ -6,7 +6,12 @@
         <Catalog MAIN="VJC6.0" SUBCOUNT="1" ROTX="320">
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Catalog MAIN="VJC6.0" SUBCOUNT="1" ROTX="320">
+=======
+        <Catalog MAIN="VJC6.0" SUBCOUNT="2" ROTX="320">
+>>>>>>> parent of c0691b8... Ronda 1
+>>>>>>> parent of 25446cb... GG
 =======
         <Catalog MAIN="VJC6.0" SUBCOUNT="2" ROTX="320">
 >>>>>>> parent of c0691b8... Ronda 1
@@ -34,7 +39,10 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 25446cb... GG
                 <CHILD ID="NEXT">
                     <BLOCK ID="12"/>
                     <POS Y="363" X="320"/>
@@ -51,6 +59,9 @@
                     </CHILD>
                 </CHILD>
 >>>>>>> parent of c0691b8... Ronda 1
+<<<<<<< HEAD
+>>>>>>> parent of 25446cb... GG
+=======
 >>>>>>> parent of 25446cb... GG
             </CHILD>
         </Catalog>
@@ -148,7 +159,10 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 25446cb... GG
         <SUBPROGRAM ID="2" NAME="RokuReturn" TYPE="1" Y="104" X="320">
             <BLOCK ID="46"/>
             <POS Y="190" X="320"/>
@@ -237,6 +251,9 @@
             </CHILD>
         </SUBPROGRAM>
 >>>>>>> parent of c0691b8... Ronda 1
+<<<<<<< HEAD
+>>>>>>> parent of 25446cb... GG
+=======
 >>>>>>> parent of 25446cb... GG
     </Catalog>
     <Catalog GLOBALMTN="VJC6.0"/>
@@ -254,7 +271,12 @@
     <Catalog SIZE="158"/>
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Catalog SIZE="158"/>
+=======
+    <Catalog SIZE="115"/>
+>>>>>>> parent of c0691b8... Ronda 1
+>>>>>>> parent of 25446cb... GG
 =======
     <Catalog SIZE="115"/>
 >>>>>>> parent of c0691b8... Ronda 1
