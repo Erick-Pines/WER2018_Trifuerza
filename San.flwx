@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <VJCC NAME="San" ID="6.0" TYPE="7">
 =======
 <VJCC TYPE="7" NAME="San" ID="6.0">
@@ -17,6 +18,14 @@
         <Catalog MAIN="VJC6.0" SUBCOUNT="11" ROTX="341">
             <BLOCK ID="41"/>
             <POS X="341" Y="190"/>
+=======
+<VJCC ID="6.0" TYPE="7" NAME="San">
+    <Catalog GLOBALVAL="VJC6.0"/>
+    <Catalog GLOBALTREE="VJC6.0">
+        <Catalog MAIN="VJC6.0" SUBCOUNT="11" ROTX="320">
+            <BLOCK ID="41"/>
+            <POS Y="190" X="320"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <VAL>
                 <MOTORTYPE ID="0"/>
                 <LEFTMOTORCHANNEL ID="3"/>
@@ -30,19 +39,29 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="11"/>
+<<<<<<< HEAD
                 <POS X="341" Y="277"/>
+=======
+                <POS Y="277" X="320"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                 <VAL>
                     <NAME ID="SanStation"/>
                     <INDEX ID="4"/>
                 </VAL>
                 <CHILD ID="NEXT">
+<<<<<<< HEAD
                     <BLOCK ID="25"/>
                     <POS X="341" Y="363"/>
+=======
+                    <BLOCK ID="12"/>
+                    <POS Y="363" X="320"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                     <VAL>
                         <MOTORPARAMETER ID="132,130,50;0,0,-20;0,0,-20;132,130,50"/>
                         <CURRENTPORT ID="3"/>
                     </VAL>
                     <CHILD ID="NEXT">
+<<<<<<< HEAD
                         <BLOCK ID="26"/>
                         <POS X="341" Y="450"/>
                         <VAL>
@@ -63,6 +82,13 @@
                             <NAME ID="SanReturn"/>
                             <INDEX ID="5"/>
 >>>>>>> parent of ca5bbfe... Shi completo
+=======
+                        <BLOCK ID="11"/>
+                        <POS Y="450" X="320"/>
+                        <VAL>
+                            <NAME ID="SanReturn"/>
+                            <INDEX ID="5"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="25"/>
@@ -110,6 +136,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM X="341" Y="104" NAME="ShiReturn" ID="1" TYPE="1">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
@@ -119,6 +146,9 @@
 =======
 >>>>>>> parent of ca5bbfe... Shi completo
         <SUBPROGRAM Y="104" TYPE="1" NAME="90der" X="341" ID="1">
+=======
+        <SUBPROGRAM ID="1" Y="104" TYPE="1" NAME="90der" X="341">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
 >>>>>>> parent of ca5bbfe... Shi completo
@@ -127,6 +157,7 @@
                 <CURRENTPORT ID="0"/>
             </VAL>
             <CHILD ID="NEXT">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,12 +175,20 @@
                 <BLOCK ID="12"/>
                 <POS Y="276" X="341"/>
 >>>>>>> parent of ca5bbfe... Shi completo
+=======
+                <BLOCK ID="12"/>
+                <POS Y="276" X="341"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                 <VAL>
                     <DELAY ID="0.2"/>
                 </VAL>
             </CHILD>
         </SUBPROGRAM>
+<<<<<<< HEAD
         <SUBPROGRAM Y="104" TYPE="1" NAME="90izq" X="341" ID="2">
+=======
+        <SUBPROGRAM ID="2" Y="104" TYPE="1" NAME="90izq" X="341">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -162,6 +201,7 @@
                 <VAL>
                     <DELAY ID="0.2"/>
                 </VAL>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +294,11 @@
             </CHILD>
         </SUBPROGRAM>
         <SUBPROGRAM X="341" Y="104" NAME="NiStation" ID="3" TYPE="1">
+=======
+            </CHILD>
+        </SUBPROGRAM>
+        <SUBPROGRAM ID="3" Y="104" TYPE="1" NAME="NiStation" X="341">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -385,7 +430,11 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
+<<<<<<< HEAD
         <SUBPROGRAM X="320" Y="104" NAME="SanStation" ID="4" TYPE="1">
+=======
+        <SUBPROGRAM ID="4" Y="104" TYPE="1" NAME="SanStation" X="320">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="25"/>
             <POS X="320" Y="190"/>
             <VAL>
@@ -453,7 +502,7 @@
                                         <SPEED ID="50"/>
                                         <LEFTSPEED ID="0"/>
                                         <RIGHTSPEED ID="0"/>
-                                        <CROSSINGTIME ID="1.8"/>
+                                        <CROSSINGTIME ID="2"/>
                                         <TYPE ID="1"/>
                                     </VAL>
                                 </CHILD>
@@ -463,13 +512,17 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
+<<<<<<< HEAD
         <SUBPROGRAM X="320" Y="104" NAME="SanReturn" ID="5" TYPE="1">
+=======
+        <SUBPROGRAM ID="5" Y="104" TYPE="1" NAME="SanReturn" X="320">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="46"/>
             <POS X="320" Y="190"/>
             <VAL>
                 <NUMBERS ID="1"/>
-                <LEFTSPEED ID="30"/>
-                <RIGHTSPEED ID="-80"/>
+                <LEFTSPEED ID="50"/>
+                <RIGHTSPEED ID="-50"/>
                 <ENDPOSITION ID="0"/>
                 <TYPE ID="1"/>
             </VAL>
@@ -482,7 +535,7 @@
                     <LEFTSPEED ID="0"/>
                     <RIGHTSPEED ID="0"/>
                     <CYCLETIMES ID="1"/>
-                    <CROSSINGTIME ID="0.5"/>
+                    <CROSSINGTIME ID="0.3"/>
                     <CROSSING ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
@@ -490,62 +543,141 @@
                     <POS X="320" Y="363"/>
                     <VAL>
                         <NUMBERS ID="1"/>
-                        <LEFTSPEED ID="50"/>
-                        <RIGHTSPEED ID="-50"/>
+                        <LEFTSPEED ID="0"/>
+                        <RIGHTSPEED ID="50"/>
                         <ENDPOSITION ID="0"/>
                         <TYPE ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
+<<<<<<< HEAD
                         <BLOCK ID="44"/>
                         <POS X="320" Y="449"/>
+=======
+                        <BLOCK ID="43"/>
+                        <POS Y="450" X="320"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                         <VAL>
+                            <TYPE ID="1"/>
                             <SPEED ID="50"/>
                             <LEFTSPEED ID="0"/>
                             <RIGHTSPEED ID="0"/>
-                            <CROSSINGTIME ID="1.2"/>
-                            <TYPE ID="1"/>
+                            <CYCLETIMES ID="1"/>
+                            <CROSSINGTIME ID="0.3"/>
+                            <CROSSING ID="1"/>
                         </VAL>
                         <CHILD ID="NEXT">
+<<<<<<< HEAD
                             <BLOCK ID="43"/>
                             <POS X="320" Y="536"/>
+=======
+                            <BLOCK ID="46"/>
+                            <POS Y="537" X="320"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                             <VAL>
-                                <TYPE ID="1"/>
-                                <SPEED ID="50"/>
-                                <LEFTSPEED ID="0"/>
+                                <NUMBERS ID="1"/>
+                                <LEFTSPEED ID="50"/>
                                 <RIGHTSPEED ID="0"/>
-                                <CYCLETIMES ID="1"/>
-                                <CROSSINGTIME ID="0.3"/>
-                                <CROSSING ID="1"/>
+                                <ENDPOSITION ID="0"/>
+                                <TYPE ID="1"/>
                             </VAL>
                             <CHILD ID="NEXT">
+<<<<<<< HEAD
                                 <BLOCK ID="46"/>
                                 <POS X="320" Y="623"/>
+=======
+                                <BLOCK ID="25"/>
+                                <POS Y="623" X="320"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                                 <VAL>
-                                    <NUMBERS ID="1"/>
-                                    <LEFTSPEED ID="50"/>
-                                    <RIGHTSPEED ID="-50"/>
-                                    <ENDPOSITION ID="0"/>
-                                    <TYPE ID="1"/>
+                                    <MOTORPARAMETER ID="132,180,50;0,0,-20;0,0,-20;132,180,50"/>
+                                    <CURRENTPORT ID="3"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
+<<<<<<< HEAD
                                     <BLOCK ID="43"/>
                                     <POS X="320" Y="709"/>
+=======
+                                    <BLOCK ID="46"/>
+                                    <POS Y="710" X="320"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                                     <VAL>
-                                        <TYPE ID="0"/>
-                                        <SPEED ID="50"/>
-                                        <LEFTSPEED ID="0"/>
-                                        <RIGHTSPEED ID="0"/>
-                                        <CYCLETIMES ID="1"/>
-                                        <CROSSINGTIME ID="0"/>
-                                        <CROSSING ID="1"/>
+                                        <NUMBERS ID="1"/>
+                                        <LEFTSPEED ID="-30"/>
+                                        <RIGHTSPEED ID="50"/>
+                                        <ENDPOSITION ID="2"/>
+                                        <TYPE ID="1"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
+<<<<<<< HEAD
                                         <BLOCK ID="25"/>
                                         <POS X="320" Y="796"/>
                                         <VAL>
                                             <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
                                             <CURRENTPORT ID="0"/>
+=======
+                                        <BLOCK ID="44"/>
+                                        <POS Y="796" X="320"/>
+                                        <VAL>
+                                            <SPEED ID="50"/>
+                                            <LEFTSPEED ID="0"/>
+                                            <RIGHTSPEED ID="0"/>
+                                            <CROSSINGTIME ID="0.8"/>
+                                            <TYPE ID="1"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
                                         </VAL>
+                                        <CHILD ID="NEXT">
+                                            <BLOCK ID="43"/>
+                                            <POS Y="883" X="320"/>
+                                            <VAL>
+                                                <TYPE ID="1"/>
+                                                <SPEED ID="50"/>
+                                                <LEFTSPEED ID="0"/>
+                                                <RIGHTSPEED ID="0"/>
+                                                <CYCLETIMES ID="1"/>
+                                                <CROSSINGTIME ID="0.3"/>
+                                                <CROSSING ID="1"/>
+                                            </VAL>
+                                            <CHILD ID="NEXT">
+                                                <BLOCK ID="46"/>
+                                                <POS Y="970" X="320"/>
+                                                <VAL>
+                                                    <NUMBERS ID="1"/>
+                                                    <LEFTSPEED ID="50"/>
+                                                    <RIGHTSPEED ID="-50"/>
+                                                    <ENDPOSITION ID="0"/>
+                                                    <TYPE ID="1"/>
+                                                </VAL>
+                                                <CHILD ID="NEXT">
+                                                    <BLOCK ID="43"/>
+                                                    <POS Y="1056" X="320"/>
+                                                    <VAL>
+                                                        <TYPE ID="1"/>
+                                                        <SPEED ID="50"/>
+                                                        <LEFTSPEED ID="0"/>
+                                                        <RIGHTSPEED ID="0"/>
+                                                        <CYCLETIMES ID="1"/>
+                                                        <CROSSINGTIME ID="0"/>
+                                                        <CROSSING ID="1"/>
+                                                    </VAL>
+                                                    <CHILD ID="NEXT">
+                                                        <BLOCK ID="25"/>
+                                                        <POS Y="1143" X="320"/>
+                                                        <VAL>
+                                                            <MOTORPARAMETER ID="132,40,50;0,0,-20;0,0,-20;132,40,-50"/>
+                                                            <CURRENTPORT ID="0"/>
+                                                        </VAL>
+                                                        <CHILD ID="NEXT">
+                                                            <BLOCK ID="25"/>
+                                                            <POS Y="1229" X="320"/>
+                                                            <VAL>
+                                                                <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
+                                                                <CURRENTPORT ID="3"/>
+                                                            </VAL>
+                                                        </CHILD>
+                                                    </CHILD>
+                                                </CHILD>
+                                            </CHILD>
+                                        </CHILD>
                                     </CHILD>
                                 </CHILD>
                             </CHILD>
@@ -554,7 +686,11 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
+<<<<<<< HEAD
         <SUBPROGRAM X="341" Y="104" NAME="NiReturn" ID="6" TYPE="1">
+=======
+        <SUBPROGRAM ID="6" Y="104" TYPE="1" NAME="NiReturn" X="341">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -664,8 +800,13 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
+<<<<<<< HEAD
         <SUBPROGRAM X="341" Y="104" NAME="HachiStati" ID="7" TYPE="1"/>
         <SUBPROGRAM X="341" Y="104" NAME="IchiStatio" ID="8" TYPE="1">
+=======
+        <SUBPROGRAM ID="7" Y="104" TYPE="1" NAME="HachiStati" X="341"/>
+        <SUBPROGRAM ID="8" Y="104" TYPE="1" NAME="IchiStatio" X="341">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -750,6 +891,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -863,6 +1005,9 @@
 >>>>>>> parent of ca5bbfe... Shi completo
         <SUBPROGRAM Y="104" TYPE="1" NAME="IchiReturn" X="341" ID="10">
 >>>>>>> parent of ca5bbfe... Shi completo
+=======
+        <SUBPROGRAM ID="10" Y="104" TYPE="1" NAME="IchiReturn" X="341">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -918,7 +1063,11 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
+<<<<<<< HEAD
         <SUBPROGRAM X="341" Y="104" NAME="KyuStation" ID="11" TYPE="1">
+=======
+        <SUBPROGRAM ID="11" Y="104" TYPE="1" NAME="KyuStation" X="341">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -1004,7 +1153,11 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
+<<<<<<< HEAD
         <SUBPROGRAM X="341" Y="104" NAME="KyuReturn" ID="12" TYPE="1">
+=======
+        <SUBPROGRAM ID="12" Y="104" TYPE="1" NAME="KyuReturn" X="341">
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -1109,6 +1262,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Catalog SIZE="150"/>
 =======
     <Catalog SIZE="219"/>
@@ -1119,4 +1273,7 @@
 =======
     <Catalog SIZE="219"/>
 >>>>>>> parent of ca5bbfe... Shi completo
+=======
+    <Catalog SIZE="112"/>
+>>>>>>> parent of 8f564f9... Merge branch 'master' of https://github.com/Erick-Pines/WER2018_Trifuerza
 </VJCC>
