@@ -3,10 +3,14 @@
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Catalog MAIN="VJC6.0" SUBCOUNT="1" ROTX="320">
 =======
         <Catalog MAIN="VJC6.0" SUBCOUNT="2" ROTX="320">
 >>>>>>> parent of c0691b8... Ronda 1
+=======
+        <Catalog MAIN="VJC6.0" SUBCOUNT="1" ROTX="320">
+>>>>>>> parent of 92b178e... Roku completo, ahora sí xd
             <BLOCK ID="41"/>
             <POS Y="190" X="320"/>
             <VAL>
@@ -28,6 +32,7 @@
                     <INDEX ID="1"/>
                 </VAL>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 <CHILD ID="NEXT">
                     <BLOCK ID="12"/>
@@ -45,6 +50,8 @@
                     </CHILD>
                 </CHILD>
 >>>>>>> parent of c0691b8... Ronda 1
+=======
+>>>>>>> parent of 92b178e... Roku completo, ahora sí xd
             </CHILD>
         </Catalog>
         <SUBPROGRAM ID="1" NAME="RokuStatio" TYPE="1" Y="104" X="320">
@@ -139,6 +146,7 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <SUBPROGRAM ID="2" NAME="RokuReturn" TYPE="1" Y="104" X="320">
             <BLOCK ID="46"/>
@@ -228,6 +236,8 @@
             </CHILD>
         </SUBPROGRAM>
 >>>>>>> parent of c0691b8... Ronda 1
+=======
+>>>>>>> parent of 92b178e... Roku completo, ahora sí xd
     </Catalog>
     <Catalog GLOBALMTN="VJC6.0"/>
     <Catalog GLOABLETIP="VJC6.0">
@@ -241,8 +251,12 @@
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Catalog SIZE="158"/>
 =======
     <Catalog SIZE="115"/>
 >>>>>>> parent of c0691b8... Ronda 1
+=======
+    <Catalog SIZE="158"/>
+>>>>>>> parent of 92b178e... Roku completo, ahora sí xd
 </VJCC>
