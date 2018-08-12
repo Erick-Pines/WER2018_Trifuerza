@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <VJCC NAME="Ichi" TYPE="7" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
         <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="12">
+=======
+<VJCC NAME="Ichi" ID="6.0" TYPE="7">
+    <Catalog GLOBALVAL="VJC6.0"/>
+    <Catalog GLOBALTREE="VJC6.0">
+        <Catalog ROTX="341" SUBCOUNT="12" MAIN="VJC6.0">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
 <VJCC NAME="Ichi" ID="6.0" TYPE="7">
     <Catalog GLOBALVAL="VJC6.0"/>
@@ -33,7 +40,11 @@
             </CHILD>
         </Catalog>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="ShichiStat" X="341" TYPE="1" ID="1" Y="104">
+=======
+        <SUBPROGRAM NAME="ShichiStat" X="341" ID="1" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="ShichiStat" X="341" ID="1" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -104,7 +115,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="ShichiRetu" X="341" TYPE="1" ID="2" Y="104">
+=======
+        <SUBPROGRAM NAME="ShichiRetu" X="341" ID="2" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="ShichiRetu" X="341" ID="2" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -164,7 +179,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="NiStation" X="341" TYPE="1" ID="3" Y="104">
+=======
+        <SUBPROGRAM NAME="NiStation" X="341" ID="3" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="NiStation" X="341" ID="3" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -177,7 +196,11 @@
             <CHILD ID="NEXT">
                 <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <POS X="341" Y="276"/>
+=======
+                <POS X="341" Y="277"/>
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
                 <POS X="341" Y="277"/>
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -203,7 +226,11 @@
                     <CHILD ID="NEXT">
                         <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <POS X="341" Y="449"/>
+=======
+                        <POS X="341" Y="450"/>
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
                         <POS X="341" Y="450"/>
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -217,7 +244,11 @@
                         <CHILD ID="NEXT">
                             <BLOCK ID="43"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <POS X="341" Y="536"/>
+=======
+                            <POS X="341" Y="537"/>
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
                             <POS X="341" Y="537"/>
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -243,7 +274,11 @@
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="25"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <POS X="341" Y="709"/>
+=======
+                                    <POS X="341" Y="710"/>
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
                                     <POS X="341" Y="710"/>
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -264,7 +299,11 @@
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="43"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <POS X="341" Y="882"/>
+=======
+                                            <POS X="341" Y="883"/>
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
                                             <POS X="341" Y="883"/>
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -280,7 +319,11 @@
                                             <CHILD ID="NEXT">
                                                 <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <POS X="341" Y="969"/>
+=======
+                                                <POS X="341" Y="970"/>
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
                                                 <POS X="341" Y="970"/>
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -300,7 +343,11 @@
                                                     <CHILD ID="NEXT">
                                                         <BLOCK ID="44"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                         <POS X="341" Y="1142"/>
+=======
+                                                        <POS X="341" Y="1143"/>
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
                                                         <POS X="341" Y="1143"/>
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -324,7 +371,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="HachiRetur" X="341" TYPE="1" ID="4" Y="104">
+=======
+        <SUBPROGRAM NAME="HachiRetur" X="341" ID="4" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="HachiRetur" X="341" ID="4" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -434,7 +485,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="GoReturn" X="341" TYPE="1" ID="5" Y="104">
+=======
+        <SUBPROGRAM NAME="GoReturn" X="341" ID="5" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="GoReturn" X="341" ID="5" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -553,7 +608,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="NiReturn" X="341" TYPE="1" ID="6" Y="104">
+=======
+        <SUBPROGRAM NAME="NiReturn" X="341" ID="6" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="NiReturn" X="341" ID="6" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -672,7 +731,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="HachiStati" X="341" TYPE="1" ID="7" Y="104">
+=======
+        <SUBPROGRAM NAME="HachiStati" X="341" ID="7" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="HachiStati" X="341" ID="7" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -773,7 +836,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="IchiStatio" X="341" TYPE="1" ID="8" Y="104">
+=======
+        <SUBPROGRAM NAME="IchiStatio" X="341" ID="8" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="IchiStatio" X="341" ID="8" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -862,7 +929,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="GoStation" X="341" TYPE="1" ID="9" Y="104">
+=======
+        <SUBPROGRAM NAME="GoStation" X="341" ID="9" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="GoStation" X="341" ID="9" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -979,7 +1050,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="IchiReturn" X="341" TYPE="1" ID="10" Y="104">
+=======
+        <SUBPROGRAM NAME="IchiReturn" X="341" ID="10" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="IchiReturn" X="341" ID="10" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -1039,7 +1114,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="KyuStation" X="341" TYPE="1" ID="11" Y="104">
+=======
+        <SUBPROGRAM NAME="KyuStation" X="341" ID="11" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="KyuStation" X="341" ID="11" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -1116,7 +1195,11 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM NAME="KyuReturn" X="341" TYPE="1" ID="12" Y="104">
+=======
+        <SUBPROGRAM NAME="KyuReturn" X="341" ID="12" TYPE="1" Y="104">
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
         <SUBPROGRAM NAME="KyuReturn" X="341" ID="12" TYPE="1" Y="104">
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
@@ -1223,7 +1306,11 @@
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Catalog SIZE="5"/>
+=======
+    <Catalog SIZE="189"/>
+>>>>>>> parent of 87197f8... GO! (completo, otra vez)
 =======
     <Catalog SIZE="189"/>
 >>>>>>> parent of 87197f8... GO! (completo, otra vez)
