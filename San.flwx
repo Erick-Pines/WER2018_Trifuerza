@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC NAME="San" ID="6.0" TYPE="7">
+<VJCC NAME="San" TYPE="7" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog ROTX="341" SUBCOUNT="11" MAIN="VJC6.0">
+        <Catalog SUBCOUNT="11" MAIN="VJC6.0" ROTX="341">
             <BLOCK ID="41"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -16,16 +16,8 @@
                 <MOTORPLACETYPE ID="0"/>
                 <MOTORTHRESHOLD ID="1"/>
             </VAL>
-            <CHILD ID="NEXT">
-                <BLOCK ID="11"/>
-                <POS X="341" Y="277"/>
-                <VAL>
-                    <NAME ID="SanStation"/>
-                    <INDEX ID="4"/>
-                </VAL>
-            </CHILD>
         </Catalog>
-        <SUBPROGRAM NAME="90der" X="341" ID="1" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="90der" X="341" Y="104" TYPE="1" ID="1">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -40,7 +32,7 @@
                 </VAL>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="90izq" X="341" ID="2" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="90izq" X="341" Y="104" TYPE="1" ID="2">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -55,7 +47,7 @@
                 </VAL>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="NiStation" X="341" ID="3" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="NiStation" X="341" Y="104" TYPE="1" ID="3">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -187,7 +179,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="SanStation" X="320" ID="4" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="SanStation" X="320" Y="104" TYPE="1" ID="4">
             <BLOCK ID="25"/>
             <POS X="320" Y="190"/>
             <VAL>
@@ -255,7 +247,7 @@
                                         <SPEED ID="50"/>
                                         <LEFTSPEED ID="0"/>
                                         <RIGHTSPEED ID="0"/>
-                                        <CROSSINGTIME ID="1.8"/>
+                                        <CROSSINGTIME ID="2"/>
                                         <TYPE ID="1"/>
                                     </VAL>
                                 </CHILD>
@@ -265,7 +257,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="SanReturn" X="320" ID="5" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="SanReturn" X="320" Y="104" TYPE="1" ID="5">
             <BLOCK ID="46"/>
             <POS X="320" Y="190"/>
             <VAL>
@@ -315,7 +307,7 @@
                                 <SPEED ID="50"/>
                                 <LEFTSPEED ID="0"/>
                                 <RIGHTSPEED ID="0"/>
-                                <CYCLETIMES ID="1"/>
+                                <CYCLETIMES ID="2"/>
                                 <CROSSINGTIME ID="0.3"/>
                                 <CROSSING ID="1"/>
                             </VAL>
@@ -326,14 +318,14 @@
                                     <NUMBERS ID="1"/>
                                     <LEFTSPEED ID="50"/>
                                     <RIGHTSPEED ID="-50"/>
-                                    <ENDPOSITION ID="0"/>
+                                    <ENDPOSITION ID="2"/>
                                     <TYPE ID="1"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="43"/>
                                     <POS X="320" Y="709"/>
                                     <VAL>
-                                        <TYPE ID="0"/>
+                                        <TYPE ID="1"/>
                                         <SPEED ID="50"/>
                                         <LEFTSPEED ID="0"/>
                                         <RIGHTSPEED ID="0"/>
@@ -356,7 +348,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="NiReturn" X="341" ID="6" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="NiReturn" X="341" Y="104" TYPE="1" ID="6">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -466,8 +458,8 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="HachiStati" X="341" ID="7" TYPE="1" Y="104"/>
-        <SUBPROGRAM NAME="IchiStatio" X="341" ID="8" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="HachiStati" X="341" Y="104" TYPE="1" ID="7"/>
+        <SUBPROGRAM NAME="IchiStatio" X="341" Y="104" TYPE="1" ID="8">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -552,7 +544,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="IchiReturn" X="341" ID="10" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="IchiReturn" X="341" Y="104" TYPE="1" ID="10">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -608,7 +600,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="KyuStation" X="341" ID="11" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="KyuStation" X="341" Y="104" TYPE="1" ID="11">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -694,7 +686,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="KyuReturn" X="341" ID="12" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="KyuReturn" X="341" Y="104" TYPE="1" ID="12">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -794,16 +786,7 @@
         <Catalog Calc="VJC6.0"/>
         <Catalog Log="VJC6.0"/>
         <Catalog Var="VJC6.0"/>
-        <Catalog BaseBlock="VJC6.0">
-            <Block>
-                <BLOCK ID="25"/>
-                <POS X="135" Y="661"/>
-                <VAL>
-                    <MOTORPARAMETER ID="132,400,50;0,0,-20;0,0,-20;132,400,50"/>
-                    <CURRENTPORT ID="3"/>
-                </VAL>
-            </Block>
-        </Catalog>
+        <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="5"/>
+    <Catalog SIZE="132"/>
 </VJCC>
