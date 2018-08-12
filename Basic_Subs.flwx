@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <VJCC ID="6.0" NAME="Go" TYPE="7">
 =======
 <VJCC NAME="Go" TYPE="7" ID="6.0">
@@ -50,6 +51,13 @@
         </Catalog>
         <SUBPROGRAM NAME="ShichiStat" X="341" Y="104" TYPE="1" ID="1">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+<VJCC ID="6.0" TYPE="7" NAME="Shichi">
+    <Catalog GLOBALVAL="VJC6.0"/>
+    <Catalog GLOBALTREE="VJC6.0">
+        <Catalog SUBCOUNT="12" ROTX="102.4" MAIN="VJC6.0"/>
+        <SUBPROGRAM ID="1" X="341" TYPE="1" Y="104" NAME="ShichiStat">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -75,7 +83,7 @@
                         <LEFTSPEED ID="0"/>
                         <RIGHTSPEED ID="0"/>
                         <CYCLETIMES ID="1"/>
-                        <CROSSINGTIME ID="0.4"/>
+                        <CROSSINGTIME ID="0.3"/>
                         <CROSSING ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
@@ -117,10 +125,14 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="2" NAME="ShichiRetu" Y="104" TYPE="1" X="341">
 =======
         <SUBPROGRAM NAME="ShichiRetu" X="341" Y="104" TYPE="1" ID="2">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+        <SUBPROGRAM ID="2" X="341" TYPE="1" Y="104" NAME="ShichiRetu">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -177,10 +189,14 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="3" NAME="NiStation" Y="104" TYPE="1" X="341">
 =======
         <SUBPROGRAM NAME="NiStation" X="341" Y="104" TYPE="1" ID="3">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+        <SUBPROGRAM ID="3" X="341" TYPE="1" Y="104" NAME="NiStation">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -190,10 +206,14 @@
             <CHILD ID="NEXT">
                 <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <POS Y="276" X="341"/>
 =======
                 <POS X="341" Y="276"/>
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+                <POS X="341" Y="276"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                 <VAL>
                     <NUMBERS ID="1"/>
                     <LEFTSPEED ID="50"/>
@@ -205,42 +225,50 @@
                     <BLOCK ID="43"/>
                     <POS Y="363" X="341"/>
                     <VAL>
-                        <TYPE ID="0"/>
+                        <TYPE ID="1"/>
                         <SPEED ID="50"/>
                         <LEFTSPEED ID="0"/>
                         <RIGHTSPEED ID="0"/>
                         <CYCLETIMES ID="1"/>
-                        <CROSSINGTIME ID="0.2"/>
+                        <CROSSINGTIME ID="0.3"/>
                         <CROSSING ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <POS Y="449" X="341"/>
 =======
                         <POS X="341" Y="449"/>
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+                        <POS X="341" Y="449"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                         <VAL>
                             <NUMBERS ID="1"/>
                             <LEFTSPEED ID="-50"/>
-                            <RIGHTSPEED ID="-10"/>
+                            <RIGHTSPEED ID="50"/>
                             <ENDPOSITION ID="0"/>
                             <TYPE ID="1"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="43"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <POS Y="536" X="341"/>
 =======
                             <POS X="341" Y="536"/>
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+                            <POS X="341" Y="536"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                             <VAL>
                                 <TYPE ID="1"/>
                                 <SPEED ID="50"/>
                                 <LEFTSPEED ID="0"/>
                                 <RIGHTSPEED ID="0"/>
                                 <CYCLETIMES ID="1"/>
-                                <CROSSINGTIME ID="0.4"/>
+                                <CROSSINGTIME ID="0.35"/>
                                 <CROSSING ID="1"/>
                             </VAL>
                             <CHILD ID="NEXT">
@@ -249,12 +277,18 @@
                                 <VAL>
                                     <NUMBERS ID="1"/>
                                     <LEFTSPEED ID="50"/>
+<<<<<<< HEAD
                                     <RIGHTSPEED ID="-15"/>
                                     <ENDPOSITION ID="2"/>
+=======
+                                    <RIGHTSPEED ID="-50"/>
+                                    <ENDPOSITION ID="0"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                                     <TYPE ID="1"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="25"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     <POS Y="709" X="341"/>
 =======
@@ -262,54 +296,81 @@
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
                                     <VAL>
                                         <MOTORPARAMETER ID="132,250,50;0,0,-20;0,0,-20;132,250,50"/>
+=======
+                                    <POS X="341" Y="709"/>
+                                    <VAL>
+                                        <MOTORPARAMETER ID="132,280,50;0,0,-20;0,0,-20;132,280,50"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                                         <CURRENTPORT ID="0"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
                                         <BLOCK ID="46"/>
                                         <POS Y="796" X="341"/>
                                         <VAL>
-                                            <NUMBERS ID="1"/>
+                                            <NUMBERS ID="2"/>
                                             <LEFTSPEED ID="-50"/>
                                             <RIGHTSPEED ID="50"/>
-                                            <ENDPOSITION ID="2"/>
+                                            <ENDPOSITION ID="0"/>
                                             <TYPE ID="1"/>
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="43"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <POS Y="882" X="341"/>
 =======
                                             <POS X="341" Y="882"/>
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+                                            <POS X="341" Y="882"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                                             <VAL>
                                                 <TYPE ID="0"/>
                                                 <SPEED ID="50"/>
                                                 <LEFTSPEED ID="0"/>
                                                 <RIGHTSPEED ID="0"/>
                                                 <CYCLETIMES ID="1"/>
+<<<<<<< HEAD
                                                 <CROSSINGTIME ID="0.5"/>
+=======
+                                                <CROSSINGTIME ID="0.4"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                                                 <CROSSING ID="1"/>
                                             </VAL>
                                             <CHILD ID="NEXT">
                                                 <BLOCK ID="46"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <POS Y="969" X="341"/>
 =======
                                                 <POS X="341" Y="969"/>
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+                                                <POS X="341" Y="969"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                                                 <VAL>
                                                     <NUMBERS ID="1"/>
                                                     <LEFTSPEED ID="-50"/>
                                                     <RIGHTSPEED ID="50"/>
-                                                    <ENDPOSITION ID="0"/>
+                                                    <ENDPOSITION ID="1"/>
                                                     <TYPE ID="1"/>
                                                 </VAL>
                                                 <CHILD ID="NEXT">
+<<<<<<< HEAD
                                                     <BLOCK ID="12"/>
                                                     <POS Y="1056" X="341"/>
+=======
+                                                    <BLOCK ID="44"/>
+                                                    <POS X="341" Y="1056"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                                                     <VAL>
-                                                        <DELAY ID="0.3"/>
+                                                        <SPEED ID="50"/>
+                                                        <LEFTSPEED ID="0"/>
+                                                        <RIGHTSPEED ID="0"/>
+                                                        <CROSSINGTIME ID="0.4"/>
+                                                        <TYPE ID="1"/>
                                                     </VAL>
+<<<<<<< HEAD
                                                     <CHILD ID="NEXT">
                                                         <BLOCK ID="44"/>
 <<<<<<< HEAD
@@ -325,6 +386,8 @@
                                                             <TYPE ID="1"/>
                                                         </VAL>
                                                     </CHILD>
+=======
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                                                 </CHILD>
                                             </CHILD>
                                         </CHILD>
@@ -337,10 +400,14 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="4" NAME="HachiRetur" Y="104" TYPE="1" X="341">
 =======
         <SUBPROGRAM NAME="HachiRetur" X="341" Y="104" TYPE="1" ID="4">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+        <SUBPROGRAM ID="4" X="341" TYPE="1" Y="104" NAME="HachiRetur">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -447,10 +514,14 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="5" NAME="GoReturn" Y="104" TYPE="1" X="341">
 =======
         <SUBPROGRAM NAME="GoReturn" X="341" Y="104" TYPE="1" ID="5">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+        <SUBPROGRAM ID="5" X="341" TYPE="1" Y="104" NAME="GoReturn">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -496,7 +567,7 @@
                             <BLOCK ID="43"/>
                             <POS Y="536" X="341"/>
                             <VAL>
-                                <TYPE ID="1"/>
+                                <TYPE ID="0"/>
                                 <SPEED ID="50"/>
                                 <LEFTSPEED ID="0"/>
                                 <RIGHTSPEED ID="0"/>
@@ -573,10 +644,14 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="6" NAME="NiReturn" Y="104" TYPE="1" X="341">
 =======
         <SUBPROGRAM NAME="NiReturn" X="341" Y="104" TYPE="1" ID="6">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+        <SUBPROGRAM ID="6" X="341" TYPE="1" Y="104" NAME="NiReturn">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -692,10 +767,14 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="7" NAME="HachiStati" Y="104" TYPE="1" X="341">
 =======
         <SUBPROGRAM NAME="HachiStati" X="341" Y="104" TYPE="1" ID="7">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+        <SUBPROGRAM ID="7" X="341" TYPE="1" Y="104" NAME="HachiStati">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -709,7 +788,7 @@
                     <NUMBERS ID="1"/>
                     <LEFTSPEED ID="50"/>
                     <RIGHTSPEED ID="-50"/>
-                    <ENDPOSITION ID="0"/>
+                    <ENDPOSITION ID="2"/>
                     <TYPE ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
@@ -721,7 +800,7 @@
                         <LEFTSPEED ID="0"/>
                         <RIGHTSPEED ID="0"/>
                         <CYCLETIMES ID="1"/>
-                        <CROSSINGTIME ID="0.3"/>
+                        <CROSSINGTIME ID="0.2"/>
                         <CROSSING ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
@@ -729,16 +808,16 @@
                         <POS Y="449" X="341"/>
                         <VAL>
                             <NUMBERS ID="1"/>
-                            <LEFTSPEED ID="0"/>
+                            <LEFTSPEED ID="50"/>
                             <RIGHTSPEED ID="-50"/>
-                            <ENDPOSITION ID="1"/>
+                            <ENDPOSITION ID="0"/>
                             <TYPE ID="1"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="25"/>
                             <POS Y="536" X="341"/>
                             <VAL>
-                                <MOTORPARAMETER ID="132,170,50;0,0,-20;0,0,-20;132,170,50"/>
+                                <MOTORPARAMETER ID="132,160,50;0,0,-20;0,0,-20;132,160,50"/>
                                 <CURRENTPORT ID="0"/>
                             </VAL>
                             <CHILD ID="NEXT">
@@ -746,8 +825,8 @@
                                 <POS Y="623" X="341"/>
                                 <VAL>
                                     <NUMBERS ID="1"/>
-                                    <LEFTSPEED ID="45"/>
-                                    <RIGHTSPEED ID="-45"/>
+                                    <LEFTSPEED ID="50"/>
+                                    <RIGHTSPEED ID="-50"/>
                                     <ENDPOSITION ID="0"/>
                                     <TYPE ID="1"/>
                                 </VAL>
@@ -759,8 +838,8 @@
                                         <SPEED ID="50"/>
                                         <LEFTSPEED ID="0"/>
                                         <RIGHTSPEED ID="0"/>
-                                        <CYCLETIMES ID="2"/>
-                                        <CROSSINGTIME ID="0.2"/>
+                                        <CYCLETIMES ID="1"/>
+                                        <CROSSINGTIME ID="0.3"/>
                                         <CROSSING ID="1"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
@@ -777,10 +856,10 @@
                                             <BLOCK ID="44"/>
                                             <POS Y="882" X="341"/>
                                             <VAL>
-                                                <SPEED ID="70"/>
+                                                <SPEED ID="50"/>
                                                 <LEFTSPEED ID="0"/>
                                                 <RIGHTSPEED ID="0"/>
-                                                <CROSSINGTIME ID="1.5"/>
+                                                <CROSSINGTIME ID="0.8"/>
                                                 <TYPE ID="1"/>
                                             </VAL>
                                         </CHILD>
@@ -793,10 +872,14 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="8" NAME="IchiStatio" Y="104" TYPE="1" X="341">
 =======
         <SUBPROGRAM NAME="IchiStatio" X="341" Y="104" TYPE="1" ID="8">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+        <SUBPROGRAM ID="8" X="341" TYPE="1" Y="104" NAME="IchiStatio">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -882,11 +965,15 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="9" NAME="GoStation" Y="104" TYPE="1" X="341">
             <BLOCK ID="21"/>
             <POS Y="190" X="341"/>
 =======
         <SUBPROGRAM NAME="GoStation" X="341" Y="104" TYPE="1" ID="9">
+=======
+        <SUBPROGRAM ID="9" X="341" TYPE="1" Y="104" NAME="GoStation">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
@@ -906,11 +993,21 @@
                     <BLOCK ID="46"/>
                     <POS Y="363" X="341"/>
                     <VAL>
+<<<<<<< HEAD
                         <NUMBERS ID="1"/>
                         <LEFTSPEED ID="50"/>
                         <RIGHTSPEED ID="-50"/>
                         <ENDPOSITION ID="2"/>
                         <TYPE ID="1"/>
+=======
+                        <TYPE ID="0"/>
+                        <SPEED ID="50"/>
+                        <LEFTSPEED ID="0"/>
+                        <RIGHTSPEED ID="0"/>
+                        <CYCLETIMES ID="1"/>
+                        <CROSSINGTIME ID="0.2"/>
+                        <CROSSING ID="1"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="43"/>
@@ -972,6 +1069,15 @@
                                         <RIGHTSPEED ID="-50"/>
                                         <ENDPOSITION ID="0"/>
                                         <TYPE ID="1"/>
+<<<<<<< HEAD
+=======
+                                        <SPEED ID="50"/>
+                                        <LEFTSPEED ID="0"/>
+                                        <RIGHTSPEED ID="0"/>
+                                        <CYCLETIMES ID="1"/>
+                                        <CROSSINGTIME ID="0.1"/>
+                                        <CROSSING ID="1"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                                     </VAL>
                                     <CHILD ID="NEXT">
                                         <BLOCK ID="43"/>
@@ -989,11 +1095,16 @@
                                             <BLOCK ID="46"/>
                                             <POS Y="883" X="341"/>
                                             <VAL>
+<<<<<<< HEAD
                                                 <NUMBERS ID="1"/>
                                                 <LEFTSPEED ID="-50"/>
                                                 <RIGHTSPEED ID="0"/>
                                                 <ENDPOSITION ID="0"/>
                                                 <TYPE ID="1"/>
+=======
+                                                <MOTORPARAMETER ID="132,90,50;0,0,-20;0,0,-20;132,90,50"/>
+                                                <CURRENTPORT ID="0"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                                             </VAL>
                                             <CHILD ID="NEXT">
                                                 <BLOCK ID="43"/>
@@ -1031,10 +1142,14 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="10" NAME="IchiReturn" Y="104" TYPE="1" X="341">
 =======
         <SUBPROGRAM NAME="IchiReturn" X="341" Y="104" TYPE="1" ID="10">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+        <SUBPROGRAM ID="10" X="341" TYPE="1" Y="104" NAME="IchiReturn">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -1091,10 +1206,14 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="11" NAME="KyuStation" Y="104" TYPE="1" X="341">
 =======
         <SUBPROGRAM NAME="KyuStation" X="341" Y="104" TYPE="1" ID="11">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+        <SUBPROGRAM ID="11" X="341" TYPE="1" Y="104" NAME="KyuStation">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="25"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -1120,7 +1239,7 @@
                         <LEFTSPEED ID="0"/>
                         <RIGHTSPEED ID="0"/>
                         <CYCLETIMES ID="1"/>
-                        <CROSSINGTIME ID="0.3"/>
+                        <CROSSINGTIME ID="0.2"/>
                         <CROSSING ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
@@ -1128,16 +1247,16 @@
                         <POS Y="449" X="341"/>
                         <VAL>
                             <NUMBERS ID="1"/>
-                            <LEFTSPEED ID="-10"/>
+                            <LEFTSPEED ID="50"/>
                             <RIGHTSPEED ID="-50"/>
-                            <ENDPOSITION ID="1"/>
+                            <ENDPOSITION ID="0"/>
                             <TYPE ID="1"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="25"/>
                             <POS Y="536" X="341"/>
                             <VAL>
-                                <MOTORPARAMETER ID="132,240,50;0,0,-20;0,0,-20;132,240,50"/>
+                                <MOTORPARAMETER ID="132,160,50;0,0,-20;0,0,-20;132,160,50"/>
                                 <CURRENTPORT ID="0"/>
                             </VAL>
                             <CHILD ID="NEXT">
@@ -1151,15 +1270,33 @@
                                     <TYPE ID="1"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
+<<<<<<< HEAD
                                     <BLOCK ID="44"/>
                                     <POS Y="709" X="341"/>
+=======
+                                    <BLOCK ID="43"/>
+                                    <POS X="341" Y="709"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
                                     <VAL>
+                                        <TYPE ID="0"/>
                                         <SPEED ID="50"/>
                                         <LEFTSPEED ID="0"/>
                                         <RIGHTSPEED ID="0"/>
-                                        <CROSSINGTIME ID="2"/>
-                                        <TYPE ID="1"/>
+                                        <CYCLETIMES ID="1"/>
+                                        <CROSSINGTIME ID="0.2"/>
+                                        <CROSSING ID="1"/>
                                     </VAL>
+                                    <CHILD ID="NEXT">
+                                        <BLOCK ID="44"/>
+                                        <POS X="341" Y="796"/>
+                                        <VAL>
+                                            <SPEED ID="50"/>
+                                            <LEFTSPEED ID="0"/>
+                                            <RIGHTSPEED ID="0"/>
+                                            <CROSSINGTIME ID="0.2"/>
+                                            <TYPE ID="1"/>
+                                        </VAL>
+                                    </CHILD>
                                 </CHILD>
                             </CHILD>
                         </CHILD>
@@ -1168,10 +1305,14 @@
             </CHILD>
         </SUBPROGRAM>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <SUBPROGRAM ID="12" NAME="KyuReturn" Y="104" TYPE="1" X="341">
 =======
         <SUBPROGRAM NAME="KyuReturn" X="341" Y="104" TYPE="1" ID="12">
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+        <SUBPROGRAM ID="12" X="341" TYPE="1" Y="104" NAME="KyuReturn">
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
             <BLOCK ID="46"/>
             <POS Y="190" X="341"/>
             <VAL>
@@ -1190,7 +1331,7 @@
                     <LEFTSPEED ID="0"/>
                     <RIGHTSPEED ID="0"/>
                     <CYCLETIMES ID="1"/>
-                    <CROSSINGTIME ID="0.3"/>
+                    <CROSSINGTIME ID="0.2"/>
                     <CROSSING ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
@@ -1199,8 +1340,8 @@
                     <VAL>
                         <NUMBERS ID="1"/>
                         <LEFTSPEED ID="-50"/>
-                        <RIGHTSPEED ID="-30"/>
-                        <ENDPOSITION ID="0"/>
+                        <RIGHTSPEED ID="50"/>
+                        <ENDPOSITION ID="2"/>
                         <TYPE ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
@@ -1212,7 +1353,7 @@
                             <LEFTSPEED ID="0"/>
                             <RIGHTSPEED ID="0"/>
                             <CYCLETIMES ID="1"/>
-                            <CROSSINGTIME ID="0.2"/>
+                            <CROSSINGTIME ID="0.5"/>
                             <CROSSING ID="1"/>
                         </VAL>
                         <CHILD ID="NEXT">
@@ -1319,8 +1460,12 @@
         </Catalog>
     </Catalog>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Catalog SIZE="33"/>
 =======
     <Catalog SIZE="4"/>
 >>>>>>> e063e03eed84aa4b89a88f4a389671bfcaebe74e
+=======
+    <Catalog SIZE="184"/>
+>>>>>>> parent of caef343... Ni completo, San ida, Kyu 2/3
 </VJCC>
