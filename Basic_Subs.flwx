@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC NAME="Ichi" ID="6.0" TYPE="7">
+<VJCC NAME="Ichi" TYPE="7" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog ROTX="341" SUBCOUNT="12" MAIN="VJC6.0">
+        <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="12">
             <BLOCK ID="41"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -20,12 +20,12 @@
                 <BLOCK ID="11"/>
                 <POS X="341" Y="277"/>
                 <VAL>
-                    <NAME ID="IchiStatio"/>
-                    <INDEX ID="8"/>
+                    <NAME ID="GoStation"/>
+                    <INDEX ID="9"/>
                 </VAL>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM NAME="ShichiStat" X="341" ID="1" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="ShichiStat" X="341" TYPE="1" ID="1" Y="104">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -92,7 +92,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="ShichiRetu" X="341" ID="2" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="ShichiRetu" X="341" TYPE="1" ID="2" Y="104">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -148,7 +148,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="NiStation" X="341" ID="3" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="NiStation" X="341" TYPE="1" ID="3" Y="104">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -157,7 +157,7 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="46"/>
-                <POS X="341" Y="277"/>
+                <POS X="341" Y="276"/>
                 <VAL>
                     <NUMBERS ID="1"/>
                     <LEFTSPEED ID="50"/>
@@ -179,7 +179,7 @@
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="46"/>
-                        <POS X="341" Y="450"/>
+                        <POS X="341" Y="449"/>
                         <VAL>
                             <NUMBERS ID="1"/>
                             <LEFTSPEED ID="-50"/>
@@ -189,7 +189,7 @@
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="43"/>
-                            <POS X="341" Y="537"/>
+                            <POS X="341" Y="536"/>
                             <VAL>
                                 <TYPE ID="1"/>
                                 <SPEED ID="50"/>
@@ -211,10 +211,10 @@
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="25"/>
-                                    <POS X="341" Y="710"/>
+                                    <POS X="341" Y="709"/>
                                     <VAL>
                                         <MOTORPARAMETER ID="132,250,50;0,0,-20;0,0,-20;132,250,50"/>
-                                        <CURRENTPORT ID="3"/>
+                                        <CURRENTPORT ID="0"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
                                         <BLOCK ID="46"/>
@@ -228,7 +228,7 @@
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="43"/>
-                                            <POS X="341" Y="883"/>
+                                            <POS X="341" Y="882"/>
                                             <VAL>
                                                 <TYPE ID="0"/>
                                                 <SPEED ID="50"/>
@@ -240,7 +240,7 @@
                                             </VAL>
                                             <CHILD ID="NEXT">
                                                 <BLOCK ID="46"/>
-                                                <POS X="341" Y="970"/>
+                                                <POS X="341" Y="969"/>
                                                 <VAL>
                                                     <NUMBERS ID="1"/>
                                                     <LEFTSPEED ID="-50"/>
@@ -256,7 +256,7 @@
                                                     </VAL>
                                                     <CHILD ID="NEXT">
                                                         <BLOCK ID="44"/>
-                                                        <POS X="341" Y="1143"/>
+                                                        <POS X="341" Y="1142"/>
                                                         <VAL>
                                                             <SPEED ID="50"/>
                                                             <LEFTSPEED ID="0"/>
@@ -276,7 +276,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="HachiRetur" X="341" ID="4" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="HachiRetur" X="341" TYPE="1" ID="4" Y="104">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -382,7 +382,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="GoReturn" X="341" ID="5" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="GoReturn" X="341" TYPE="1" ID="5" Y="104">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -497,7 +497,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="NiReturn" X="341" ID="6" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="NiReturn" X="341" TYPE="1" ID="6" Y="104">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -612,7 +612,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="HachiStati" X="341" ID="7" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="HachiStati" X="341" TYPE="1" ID="7" Y="104">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -709,7 +709,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="IchiStatio" X="341" ID="8" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="IchiStatio" X="341" TYPE="1" ID="8" Y="104">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -794,7 +794,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="GoStation" X="341" ID="9" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="GoStation" X="341" TYPE="1" ID="9" Y="104">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -855,56 +855,13 @@
                                     <ENDPOSITION ID="2"/>
                                     <TYPE ID="1"/>
                                 </VAL>
-                                <CHILD ID="NEXT">
-                                    <BLOCK ID="43"/>
-                                    <POS X="341" Y="709"/>
-                                    <VAL>
-                                        <TYPE ID="1"/>
-                                        <SPEED ID="50"/>
-                                        <LEFTSPEED ID="0"/>
-                                        <RIGHTSPEED ID="0"/>
-                                        <CYCLETIMES ID="1"/>
-                                        <CROSSINGTIME ID="0.3"/>
-                                        <CROSSING ID="1"/>
-                                    </VAL>
-                                    <CHILD ID="NEXT">
-                                        <BLOCK ID="46"/>
-                                        <POS X="341" Y="796"/>
-                                        <VAL>
-                                            <NUMBERS ID="2"/>
-                                            <LEFTSPEED ID="0"/>
-                                            <RIGHTSPEED ID="50"/>
-                                            <ENDPOSITION ID="0"/>
-                                            <TYPE ID="1"/>
-                                        </VAL>
-                                        <CHILD ID="NEXT">
-                                            <BLOCK ID="25"/>
-                                            <POS X="341" Y="882"/>
-                                            <VAL>
-                                                <MOTORPARAMETER ID="132,90,50;0,0,-20;0,0,-20;132,90,50"/>
-                                                <CURRENTPORT ID="3"/>
-                                            </VAL>
-                                            <CHILD ID="NEXT">
-                                                <BLOCK ID="46"/>
-                                                <POS X="341" Y="969"/>
-                                                <VAL>
-                                                    <NUMBERS ID="2"/>
-                                                    <LEFTSPEED ID="40"/>
-                                                    <RIGHTSPEED ID="-40"/>
-                                                    <ENDPOSITION ID="2"/>
-                                                    <TYPE ID="1"/>
-                                                </VAL>
-                                            </CHILD>
-                                        </CHILD>
-                                    </CHILD>
-                                </CHILD>
                             </CHILD>
                         </CHILD>
                     </CHILD>
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="IchiReturn" X="341" ID="10" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="IchiReturn" X="341" TYPE="1" ID="10" Y="104">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -960,7 +917,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="KyuStation" X="341" ID="11" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="KyuStation" X="341" TYPE="1" ID="11" Y="104">
             <BLOCK ID="25"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -1033,7 +990,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="KyuReturn" X="341" ID="12" TYPE="1" Y="104">
+        <SUBPROGRAM NAME="KyuReturn" X="341" TYPE="1" ID="12" Y="104">
             <BLOCK ID="46"/>
             <POS X="341" Y="190"/>
             <VAL>
@@ -1136,5 +1093,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="189"/>
+    <Catalog SIZE="5"/>
 </VJCC>
