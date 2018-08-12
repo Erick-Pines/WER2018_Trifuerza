@@ -16,6 +16,22 @@
                 <MOTORPLACETYPE ID="0"/>
                 <MOTORTHRESHOLD ID="0.50"/>
             </VAL>
+            <CHILD ID="NEXT">
+                <BLOCK ID="11"/>
+                <POS X="341" Y="277"/>
+                <VAL>
+                    <NAME ID="RokuStat"/>
+                    <INDEX ID="1"/>
+                </VAL>
+                <CHILD ID="NEXT">
+                    <BLOCK ID="11"/>
+                    <POS X="341" Y="363"/>
+                    <VAL>
+                        <NAME ID="RokuReturn"/>
+                        <INDEX ID="2"/>
+                    </VAL>
+                </CHILD>
+            </CHILD>
         </Catalog>
         <SUBPROGRAM NAME="RokuStat" X="341" Y="104" TYPE="1" ID="1">
             <BLOCK ID="25"/>
@@ -220,5 +236,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="54"/>
+    <Catalog SIZE="119"/>
 </VJCC>
