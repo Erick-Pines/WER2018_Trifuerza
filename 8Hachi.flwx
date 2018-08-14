@@ -43,7 +43,7 @@
                         <LEFTSPEED ID="0"/>
                         <RIGHTSPEED ID="0"/>
                         <CYCLETIMES ID="1"/>
-                        <CROSSINGTIME ID="0.25"/>
+                        <CROSSINGTIME ID="0.2"/>
                         <CROSSING ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
@@ -90,6 +90,30 @@
                                         <CROSSINGTIME ID="0.4"/>
                                         <CROSSING ID="1"/>
                                     </VAL>
+                                    <CHILD ID="NEXT">
+                                        <BLOCK ID="46"/>
+                                        <POS X="7412" Y="5760"/>
+                                        <VAL>
+                                            <NUMBERS ID="1"/>
+                                            <LEFTSPEED ID="-50"/>
+                                            <RIGHTSPEED ID="50"/>
+                                            <ENDPOSITION ID="0"/>
+                                            <TYPE ID="1"/>
+                                        </VAL>
+                                        <CHILD ID="NEXT">
+                                            <BLOCK ID="45"/>
+                                            <POS X="7412" Y="5846"/>
+                                            <VAL>
+                                                <SPEED ID="50"/>
+                                                <LEFTSPEED ID="0"/>
+                                                <RIGHTSPEED ID="0"/>
+                                                <PORT ID="6"/>
+                                                <COMPARE ID="2"/>
+                                                <REFERENCEVALUE ID="7"/>
+                                                <TYPE ID="1"/>
+                                            </VAL>
+                                        </CHILD>
+                                    </CHILD>
                                 </CHILD>
                             </CHILD>
                         </CHILD>
@@ -212,30 +236,7 @@
         <Catalog Calc="VJC6.0"/>
         <Catalog Log="VJC6.0"/>
         <Catalog Var="VJC6.0"/>
-        <Catalog BaseBlock="VJC6.0">
-            <Block>
-                <BLOCK ID="46"/>
-                <POS X="6971" Y="5720"/>
-                <VAL>
-                    <NUMBERS ID="1"/>
-                    <LEFTSPEED ID="-50"/>
-                    <RIGHTSPEED ID="50"/>
-                    <ENDPOSITION ID="0"/>
-                    <TYPE ID="1"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="44"/>
-                    <POS X="6971" Y="5806"/>
-                    <VAL>
-                        <SPEED ID="50"/>
-                        <LEFTSPEED ID="0"/>
-                        <RIGHTSPEED ID="0"/>
-                        <CROSSINGTIME ID="0.8"/>
-                        <TYPE ID="1"/>
-                    </VAL>
-                </CHILD>
-            </Block>
-        </Catalog>
+        <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="189"/>
+    <Catalog SIZE="107"/>
 </VJCC>

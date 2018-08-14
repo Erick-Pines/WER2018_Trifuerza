@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC NAME="" ID="6.0" TYPE="7">
+<VJCC NAME="CALl" ID="6.0" VERSION="1" TYPE="7">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" ROTX="341" SUBCOUNT="0">
+        <Catalog SCENEHEIGHT="9000" SCENEWIDTH="14400" SUBCOUNT="0" ROTX="6662" MAIN="VJC6.0">
             <BLOCK ID="41"/>
-            <POS X="341" Y="190"/>
+            <POS X="6662" Y="4404"/>
             <VAL>
                 <MOTORTYPE ID="0"/>
                 <LEFTMOTORCHANNEL ID="3"/>
@@ -12,13 +12,13 @@
                 <RIGHTMOTORCHANNEL ID="0"/>
                 <RIGHTMOTORPOWER ID="1"/>
                 <MOTORNUMBER ID="0"/>
-                <MOTORCHANNELMAP ID="1:1;2:0;3:2;4:3;5:4;6:0;7:6"/>
+                <MOTORCHANNELMAP ID="1:1;2:0;3:2;4:3;5:4;6:0;7:5"/>
                 <MOTORPLACETYPE ID="0"/>
                 <MOTORTHRESHOLD ID="0.50"/>
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="42"/>
-                <POS X="341" Y="277"/>
+                <POS X="6662" Y="4491"/>
                 <VAL>
                     <MODETYPE ID="0"/>
                 </VAL>
@@ -35,5 +35,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="253"/>
+    <Catalog SIZE="97"/>
 </VJCC>
