@@ -7,13 +7,14 @@
             <POS X="6889" Y="4459"/>
             <VAL>
                 <MOTORPARAMETER ID="0,1,80,1,100"/>
-                <CURRENTPORT ID="1"/>
+                <CURRENTPORT ID="0"/>
             </VAL>
             <CHILD ID="NEXT">
-                <BLOCK ID="12"/>
+                <BLOCK ID="25"/>
                 <POS X="6889" Y="4546"/>
                 <VAL>
-                    <DELAY ID="1"/>
+                    <MOTORPARAMETER ID="132,90,30;0,1,-20;0,1,-20;132,90,30"/>
+                    <CURRENTPORT ID="0"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="26"/>
@@ -36,5 +37,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="152"/>
+    <Catalog SIZE="251"/>
 </VJCC>
