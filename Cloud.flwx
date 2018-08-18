@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VJCC VERSION="1" NAME="Carga" TYPE="7" ID="6.0">
+    <Catalog GLOBALVAL="VJC6.0"/>
+    <Catalog GLOBALTREE="VJC6.0">
+        <Catalog MAIN="VJC6.0" SCENEHEIGHT="9000" SUBCOUNT="0" SCENEWIDTH="14400" ROTX="6889">
+            <BLOCK ID="25"/>
+            <POS Y="4459" X="6889"/>
+            <VAL>
+                <MOTORPARAMETER ID="0,1,85,2,-100"/>
+                <CURRENTPORT ID="2"/>
+            </VAL>
+            <CHILD ID="NEXT">
+                <BLOCK ID="12"/>
+                <POS Y="4546" X="6889"/>
+                <VAL>
+                    <DELAY ID="1"/>
+                </VAL>
+                <CHILD ID="NEXT">
+                    <BLOCK ID="25"/>
+                    <POS Y="4632" X="6889"/>
+                    <VAL>
+                        <MOTORPARAMETER ID="0,1,90,2,-100"/>
+                        <CURRENTPORT ID="2"/>
+                    </VAL>
+                </CHILD>
+            </CHILD>
+        </Catalog>
+    </Catalog>
+    <Catalog GLOBALMTN="VJC6.0"/>
+    <Catalog GLOABLETIP="VJC6.0">
+        <Catalog ID="0"/>
+    </Catalog>
+    <Catalog BLOCK="VJC6.0">
+        <Catalog Calc="VJC6.0"/>
+        <Catalog Log="VJC6.0"/>
+        <Catalog Var="VJC6.0"/>
+        <Catalog BaseBlock="VJC6.0"/>
+    </Catalog>
+    <Catalog SIZE="156"/>
+</VJCC>
