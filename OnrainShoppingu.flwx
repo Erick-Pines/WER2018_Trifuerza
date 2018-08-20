@@ -2,26 +2,26 @@
 <VJCC TYPE="7" VERSION="1" ID="6.0" NAME="TEST">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SCENEHEIGHT="9000" MAIN="VJC6.0" SCENEWIDTH="14400" ROTX="6889" SUBCOUNT="0">
+        <Catalog SCENEHEIGHT="9000" MAIN="VJC6.0" SCENEWIDTH="14400" SUBCOUNT="0" ROTX="6662">
             <BLOCK ID="26"/>
-            <POS X="6889" Y="4459"/>
+            <POS X="6662" Y="4404"/>
             <VAL>
                 <MOTORPARAMETER ID="0,1,80,1,100"/>
-                <CURRENTPORT ID="0"/>
+                <CURRENTPORT ID="1"/>
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="25"/>
-                <POS X="6889" Y="4546"/>
+                <POS X="6662" Y="4491"/>
                 <VAL>
-                    <MOTORPARAMETER ID="132,90,30;0,1,-20;0,1,-20;132,90,30"/>
+                    <MOTORPARAMETER ID="132,90,30;0,0,-20;0,0,-20;132,90,30"/>
                     <CURRENTPORT ID="0"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="26"/>
-                    <POS X="6889" Y="4632"/>
+                    <POS X="6662" Y="4577"/>
                     <VAL>
                         <MOTORPARAMETER ID="0,1,40,1,100"/>
-                        <CURRENTPORT ID="1"/>
+                        <CURRENTPORT ID="3"/>
                     </VAL>
                 </CHILD>
             </CHILD>
@@ -37,5 +37,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="251"/>
+    <Catalog SIZE="205"/>
 </VJCC>
