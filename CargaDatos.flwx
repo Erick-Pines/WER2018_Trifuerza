@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC ID="6.0" TYPE="7" VERSION="1" NAME="Carga">
+<VJCC TYPE="7" NAME="Carga" ID="6.0" VERSION="1">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog ROTX="6662" SCENEWIDTH="14400" SUBCOUNT="0" SCENEHEIGHT="9000" MAIN="VJC6.0">
+        <Catalog SUBCOUNT="0" MAIN="VJC6.0" ROTX="6662" SCENEHEIGHT="9000" SCENEWIDTH="14400">
             <BLOCK ID="25"/>
-            <POS X="6662" Y="4404"/>
+            <POS Y="4404" X="6662"/>
             <VAL>
                 <MOTORPARAMETER ID="132,60,50;0,0,-20;0,0,-20;132,190,50"/>
-                <CURRENTPORT ID="3"/>
+                <CURRENTPORT ID="0"/>
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="26"/>
-                <POS X="6662" Y="4491"/>
+                <POS Y="4491" X="6662"/>
                 <VAL>
                     <MOTORPARAMETER ID="0,1,90,1,50"/>
                     <CURRENTPORT ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="25"/>
-                    <POS X="6662" Y="4577"/>
+                    <POS Y="4577" X="6662"/>
                     <VAL>
                         <MOTORPARAMETER ID="132,110,100;0,0,-20;0,0,-20;132,110,-100"/>
                         <CURRENTPORT ID="3"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="25"/>
-                        <POS X="6662" Y="4664"/>
+                        <POS Y="4664" X="6662"/>
                         <VAL>
-                            <MOTORPARAMETER ID="132,90,-20;0,1,-20;0,1,-20;132,90,-20"/>
+                            <MOTORPARAMETER ID="132,90,-20;0,0,-20;0,0,-20;132,90,-20"/>
                             <CURRENTPORT ID="0"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="26"/>
-                            <POS X="6662" Y="4751"/>
+                            <POS Y="4751" X="6662"/>
                             <VAL>
                                 <MOTORPARAMETER ID="0,1,90,1,-100"/>
-                                <CURRENTPORT ID="1"/>
+                                <CURRENTPORT ID="3"/>
                             </VAL>
                             <CHILD ID="NEXT">
                                 <BLOCK ID="25"/>
-                                <POS X="6662" Y="4837"/>
+                                <POS Y="4837" X="6662"/>
                                 <VAL>
-                                    <MOTORPARAMETER ID="132,120,50;0,1,-20;0,0,-20;132,120,50"/>
-                                    <CURRENTPORT ID="3"/>
+                                    <MOTORPARAMETER ID="132,120,50;0,0,-20;0,0,-20;132,120,50"/>
+                                    <CURRENTPORT ID="0"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="25"/>
-                                    <POS X="6662" Y="4924"/>
+                                    <POS Y="4924" X="6662"/>
                                     <VAL>
                                         <MOTORPARAMETER ID="0,1,150,1,100"/>
-                                        <CURRENTPORT ID="1"/>
+                                        <CURRENTPORT ID="3"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
                                         <BLOCK ID="25"/>
-                                        <POS X="6662" Y="5010"/>
+                                        <POS Y="5010" X="6662"/>
                                         <VAL>
-                                            <MOTORPARAMETER ID="132,120,-20;0,1,-20;0,1,-20;132,90,-20"/>
+                                            <MOTORPARAMETER ID="132,120,-20;0,0,-20;0,0,-20;132,90,-20"/>
                                             <CURRENTPORT ID="0"/>
                                         </VAL>
                                     </CHILD>
@@ -77,5 +77,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="107"/>
+    <Catalog SIZE="100"/>
 </VJCC>
