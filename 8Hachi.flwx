@@ -1,31 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC TYPE="7" ID="6.0" NAME="Hachi" VERSION="1">
+<VJCC TYPE="7" ID="6.0" VERSION="1" NAME="Hachi">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" SCENEHEIGHT="10500" ROTX="7137" SUBCOUNT="2" SCENEWIDTH="15900">
-            <BLOCK ID="11"/>
-            <POS Y="5023" X="7137"/>
+        <Catalog MAIN="VJC6.0" SUBCOUNT="2" SCENEHEIGHT="10500" ROTX="7412" SCENEWIDTH="15900">
+            <BLOCK ID="41"/>
+            <POS Y="5154" X="7412"/>
             <VAL>
-                <NAME ID="HachiStati"/>
-                <INDEX ID="1"/>
+                <MOTORTYPE ID="0"/>
+                <LEFTMOTORCHANNEL ID="3"/>
+                <LEFTMOTORPOWER ID="1"/>
+                <RIGHTMOTORCHANNEL ID="0"/>
+                <RIGHTMOTORPOWER ID="1"/>
+                <MOTORNUMBER ID="0"/>
+                <MOTORCHANNELMAP ID="1:1;2:0;3:2;4:3;5:4;6:0;7:5"/>
+                <MOTORPLACETYPE ID="0"/>
+                <MOTORTHRESHOLD ID="0.50"/>
             </VAL>
             <CHILD ID="NEXT">
-                <BLOCK ID="12"/>
-                <POS Y="5110" X="7137"/>
+                <BLOCK ID="11"/>
+                <POS Y="5241" X="7412"/>
                 <VAL>
-                    <DELAY ID="1"/>
+                    <NAME ID="HachiStati"/>
+                    <INDEX ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
-                    <BLOCK ID="11"/>
-                    <POS Y="5196" X="7137"/>
+                    <BLOCK ID="12"/>
+                    <POS Y="5327" X="7412"/>
                     <VAL>
-                        <NAME ID="HachiRetur"/>
-                        <INDEX ID="2"/>
+                        <DELAY ID="2"/>
                     </VAL>
+                    <CHILD ID="NEXT">
+                        <BLOCK ID="11"/>
+                        <POS Y="5414" X="7412"/>
+                        <VAL>
+                            <NAME ID="HachiRetur"/>
+                            <INDEX ID="2"/>
+                        </VAL>
+                    </CHILD>
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM TYPE="1" ID="1" NAME="HachiStati" Y="5068" X="7412">
+        <SUBPROGRAM Y="5068" TYPE="1" X="7412" ID="1" NAME="HachiStati">
             <BLOCK ID="25"/>
             <POS Y="5154" X="7412"/>
             <VAL>
@@ -115,7 +130,7 @@
                                                 <SPEED ID="50"/>
                                                 <LEFTSPEED ID="0"/>
                                                 <RIGHTSPEED ID="0"/>
-                                                <CROSSINGTIME ID="0.85"/>
+                                                <CROSSINGTIME ID="0.8"/>
                                                 <TYPE ID="1"/>
                                             </VAL>
                                         </CHILD>
@@ -127,7 +142,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="2" NAME="HachiRetur" Y="5068" X="7412">
+        <SUBPROGRAM Y="5068" TYPE="1" X="7412" ID="2" NAME="HachiRetur">
             <BLOCK ID="46"/>
             <POS Y="5154" X="7412"/>
             <VAL>
@@ -244,5 +259,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="234"/>
+    <Catalog SIZE="203"/>
 </VJCC>

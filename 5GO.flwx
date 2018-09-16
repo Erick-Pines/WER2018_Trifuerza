@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC ID="6.0" TYPE="7" NAME="Go" VERSION="1">
+<VJCC TYPE="7" ID="6.0" VERSION="1" NAME="Go">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SUBCOUNT="2" SCENEWIDTH="15400" MAIN="VJC6.0" ROTX="7162" SCENEHEIGHT="10000">
+        <Catalog MAIN="VJC6.0" SUBCOUNT="2" SCENEHEIGHT="10000" ROTX="7162" SCENEWIDTH="15400">
             <BLOCK ID="41"/>
             <POS Y="4904" X="7162"/>
             <VAL>
@@ -27,7 +27,7 @@
                     <BLOCK ID="12"/>
                     <POS Y="5077" X="7162"/>
                     <VAL>
-                        <DELAY ID="1"/>
+                        <DELAY ID="2"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="11"/>
@@ -40,7 +40,7 @@
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM ID="1" Y="4818" X="7162" NAME="GoStation" TYPE="1">
+        <SUBPROGRAM Y="4818" TYPE="1" X="7162" ID="1" NAME="GoStation">
             <BLOCK ID="25"/>
             <POS Y="4904" X="7162"/>
             <VAL>
@@ -142,7 +142,7 @@
                                                     <NUMBERS ID="1"/>
                                                     <LEFTSPEED ID="50"/>
                                                     <RIGHTSPEED ID="-50"/>
-                                                    <ENDPOSITION ID="1"/>
+                                                    <ENDPOSITION ID="2"/>
                                                     <TYPE ID="1"/>
                                                 </VAL>
                                             </CHILD>
@@ -155,7 +155,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM ID="2" Y="4818" X="7162" NAME="GoReturn" TYPE="1">
+        <SUBPROGRAM Y="4818" TYPE="1" X="7162" ID="2" NAME="GoReturn">
             <BLOCK ID="46"/>
             <POS Y="4904" X="7162"/>
             <VAL>
@@ -272,5 +272,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="174"/>
+    <Catalog SIZE="176"/>
 </VJCC>
