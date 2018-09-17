@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC TYPE="7" NAME="OnrainShoppingu" VERSION="1" ID="6.0">
+<VJCC VERSION="1" NAME="OnrainShoppingu" TYPE="7" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
         <Catalog MAIN="VJC6.0" SUBCOUNT="0" SCENEHEIGHT="9000" ROTX="6662" SCENEWIDTH="14400">
             <BLOCK ID="26"/>
-            <POS X="6662" Y="4404"/>
+            <POS Y="4404" X="6662"/>
             <VAL>
                 <MOTORPARAMETER ID="0,1,78,1,100"/>
-                <CURRENTPORT ID="1"/>
+                <CURRENTPORT ID="3"/>
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="25"/>
-                <POS X="6662" Y="4491"/>
+                <POS Y="4491" X="6662"/>
                 <VAL>
                     <MOTORPARAMETER ID="132,90,30;0,0,-20;0,0,-20;132,90,30"/>
                     <CURRENTPORT ID="0"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="26"/>
-                    <POS X="6662" Y="4577"/>
+                    <POS Y="4577" X="6662"/>
                     <VAL>
-                        <MOTORPARAMETER ID="0,1,40,1,100"/>
-                        <CURRENTPORT ID="3"/>
+                        <MOTORPARAMETER ID="0,1,50,1,100"/>
+                        <CURRENTPORT ID="1"/>
                     </VAL>
                 </CHILD>
             </CHILD>
@@ -37,5 +37,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="184"/>
+    <Catalog SIZE="185"/>
 </VJCC>

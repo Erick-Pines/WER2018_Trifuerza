@@ -1,35 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC ID="6.0" TYPE="7" VERSION="1" NAME="Descarga">
+<VJCC VERSION="1" NAME="Descarga" TYPE="7" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" SUBCOUNT="0" SCENEWIDTH="14400" SCENEHEIGHT="9000" ROTX="6889">
+        <Catalog MAIN="VJC6.0" SUBCOUNT="0" SCENEHEIGHT="9000" ROTX="6662" SCENEWIDTH="14400">
             <BLOCK ID="25"/>
-            <POS Y="4459" X="6889"/>
+            <POS Y="4404" X="6662"/>
             <VAL>
-                <MOTORPARAMETER ID="0,1,165,1,-20"/>
+                <MOTORPARAMETER ID="0,1,215,1,-20"/>
                 <CURRENTPORT ID="1"/>
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="12"/>
-                <POS Y="4546" X="6889"/>
+                <POS Y="4491" X="6662"/>
                 <VAL>
                     <DELAY ID="0.4"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="26"/>
-                    <POS Y="4632" X="6889"/>
+                    <POS Y="4577" X="6662"/>
                     <VAL>
                         <MOTORPARAMETER ID="0,1,135,1,100"/>
                         <CURRENTPORT ID="1"/>
                     </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="25"/>
-                        <POS Y="4719" X="6889"/>
-                        <VAL>
-                            <MOTORPARAMETER ID="0,1,195,1,-20"/>
-                            <CURRENTPORT ID="1"/>
-                        </VAL>
-                    </CHILD>
                 </CHILD>
             </CHILD>
         </Catalog>
@@ -42,7 +34,16 @@
         <Catalog Calc="VJC6.0"/>
         <Catalog Log="VJC6.0"/>
         <Catalog Var="VJC6.0"/>
-        <Catalog BaseBlock="VJC6.0"/>
+        <Catalog BaseBlock="VJC6.0">
+            <Block>
+                <BLOCK ID="25"/>
+                <POS Y="4449" X="6333"/>
+                <VAL>
+                    <MOTORPARAMETER ID="0,1,195,1,-20"/>
+                    <CURRENTPORT ID="1"/>
+                </VAL>
+            </Block>
+        </Catalog>
     </Catalog>
-    <Catalog SIZE="158"/>
+    <Catalog SIZE="123"/>
 </VJCC>
