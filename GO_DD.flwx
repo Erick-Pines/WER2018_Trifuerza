@@ -23,21 +23,6 @@
                     <NAME ID="GoStation"/>
                     <INDEX ID="1"/>
                 </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="12"/>
-                    <POS X="7162" Y="5077"/>
-                    <VAL>
-                        <DELAY ID="1"/>
-                    </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="11"/>
-                        <POS X="7162" Y="5164"/>
-                        <VAL>
-                            <NAME ID="GoReturn"/>
-                            <INDEX ID="2"/>
-                        </VAL>
-                    </CHILD>
-                </CHILD>
             </CHILD>
         </Catalog>
         <SUBPROGRAM NAME="GoStation" TYPE="1" X="7162" ID="1" Y="4818">
@@ -272,5 +257,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="174"/>
+    <Catalog SIZE="136"/>
 </VJCC>

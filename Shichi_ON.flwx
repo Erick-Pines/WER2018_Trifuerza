@@ -27,22 +27,22 @@
                     <BLOCK ID="26"/>
                     <POS X="6662" Y="4577"/>
                     <VAL>
-                        <MOTORPARAMETER ID="0,1,75,1,100"/>
-                        <CURRENTPORT ID="3"/>
+                        <MOTORPARAMETER ID="0,1,70,1,100"/>
+                        <CURRENTPORT ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="25"/>
                         <POS X="6662" Y="4664"/>
                         <VAL>
-                            <MOTORPARAMETER ID="132,80,50;0,0,-20;0,0,-20;132,100,50"/>
-                            <CURRENTPORT ID="0"/>
+                            <MOTORPARAMETER ID="132,125,50;0,0,-20;0,0,-20;132,125,50"/>
+                            <CURRENTPORT ID="3"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="26"/>
                             <POS X="6662" Y="4751"/>
                             <VAL>
-                                <MOTORPARAMETER ID="0,1,50,1,100"/>
-                                <CURRENTPORT ID="3"/>
+                                <MOTORPARAMETER ID="0,1,55,1,100"/>
+                                <CURRENTPORT ID="1"/>
                             </VAL>
                             <CHILD ID="NEXT">
                                 <BLOCK ID="25"/>
@@ -135,14 +135,14 @@
                                         <NUMBERS ID="1"/>
                                         <LEFTSPEED ID="0"/>
                                         <RIGHTSPEED ID="-50"/>
-                                        <ENDPOSITION ID="2"/>
+                                        <ENDPOSITION ID="0"/>
                                         <TYPE ID="1"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
                                         <BLOCK ID="25"/>
                                         <POS X="7003" Y="5010"/>
                                         <VAL>
-                                            <MOTORPARAMETER ID="132,100,50;0,0,-20;0,0,-20;132,100,50"/>
+                                            <MOTORPARAMETER ID="132,110,50;0,0,-20;0,0,-20;132,100,50"/>
                                             <CURRENTPORT ID="0"/>
                                         </VAL>
                                     </CHILD>
@@ -233,5 +233,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="110"/>
+    <Catalog SIZE="163"/>
 </VJCC>
