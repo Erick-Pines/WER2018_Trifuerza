@@ -1,67 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC VERSION="1" NAME="Carga" TYPE="7" ID="6.0">
+<VJCC NAME="Carga" VERSION="1" TYPE="7" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" SUBCOUNT="0" SCENEHEIGHT="9000" ROTX="6662" SCENEWIDTH="14400">
-            <BLOCK ID="25"/>
-            <POS Y="4404" X="6662"/>
+        <Catalog SCENEHEIGHT="9000" MAIN="VJC6.0" SCENEWIDTH="14400" SUBCOUNT="0" ROTX="6387">
+            <BLOCK ID="15"/>
+            <POS Y="4273" X="6387"/>
             <VAL>
-                <MOTORPARAMETER ID="132,60,50;0,0,-20;0,0,-20;132,190,50"/>
-                <CURRENTPORT ID="0"/>
+                <LIGHTCOLOR ID="0"/>
+                <LIGHTMODE ID="0"/>
             </VAL>
             <CHILD ID="NEXT">
-                <BLOCK ID="26"/>
-                <POS Y="4491" X="6662"/>
+                <BLOCK ID="25"/>
+                <POS Y="4360" X="6387"/>
                 <VAL>
-                    <MOTORPARAMETER ID="0,1,90,1,50"/>
-                    <CURRENTPORT ID="3"/>
+                    <MOTORPARAMETER ID="0,1,800,1,20"/>
+                    <CURRENTPORT ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
-                    <BLOCK ID="25"/>
-                    <POS Y="4577" X="6662"/>
+                    <BLOCK ID="12"/>
+                    <POS Y="4446" X="6387"/>
                     <VAL>
-                        <MOTORPARAMETER ID="132,110,100;0,0,-20;0,0,-20;132,110,-100"/>
-                        <CURRENTPORT ID="0"/>
+                        <DELAY ID="1"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="25"/>
-                        <POS Y="4664" X="6662"/>
+                        <POS Y="4533" X="6387"/>
                         <VAL>
-                            <MOTORPARAMETER ID="132,90,-20;0,0,-20;0,0,-20;132,90,-20"/>
-                            <CURRENTPORT ID="0"/>
+                            <MOTORPARAMETER ID="0,1,800,1,-20"/>
+                            <CURRENTPORT ID="1"/>
                         </VAL>
-                        <CHILD ID="NEXT">
-                            <BLOCK ID="26"/>
-                            <POS Y="4751" X="6662"/>
-                            <VAL>
-                                <MOTORPARAMETER ID="0,1,90,1,-100"/>
-                                <CURRENTPORT ID="3"/>
-                            </VAL>
-                            <CHILD ID="NEXT">
-                                <BLOCK ID="25"/>
-                                <POS Y="4837" X="6662"/>
-                                <VAL>
-                                    <MOTORPARAMETER ID="132,120,50;0,0,-20;0,0,-20;132,120,50"/>
-                                    <CURRENTPORT ID="0"/>
-                                </VAL>
-                                <CHILD ID="NEXT">
-                                    <BLOCK ID="25"/>
-                                    <POS Y="4924" X="6662"/>
-                                    <VAL>
-                                        <MOTORPARAMETER ID="0,1,150,1,100"/>
-                                        <CURRENTPORT ID="3"/>
-                                    </VAL>
-                                    <CHILD ID="NEXT">
-                                        <BLOCK ID="25"/>
-                                        <POS Y="5010" X="6662"/>
-                                        <VAL>
-                                            <MOTORPARAMETER ID="132,120,-20;0,0,-20;0,0,-20;132,90,-20"/>
-                                            <CURRENTPORT ID="0"/>
-                                        </VAL>
-                                    </CHILD>
-                                </CHILD>
-                            </CHILD>
-                        </CHILD>
                     </CHILD>
                 </CHILD>
             </CHILD>
@@ -77,5 +44,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="99"/>
+    <Catalog SIZE="50"/>
 </VJCC>
