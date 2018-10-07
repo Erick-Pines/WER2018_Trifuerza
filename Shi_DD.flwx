@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC NAME="Shi_DD" TYPE="7" VERSION="1" ID="6.0">
+<VJCC VERSION="1" TYPE="7" ID="6.0" NAME="Shi_DD">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog ROTX="7662" MAIN="VJC6.0" SCENEHEIGHT="11000" SUBCOUNT="2" SCENEWIDTH="16400">
+        <Catalog MAIN="VJC6.0" SCENEWIDTH="16400" SCENEHEIGHT="11000" ROTX="7387" SUBCOUNT="2">
             <BLOCK ID="41"/>
-            <POS X="7662" Y="5404"/>
+            <POS X="7387" Y="5273"/>
             <VAL>
                 <MOTORTYPE ID="0"/>
                 <LEFTMOTORCHANNEL ID="3"/>
@@ -18,38 +18,53 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="11"/>
-                <POS X="7662" Y="5491"/>
+                <POS X="7387" Y="5360"/>
                 <VAL>
                     <NAME ID="ShiStation"/>
                     <INDEX ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="25"/>
-                    <POS X="7662" Y="5577"/>
+                    <POS X="7387" Y="5446"/>
                     <VAL>
-                        <MOTORPARAMETER ID="0,1,145,1,-100"/>
-                        <CURRENTPORT ID="1"/>
+                        <MOTORPARAMETER ID="132,24,50;0,0,-20;0,0,-20;132,49,50"/>
+                        <CURRENTPORT ID="3"/>
                     </VAL>
                     <CHILD ID="NEXT">
-                        <BLOCK ID="26"/>
-                        <POS X="7662" Y="5664"/>
+                        <BLOCK ID="25"/>
+                        <POS X="7387" Y="5533"/>
                         <VAL>
-                            <MOTORPARAMETER ID="0,1,100,1,100"/>
+                            <MOTORPARAMETER ID="0,1,180,1,-20"/>
                             <CURRENTPORT ID="1"/>
                         </VAL>
                         <CHILD ID="NEXT">
-                            <BLOCK ID="11"/>
-                            <POS X="7662" Y="5751"/>
+                            <BLOCK ID="12"/>
+                            <POS X="7387" Y="5620"/>
                             <VAL>
-                                <NAME ID="ShiReturn"/>
-                                <INDEX ID="2"/>
+                                <DELAY ID="0.8"/>
                             </VAL>
+                            <CHILD ID="NEXT">
+                                <BLOCK ID="25"/>
+                                <POS X="7387" Y="5706"/>
+                                <VAL>
+                                    <MOTORPARAMETER ID="132,170,-50;0,0,-20;0,0,-20;132,170,-50"/>
+                                    <CURRENTPORT ID="3"/>
+                                </VAL>
+                                <CHILD ID="NEXT">
+                                    <BLOCK ID="11"/>
+                                    <POS X="7387" Y="5793"/>
+                                    <VAL>
+                                        <NAME ID="ShiReturn"/>
+                                        <INDEX ID="2"/>
+                                    </VAL>
+                                </CHILD>
+                            </CHILD>
                         </CHILD>
                     </CHILD>
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM NAME="ShiStation" TYPE="1" X="7662" ID="1" Y="5318">
+        <SUBPROGRAM X="7662" Y="5318" TYPE="1" ID="1" NAME="ShiStation">
             <BLOCK ID="25"/>
             <POS X="7662" Y="5404"/>
             <VAL>
@@ -151,17 +166,9 @@
                                                     <SPEED ID="50"/>
                                                     <LEFTSPEED ID="0"/>
                                                     <RIGHTSPEED ID="0"/>
-                                                    <CROSSINGTIME ID="1.7"/>
+                                                    <CROSSINGTIME ID="1.96"/>
                                                     <TYPE ID="1"/>
                                                 </VAL>
-                                                <CHILD ID="NEXT">
-                                                    <BLOCK ID="25"/>
-                                                    <POS X="7662" Y="6270"/>
-                                                    <VAL>
-                                                        <MOTORPARAMETER ID="0,1,40,3,50"/>
-                                                        <CURRENTPORT ID="3"/>
-                                                    </VAL>
-                                                </CHILD>
                                             </CHILD>
                                         </CHILD>
                                     </CHILD>
@@ -172,7 +179,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="ShiReturn" TYPE="1" X="7662" ID="2" Y="5318">
+        <SUBPROGRAM X="7662" Y="5318" TYPE="1" ID="2" NAME="ShiReturn">
             <BLOCK ID="46"/>
             <POS X="7662" Y="5404"/>
             <VAL>
@@ -235,7 +242,7 @@
                                     <LEFTSPEED ID="0"/>
                                     <RIGHTSPEED ID="0"/>
                                     <CYCLETIMES ID="1"/>
-                                    <CROSSINGTIME ID="0.2"/>
+                                    <CROSSINGTIME ID="0.3"/>
                                     <CROSSING ID="1"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
@@ -320,5 +327,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="194"/>
+    <Catalog SIZE="216"/>
 </VJCC>
