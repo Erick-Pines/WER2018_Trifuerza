@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC TYPE="7" ID="6.0" VERSION="1" NAME="Kiu ">
+<VJCC TYPE="7" NAME="Kyu" ID="6.0" VERSION="1">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" SUBCOUNT="2" SCENEHEIGHT="9000" ROTX="6662" SCENEWIDTH="14400">
+        <Catalog MAIN="VJC6.0" SCENEHEIGHT="9000" ROTX="6387" SUBCOUNT="2" SCENEWIDTH="14400">
             <BLOCK ID="41"/>
-            <POS Y="4404" X="6662"/>
+            <POS Y="4273" X="6387"/>
             <VAL>
                 <MOTORTYPE ID="0"/>
                 <LEFTMOTORCHANNEL ID="3"/>
@@ -18,29 +18,29 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="11"/>
-                <POS Y="4491" X="6662"/>
+                <POS Y="4360" X="6387"/>
                 <VAL>
-                    <NAME ID="KiuStation"/>
+                    <NAME ID="KyuStation"/>
                     <INDEX ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="12"/>
-                    <POS Y="4577" X="6662"/>
+                    <POS Y="4446" X="6387"/>
                     <VAL>
                         <DELAY ID="2"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="11"/>
-                        <POS Y="4664" X="6662"/>
+                        <POS Y="4533" X="6387"/>
                         <VAL>
-                            <NAME ID="KiuReturn"/>
+                            <NAME ID="KyuReturn"/>
                             <INDEX ID="2"/>
                         </VAL>
                     </CHILD>
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM Y="104" TYPE="1" X="341" ID="1" NAME="KiuStation">
+        <SUBPROGRAM Y="104" TYPE="1" NAME="KyuStation" ID="1" X="341">
             <BLOCK ID="25"/>
             <POS Y="4404" X="7003"/>
             <VAL>
@@ -131,7 +131,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM Y="104" TYPE="1" X="341" ID="2" NAME="KiuReturn">
+        <SUBPROGRAM Y="104" TYPE="1" NAME="KyuReturn" ID="2" X="341">
             <BLOCK ID="46"/>
             <POS Y="4404" X="7003"/>
             <VAL>
@@ -211,5 +211,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="245"/>
+    <Catalog SIZE="46"/>
 </VJCC>
