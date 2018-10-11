@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC VERSION="1" TYPE="7" NAME="Roku" ID="6.0">
+<VJCC VERSION="1" ID="6.0" TYPE="7" NAME="Roku">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog ROTX="6637" MAIN="VJC6.0" SUBCOUNT="2" SCENEHEIGHT="9500" SCENEWIDTH="14900">
+        <Catalog SUBCOUNT="2" MAIN="VJC6.0" ROTX="6637" SCENEWIDTH="14900" SCENEHEIGHT="9500">
             <BLOCK ID="41"/>
             <POS X="6637" Y="4523"/>
             <VAL>
@@ -40,11 +40,11 @@
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM TYPE="1" NAME="RokuStat" X="6637" ID="1" Y="4437">
+        <SUBPROGRAM X="6637" ID="1" TYPE="1" NAME="RokuStat" Y="4437">
             <BLOCK ID="25"/>
             <POS X="6637" Y="4523"/>
             <VAL>
-                <MOTORPARAMETER ID="132,600,70;0,0,-20;0,0,-20;132,600,70"/>
+                <MOTORPARAMETER ID="132,580,70;0,0,-20;0,0,-20;132,580,70"/>
                 <CURRENTPORT ID="3"/>
             </VAL>
             <CHILD ID="NEXT">
@@ -88,7 +88,7 @@
                                 <LEFTSPEED ID="0"/>
                                 <RIGHTSPEED ID="0"/>
                                 <CYCLETIMES ID="1"/>
-                                <CROSSINGTIME ID="0.5"/>
+                                <CROSSINGTIME ID="0.4"/>
                                 <CROSSING ID="1"/>
                             </VAL>
                             <CHILD ID="NEXT">
@@ -110,7 +110,7 @@
                                         <LEFTSPEED ID="0"/>
                                         <RIGHTSPEED ID="0"/>
                                         <CYCLETIMES ID="1"/>
-                                        <CROSSINGTIME ID="0.54"/>
+                                        <CROSSINGTIME ID="0.45"/>
                                         <CROSSING ID="1"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
@@ -131,7 +131,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" NAME="RokuReturn" X="6637" ID="2" Y="4437">
+        <SUBPROGRAM X="6637" ID="2" TYPE="1" NAME="RokuReturn" Y="4437">
             <BLOCK ID="46"/>
             <POS X="6637" Y="4523"/>
             <VAL>
@@ -143,7 +143,7 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="43"/>
-                <POS X="6637" Y="4610"/>
+                <POS X="6637" Y="4609"/>
                 <VAL>
                     <TYPE ID="1"/>
                     <SPEED ID="50"/>
@@ -165,7 +165,7 @@
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="43"/>
-                        <POS X="6637" Y="4783"/>
+                        <POS X="6637" Y="4782"/>
                         <VAL>
                             <TYPE ID="0"/>
                             <SPEED ID="50"/>
@@ -177,7 +177,7 @@
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="46"/>
-                            <POS X="6637" Y="4870"/>
+                            <POS X="6637" Y="4869"/>
                             <VAL>
                                 <NUMBERS ID="1"/>
                                 <LEFTSPEED ID="0"/>
@@ -199,7 +199,7 @@
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="46"/>
-                                    <POS X="6637" Y="5043"/>
+                                    <POS X="6637" Y="5042"/>
                                     <VAL>
                                         <NUMBERS ID="1"/>
                                         <LEFTSPEED ID="-40"/>
@@ -221,7 +221,7 @@
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="25"/>
-                                            <POS X="6637" Y="5216"/>
+                                            <POS X="6637" Y="5215"/>
                                             <VAL>
                                                 <MOTORPARAMETER ID="136,1,70;0,0,-20;0,0,-20;136,1,50"/>
                                                 <CURRENTPORT ID="0"/>
@@ -248,5 +248,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="68"/>
+    <Catalog SIZE="94"/>
 </VJCC>
