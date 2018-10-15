@@ -1,0 +1,16 @@
+#include "lib_chart_c.h"
+
+float com_1 = 0.0;
+int compass = 0;
+int main(int argc, char**argv)
+{
+    Abilix_C_Init();
+    while (1)
+    {
+        com_1 = getCompass();
+        compass=com_1;
+        setDisplay("%d\n\n\n\n\n\n\n\n",compass);
+    }
+    Abilix_C_Exit();
+    return 0;
+}
