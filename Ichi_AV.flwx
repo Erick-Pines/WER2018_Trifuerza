@@ -107,7 +107,7 @@
                                     <BLOCK ID="25"/>
                                     <POS Y="6423" X="8162"/>
                                     <VAL>
-                                        <MOTORPARAMETER ID="132,90,20;0,0,-20;0,0,-20;132,90,20"/>
+                                        <MOTORPARAMETER ID="132,150,80;0,0,-20;0,0,-20;132,150,80"/>
                                         <CURRENTPORT ID="0"/>
                                     </VAL>
                                 </CHILD>
@@ -212,5 +212,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="116"/>
+    <Catalog SIZE="218"/>
 </VJCC>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC ID="6.0" VERSION="1" TYPE="7" NAME="Shichi">
+<VJCC TYPE="7" NAME="Shichi" VERSION="1" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0">
-        <VAR ID="800" INDEX="1" NAME="giro"/>
+        <VAR NAME="giro" ID="800" INDEX="1"/>
     </Catalog>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SCENEHEIGHT="9500" SUBCOUNT="3" MAIN="VJC6.0" SCENEWIDTH="14900" ROTX="6637">
+        <Catalog MAIN="VJC6.0" ROTX="6912" SCENEWIDTH="14900" SUBCOUNT="3" SCENEHEIGHT="9500">
             <BLOCK ID="41"/>
-            <POS Y="4523" X="6637"/>
+            <POS Y="4654" X="6912"/>
             <VAL>
                 <MOTORTYPE ID="0"/>
                 <LEFTMOTORCHANNEL ID="3"/>
@@ -20,14 +20,14 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="11"/>
-                <POS Y="4610" X="6637"/>
+                <POS Y="4741" X="6912"/>
                 <VAL>
                     <NAME ID="ShichiStat"/>
                     <INDEX ID="1"/>
                 </VAL>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM ID="1" Y="4568" TYPE="1" NAME="ShichiStat" X="6912">
+        <SUBPROGRAM Y="4568" X="6912" TYPE="1" NAME="ShichiStat" ID="1">
             <BLOCK ID="25"/>
             <POS Y="4654" X="6912"/>
             <VAL>
@@ -84,7 +84,7 @@
                                 <VAL>
                                     <NUMBERS ID="1"/>
                                     <LEFTSPEED ID="0"/>
-                                    <RIGHTSPEED ID="-30"/>
+                                    <RIGHTSPEED ID="-20"/>
                                     <ENDPOSITION ID="0"/>
                                     <TYPE ID="1"/>
                                 </VAL>
@@ -102,7 +102,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM ID="2" Y="4568" TYPE="1" NAME="SichiRetu" X="6912">
+        <SUBPROGRAM Y="4568" X="6912" TYPE="1" NAME="SichiRetu" ID="2">
             <BLOCK ID="46"/>
             <POS Y="4654" X="6912"/>
             <VAL>
@@ -169,7 +169,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM ID="3" Y="4437" TYPE="1" NAME="Giro" X="6637">
+        <SUBPROGRAM Y="4437" X="6637" TYPE="1" NAME="Giro" ID="3">
             <BLOCK ID="36"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -180,9 +180,9 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="25"/>
-                <POS Y="4610" X="6637"/>
+                <POS Y="4609" X="6637"/>
                 <VAL>
-                    <MOTORPARAMETER ID="134,giro,-20;0,1,-20;0,1,-20;134,giro,20"/>
+                    <MOTORPARAMETER ID="134,giro,-20;0,0,-20;0,0,-20;134,giro,20"/>
                     <CURRENTPORT ID="0"/>
                 </VAL>
             </CHILD>
@@ -202,13 +202,13 @@
         <Catalog BaseBlock="VJC6.0">
             <Block>
                 <BLOCK ID="12"/>
-                <POS Y="4556" X="6905"/>
+                <POS Y="4570" X="7120"/>
                 <VAL>
                     <DELAY ID="2"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="11"/>
-                    <POS Y="4643" X="6905"/>
+                    <POS Y="4656" X="7120"/>
                     <VAL>
                         <NAME ID="SichiRetu"/>
                         <INDEX ID="2"/>
@@ -217,5 +217,5 @@
             </Block>
         </Catalog>
     </Catalog>
-    <Catalog SIZE="245"/>
+    <Catalog SIZE="228"/>
 </VJCC>
