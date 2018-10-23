@@ -28,14 +28,14 @@
                     <POS Y="5577" X="7662"/>
                     <VAL>
                         <MOTORPARAMETER ID="132,230,-20;0,0,-20;0,0,-20;132,230,-20"/>
-                        <CURRENTPORT ID="3"/>
+                        <CURRENTPORT ID="0"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="26"/>
                         <POS Y="5664" X="7662"/>
                         <VAL>
                             <MOTORPARAMETER ID="0,1,185,1,-100"/>
-                            <CURRENTPORT ID="1"/>
+                            <CURRENTPORT ID="3"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="25"/>
@@ -351,5 +351,5 @@
             </Block>
         </Catalog>
     </Catalog>
-    <Catalog SIZE="92"/>
+    <Catalog SIZE="91"/>
 </VJCC>
