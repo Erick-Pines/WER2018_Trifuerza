@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VJCC ID="6.0" VERSION="1" TYPE="7" NAME="Kyu_01">
     <Catalog GLOBALVAL="VJC6.0">
-        <VAR ID="800" INDEX="1" NAME="giro"/>
+        <VAR ID="800" NAME="giro" INDEX="1"/>
     </Catalog>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SCENEHEIGHT="9500" SUBCOUNT="3" MAIN="VJC6.0" SCENEWIDTH="14900" ROTX="6637">
+        <Catalog ROTX="6637" SCENEWIDTH="14900" MAIN="VJC6.0" SUBCOUNT="3" SCENEHEIGHT="9500">
             <BLOCK ID="41"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -36,7 +36,7 @@
                         <BLOCK ID="25"/>
                         <POS Y="4783" X="6637"/>
                         <VAL>
-                            <MOTORPARAMETER ID="132,160,-20;0,1,-20;0,1,-20;132,160,-20"/>
+                            <MOTORPARAMETER ID="132,160,-20;0,0,-20;0,0,-20;132,160,-20"/>
                             <CURRENTPORT ID="0"/>
                         </VAL>
                         <CHILD ID="NEXT">
@@ -44,7 +44,7 @@
                             <POS Y="4870" X="6637"/>
                             <VAL>
                                 <MOTORPARAMETER ID="0,1,140,2,100"/>
-                                <CURRENTPORT ID="2"/>
+                                <CURRENTPORT ID="3"/>
                             </VAL>
                             <CHILD ID="NEXT">
                                 <BLOCK ID="12"/>
@@ -57,14 +57,14 @@
                                     <POS Y="5043" X="6637"/>
                                     <VAL>
                                         <MOTORPARAMETER ID="0,1,140,2,-100"/>
-                                        <CURRENTPORT ID="2"/>
+                                        <CURRENTPORT ID="3"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
                                         <BLOCK ID="25"/>
                                         <POS Y="5129" X="6637"/>
                                         <VAL>
                                             <MOTORPARAMETER ID="132,150,20;0,0,-20;0,0,-20;132,150,20"/>
-                                            <CURRENTPORT ID="3"/>
+                                            <CURRENTPORT ID="0"/>
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="11"/>
@@ -90,7 +90,7 @@
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM ID="1" Y="4437" TYPE="1" NAME="KyuStation" X="6637">
+        <SUBPROGRAM ID="1" TYPE="1" Y="4437" NAME="KyuStation" X="6637">
             <BLOCK ID="25"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -203,8 +203,8 @@
                                                         <BLOCK ID="25"/>
                                                         <POS Y="5475" X="6637"/>
                                                         <VAL>
-                                                            <MOTORPARAMETER ID="132,150,20;0,1,-20;0,1,-20;132,150,20"/>
-                                                            <CURRENTPORT ID="3"/>
+                                                            <MOTORPARAMETER ID="132,150,20;0,0,-20;0,0,-20;132,150,20"/>
+                                                            <CURRENTPORT ID="0"/>
                                                         </VAL>
                                                     </CHILD>
                                                 </CHILD>
@@ -218,7 +218,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM ID="2" Y="4437" TYPE="1" NAME="KyuReturn" X="6637">
+        <SUBPROGRAM ID="2" TYPE="1" Y="4437" NAME="KyuReturn" X="6637">
             <BLOCK ID="46"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -309,7 +309,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM ID="3" Y="4437" TYPE="1" NAME="Giro" X="6637">
+        <SUBPROGRAM ID="3" TYPE="1" Y="4437" NAME="Giro" X="6637">
             <BLOCK ID="36"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -320,9 +320,9 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="25"/>
-                <POS Y="4610" X="6637"/>
+                <POS Y="4609" X="6637"/>
                 <VAL>
-                    <MOTORPARAMETER ID="134,giro,-20;0,1,-20;0,1,-20;134,giro,20"/>
+                    <MOTORPARAMETER ID="134,giro,-20;0,0,-20;0,0,-20;134,giro,20"/>
                     <CURRENTPORT ID="0"/>
                 </VAL>
             </CHILD>
@@ -341,5 +341,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="49"/>
+    <Catalog SIZE="47"/>
 </VJCC>
