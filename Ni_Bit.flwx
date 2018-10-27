@@ -34,9 +34,17 @@
                         <BLOCK ID="26"/>
                         <POS Y="5414" X="7412"/>
                         <VAL>
-                            <MOTORPARAMETER ID="0,1,0,1,-100"/>
+                            <MOTORPARAMETER ID="0,1,280,1,100"/>
                             <CURRENTPORT ID="1"/>
                         </VAL>
+                        <CHILD ID="NEXT">
+                            <BLOCK ID="11"/>
+                            <POS Y="5501" X="7412"/>
+                            <VAL>
+                                <NAME ID="NiReturn"/>
+                                <INDEX ID="2"/>
+                            </VAL>
+                        </CHILD>
                     </CHILD>
                 </CHILD>
             </CHILD>
@@ -265,16 +273,7 @@
         <Catalog Calc="VJC6.0"/>
         <Catalog Log="VJC6.0"/>
         <Catalog Var="VJC6.0"/>
-        <Catalog BaseBlock="VJC6.0">
-            <Block>
-                <BLOCK ID="11"/>
-                <POS Y="5204" X="7621"/>
-                <VAL>
-                    <NAME ID="NiReturn"/>
-                    <INDEX ID="2"/>
-                </VAL>
-            </Block>
-        </Catalog>
+        <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="247"/>
+    <Catalog SIZE="18"/>
 </VJCC>
