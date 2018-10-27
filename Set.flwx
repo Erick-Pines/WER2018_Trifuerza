@@ -30,7 +30,7 @@
                         <POS Y="4653" X="6549"/>
                         <VAL>
                             <MOTORPARAMETER ID="0,0,0,2,0"/>
-                            <CURRENTPORT ID="1"/>
+                            <CURRENTPORT ID="3"/>
                         </VAL>
                     </CHILD>
                 </CHILD>
@@ -63,5 +63,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="122"/>
+    <Catalog SIZE="124"/>
 </VJCC>
