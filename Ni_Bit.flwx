@@ -27,7 +27,7 @@
                     <BLOCK ID="25"/>
                     <POS Y="5327" X="7412"/>
                     <VAL>
-                        <MOTORPARAMETER ID="132,150,20;0,1,-20;0,1,-20;132,150,20"/>
+                        <MOTORPARAMETER ID="132,285,20;0,0,-20;0,0,-20;132,285,20"/>
                         <CURRENTPORT ID="0"/>
                     </VAL>
                     <CHILD ID="NEXT">
@@ -38,12 +38,20 @@
                             <CURRENTPORT ID="1"/>
                         </VAL>
                         <CHILD ID="NEXT">
-                            <BLOCK ID="11"/>
+                            <BLOCK ID="25"/>
                             <POS Y="5501" X="7412"/>
                             <VAL>
-                                <NAME ID="NiReturn"/>
-                                <INDEX ID="2"/>
+                                <MOTORPARAMETER ID="132,150,-20;0,0,-20;0,0,-20;132,150,-20"/>
+                                <CURRENTPORT ID="3"/>
                             </VAL>
+                            <CHILD ID="NEXT">
+                                <BLOCK ID="11"/>
+                                <POS Y="5587" X="7412"/>
+                                <VAL>
+                                    <NAME ID="NiReturn"/>
+                                    <INDEX ID="2"/>
+                                </VAL>
+                            </CHILD>
                         </CHILD>
                     </CHILD>
                 </CHILD>
@@ -141,7 +149,7 @@
                                                 <LEFTSPEED ID="0"/>
                                                 <RIGHTSPEED ID="0"/>
                                                 <CYCLETIMES ID="1"/>
-                                                <CROSSINGTIME ID="0.5"/>
+                                                <CROSSINGTIME ID="0.35"/>
                                                 <CROSSING ID="1"/>
                                             </VAL>
                                             <CHILD ID="NEXT">
@@ -275,5 +283,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="18"/>
+    <Catalog SIZE="164"/>
 </VJCC>
