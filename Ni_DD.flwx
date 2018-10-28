@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC ID="6.0" TYPE="7" VERSION="1" NAME="Ni_DD">
+<VJCC TYPE="7" ID="6.0" VERSION="1" NAME="Ni_DD">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" ROTX="7412" SUBCOUNT="2" SCENEWIDTH="15900" SCENEHEIGHT="10500">
+        <Catalog SCENEWIDTH="15900" SUBCOUNT="2" SCENEHEIGHT="10500" ROTX="7412" MAIN="VJC6.0">
             <BLOCK ID="41"/>
             <POS X="7412" Y="5154"/>
             <VAL>
@@ -27,29 +27,29 @@
                     <BLOCK ID="25"/>
                     <POS X="7412" Y="5327"/>
                     <VAL>
-                        <MOTORPARAMETER ID="132,150,20;0,1,-20;0,1,-20;132,150,20"/>
+                        <MOTORPARAMETER ID="132,150,20;0,0,-20;0,0,-20;132,150,20"/>
                         <CURRENTPORT ID="0"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="25"/>
                         <POS X="7412" Y="5414"/>
                         <VAL>
-                            <MOTORPARAMETER ID="132,35,-50;0,0,-20;0,0,-20;132,35,50"/>
-                            <CURRENTPORT ID="3"/>
+                            <MOTORPARAMETER ID="132,40,-50;0,0,-20;0,0,-20;132,40,50"/>
+                            <CURRENTPORT ID="0"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="26"/>
                             <POS X="7412" Y="5501"/>
                             <VAL>
                                 <MOTORPARAMETER ID="0,1,185,1,-80"/>
-                                <CURRENTPORT ID="1"/>
+                                <CURRENTPORT ID="3"/>
                             </VAL>
                             <CHILD ID="NEXT">
                                 <BLOCK ID="25"/>
                                 <POS X="7412" Y="5587"/>
                                 <VAL>
-                                    <MOTORPARAMETER ID="132,35,-50;0,1,-20;0,1,-20;132,35,50"/>
-                                    <CURRENTPORT ID="3"/>
+                                    <MOTORPARAMETER ID="132,35,-50;0,0,-20;0,0,-20;132,35,50"/>
+                                    <CURRENTPORT ID="0"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="12"/>
@@ -62,14 +62,14 @@
                                         <POS X="7412" Y="5760"/>
                                         <VAL>
                                             <MOTORPARAMETER ID="132,30,20;0,0,-20;0,0,-20;132,30,-20"/>
-                                            <CURRENTPORT ID="3"/>
+                                            <CURRENTPORT ID="0"/>
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="25"/>
                                             <POS X="7412" Y="5847"/>
                                             <VAL>
                                                 <MOTORPARAMETER ID="132,150,-20;0,0,-20;0,0,-20;132,150,-20"/>
-                                                <CURRENTPORT ID="3"/>
+                                                <CURRENTPORT ID="0"/>
                                             </VAL>
                                             <CHILD ID="NEXT">
                                                 <BLOCK ID="11"/>
@@ -88,7 +88,7 @@
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM ID="1" TYPE="1" X="7412" NAME="NiStation" Y="5068">
+        <SUBPROGRAM TYPE="1" ID="1" X="7412" Y="5068" NAME="NiStation">
             <BLOCK ID="25"/>
             <POS X="7412" Y="5154"/>
             <VAL>
@@ -203,7 +203,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM ID="2" TYPE="1" X="7412" NAME="NiReturn" Y="5068">
+        <SUBPROGRAM TYPE="1" ID="2" X="7412" Y="5068" NAME="NiReturn">
             <BLOCK ID="46"/>
             <POS X="7412" Y="5154"/>
             <VAL>
@@ -322,5 +322,5 @@
             </Block>
         </Catalog>
     </Catalog>
-    <Catalog SIZE="103"/>
+    <Catalog SIZE="81"/>
 </VJCC>
