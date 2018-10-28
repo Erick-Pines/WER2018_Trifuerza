@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC VERSION="1" TYPE="7" NAME="Ni_Bit" ID="6.0">
+<VJCC NAME=" Ni_Bit" TYPE="7" VERSION="1" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" SCENEHEIGHT="10500" SCENEWIDTH="15900" ROTX="7412" SUBCOUNT="2">
+        <Catalog SCENEHEIGHT="10500" SUBCOUNT="2" ROTX="7412" MAIN="VJC6.0" SCENEWIDTH="15900">
             <BLOCK ID="41"/>
             <POS Y="5154" X="7412"/>
             <VAL>
@@ -35,14 +35,14 @@
                         <POS Y="5414" X="7412"/>
                         <VAL>
                             <MOTORPARAMETER ID="0,1,280,1,100"/>
-                            <CURRENTPORT ID="1"/>
+                            <CURRENTPORT ID="3"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="25"/>
                             <POS Y="5501" X="7412"/>
                             <VAL>
                                 <MOTORPARAMETER ID="132,150,-20;0,0,-20;0,0,-20;132,150,-20"/>
-                                <CURRENTPORT ID="3"/>
+                                <CURRENTPORT ID="0"/>
                             </VAL>
                             <CHILD ID="NEXT">
                                 <BLOCK ID="11"/>
@@ -57,7 +57,7 @@
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM NAME="NiStation" TYPE="1" Y="5068" ID="1" X="7412">
+        <SUBPROGRAM NAME="NiStation" Y="5068" X="7412" TYPE="1" ID="1">
             <BLOCK ID="25"/>
             <POS Y="5154" X="7412"/>
             <VAL>
@@ -172,7 +172,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="NiReturn" TYPE="1" Y="5068" ID="2" X="7412">
+        <SUBPROGRAM NAME="NiReturn" Y="5068" X="7412" TYPE="1" ID="2">
             <BLOCK ID="46"/>
             <POS Y="5154" X="7412"/>
             <VAL>
@@ -283,5 +283,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="164"/>
+    <Catalog SIZE="195"/>
 </VJCC>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC VERSION="1" TYPE="7" NAME="San_Bit" ID="6.0">
+<VJCC NAME="San_Bit" TYPE="7" VERSION="1" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0">
         <VAR NAME="gyro_1" INDEX="1" ID="4"/>
     </Catalog>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" SCENEHEIGHT="9500" SCENEWIDTH="14900" ROTX="6912" SUBCOUNT="3">
+        <Catalog SCENEHEIGHT="9500" SUBCOUNT="3" ROTX="6912" MAIN="VJC6.0" SCENEWIDTH="14900">
             <BLOCK ID="41"/>
             <POS Y="4654" X="6912"/>
             <VAL>
@@ -29,21 +29,21 @@
                     <BLOCK ID="25"/>
                     <POS Y="4827" X="6912"/>
                     <VAL>
-                        <MOTORPARAMETER ID="132,200,20;0,1,-20;0,1,-20;132,100,20"/>
-                        <CURRENTPORT ID="3"/>
+                        <MOTORPARAMETER ID="132,230,20;0,0,-20;0,0,-20;132,130,20"/>
+                        <CURRENTPORT ID="0"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="26"/>
                         <POS Y="4914" X="6912"/>
                         <VAL>
                             <MOTORPARAMETER ID="0,1,280,1,100"/>
-                            <CURRENTPORT ID="1"/>
+                            <CURRENTPORT ID="3"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="25"/>
                             <POS Y="5001" X="6912"/>
                             <VAL>
-                                <MOTORPARAMETER ID="132,200,-50;0,1,-20;0,1,-20;132,100,-50"/>
+                                <MOTORPARAMETER ID="132,230,-50;0,0,-20;0,0,-20;132,130,-50"/>
                                 <CURRENTPORT ID="0"/>
                             </VAL>
                             <CHILD ID="NEXT">
@@ -59,7 +59,7 @@
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM NAME="Orientar" TYPE="1" Y="4437" ID="1" X="6637">
+        <SUBPROGRAM NAME="Orientar" Y="4437" X="6637" TYPE="1" ID="1">
             <BLOCK ID="5"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -128,7 +128,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="SanStation" TYPE="1" Y="4437" ID="4" X="6637">
+        <SUBPROGRAM NAME="SanStation" Y="4437" X="6637" TYPE="1" ID="4">
             <BLOCK ID="25"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -248,7 +248,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="SanReturn" TYPE="1" Y="4437" ID="5" X="6637">
+        <SUBPROGRAM NAME="SanReturn" Y="4437" X="6637" TYPE="1" ID="5">
             <BLOCK ID="46"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -390,5 +390,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="232"/>
+    <Catalog SIZE="239"/>
 </VJCC>
