@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC TYPE="7" NAME="Ichi_01" ID="6.0" VERSION="1">
+<VJCC TYPE="7" NAME="Ichi_01" VERSION="1" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0">
-        <VAR NAME="Grados" ID="800" INDEX="1"/>
+        <VAR NAME="Grados" INDEX="1" ID="800"/>
     </Catalog>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SUBCOUNT="3" SCENEWIDTH="17400" ROTX="7887" MAIN="VJC6.0" SCENEHEIGHT="12000">
+        <Catalog MAIN="VJC6.0" SCENEWIDTH="17400" SUBCOUNT="3" SCENEHEIGHT="12000" ROTX="8162">
             <BLOCK ID="41"/>
-            <POS X="7887" Y="5773"/>
+            <POS X="8162" Y="5904"/>
             <VAL>
                 <MOTORTYPE ID="0"/>
                 <LEFTMOTORCHANNEL ID="3"/>
@@ -20,62 +20,62 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="11"/>
-                <POS X="7887" Y="5860"/>
+                <POS X="8162" Y="5991"/>
                 <VAL>
                     <NAME ID="IchiStatio"/>
                     <INDEX ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="11"/>
-                    <POS X="7887" Y="5946"/>
+                    <POS X="8162" Y="6077"/>
                     <VAL>
                         <NAME ID="Giro"/>
                         <INDEX ID="3"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="25"/>
-                        <POS X="7887" Y="6033"/>
+                        <POS X="8162" Y="6164"/>
                         <VAL>
-                            <MOTORPARAMETER ID="132,310,-20;0,1,-20;0,1,-20;132,310,-20"/>
+                            <MOTORPARAMETER ID="132,310,-20;0,0,-20;0,0,-20;132,310,-20"/>
                             <CURRENTPORT ID="0"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="25"/>
-                            <POS X="7887" Y="6120"/>
+                            <POS X="8162" Y="6251"/>
                             <VAL>
                                 <MOTORPARAMETER ID="0,1,200,2,100"/>
-                                <CURRENTPORT ID="2"/>
+                                <CURRENTPORT ID="3"/>
                             </VAL>
                             <CHILD ID="NEXT">
                                 <BLOCK ID="12"/>
-                                <POS X="7887" Y="6206"/>
+                                <POS X="8162" Y="6337"/>
                                 <VAL>
                                     <DELAY ID="1.5"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="25"/>
-                                    <POS X="7887" Y="6293"/>
+                                    <POS X="8162" Y="6424"/>
                                     <VAL>
                                         <MOTORPARAMETER ID="0,1,200,2,-100"/>
-                                        <CURRENTPORT ID="2"/>
+                                        <CURRENTPORT ID="3"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
                                         <BLOCK ID="25"/>
-                                        <POS X="7887" Y="6379"/>
+                                        <POS X="8162" Y="6510"/>
                                         <VAL>
-                                            <MOTORPARAMETER ID="132,310,20;0,1,-20;0,1,-20;132,310,20"/>
+                                            <MOTORPARAMETER ID="132,310,20;0,0,-20;0,0,-20;132,310,20"/>
                                             <CURRENTPORT ID="0"/>
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="11"/>
-                                            <POS X="7887" Y="6466"/>
+                                            <POS X="8162" Y="6597"/>
                                             <VAL>
                                                 <NAME ID="Giro"/>
                                                 <INDEX ID="3"/>
                                             </VAL>
                                             <CHILD ID="NEXT">
                                                 <BLOCK ID="11"/>
-                                                <POS X="7887" Y="6553"/>
+                                                <POS X="8162" Y="6684"/>
                                                 <VAL>
                                                     <NAME ID="IchiReturn"/>
                                                     <INDEX ID="2"/>
@@ -239,10 +239,10 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="25"/>
-                <POS X="8162" Y="5991"/>
+                <POS X="8162" Y="5990"/>
                 <VAL>
                     <MOTORPARAMETER ID="134,Grados,-20;0,0,-20;0,0,-20;134,Grados,20"/>
-                    <CURRENTPORT ID="3"/>
+                    <CURRENTPORT ID="0"/>
                 </VAL>
             </CHILD>
         </SUBPROGRAM>
@@ -260,5 +260,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="229"/>
+    <Catalog SIZE="85"/>
 </VJCC>

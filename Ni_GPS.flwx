@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC NAME="Ni_GPS" TYPE="7" VERSION="1" ID="6.0">
+<VJCC TYPE="7" NAME="Ni_GPS" VERSION="1" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SUBCOUNT="2" ROTX="7137" SCENEHEIGHT="10500" MAIN="VJC6.0" SCENEWIDTH="15900">
+        <Catalog MAIN="VJC6.0" SCENEWIDTH="15900" SUBCOUNT="2" SCENEHEIGHT="10500" ROTX="7412">
             <BLOCK ID="41"/>
-            <POS X="7137" Y="5023"/>
+            <POS X="7412" Y="5154"/>
             <VAL>
                 <MOTORTYPE ID="0"/>
                 <LEFTMOTORCHANNEL ID="3"/>
@@ -18,41 +18,41 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="11"/>
-                <POS X="7137" Y="5110"/>
+                <POS X="7412" Y="5241"/>
                 <VAL>
                     <NAME ID="NiStation"/>
                     <INDEX ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="25"/>
-                    <POS X="7137" Y="5196"/>
+                    <POS X="7412" Y="5327"/>
                     <VAL>
-                        <MOTORPARAMETER ID="132,220,50;0,1,-20;0,1,-20;132,170,50"/>
+                        <MOTORPARAMETER ID="132,200,20;0,0,-20;0,0,-20;132,170,20"/>
                         <CURRENTPORT ID="0"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="26"/>
-                        <POS X="7137" Y="5283"/>
+                        <POS X="7412" Y="5414"/>
                         <VAL>
-                            <MOTORPARAMETER ID="0,1,300,1,-100"/>
-                            <CURRENTPORT ID="1"/>
+                            <MOTORPARAMETER ID="0,1,250,1,-10"/>
+                            <CURRENTPORT ID="3"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="12"/>
-                            <POS X="7137" Y="5370"/>
+                            <POS X="7412" Y="5501"/>
                             <VAL>
                                 <DELAY ID="0.3"/>
                             </VAL>
                             <CHILD ID="NEXT">
                                 <BLOCK ID="25"/>
-                                <POS X="7137" Y="5456"/>
+                                <POS X="7412" Y="5587"/>
                                 <VAL>
-                                    <MOTORPARAMETER ID="132,160,-50;0,1,-20;0,1,-20;132,160,-50"/>
-                                    <CURRENTPORT ID="0"/>
+                                    <MOTORPARAMETER ID="132,160,-20;0,0,-20;0,0,-20;132,160,-20"/>
+                                    <CURRENTPORT ID="3"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="11"/>
-                                    <POS X="7137" Y="5543"/>
+                                    <POS X="7412" Y="5674"/>
                                     <VAL>
                                         <NAME ID="NiReturn"/>
                                         <INDEX ID="2"/>
@@ -64,7 +64,7 @@
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM NAME="NiStation" TYPE="1" X="7412" Y="5068" ID="1">
+        <SUBPROGRAM X="7412" Y="5068" NAME="NiStation" TYPE="1" ID="1">
             <BLOCK ID="25"/>
             <POS X="7412" Y="5154"/>
             <VAL>
@@ -179,7 +179,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="NiReturn" TYPE="1" X="7412" Y="5068" ID="2">
+        <SUBPROGRAM X="7412" Y="5068" NAME="NiReturn" TYPE="1" ID="2">
             <BLOCK ID="46"/>
             <POS X="7412" Y="5154"/>
             <VAL>
@@ -290,5 +290,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="220"/>
+    <Catalog SIZE="139"/>
 </VJCC>
