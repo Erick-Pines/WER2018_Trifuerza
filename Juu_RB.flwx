@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC ID="6.0" TYPE="7" VERSION="1" NAME="Juu_RB">
+<VJCC TYPE="7" VERSION="1" NAME="Juu_RB" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SCENEWIDTH="14900" ROTX="6637" MAIN="VJC6.0" SUBCOUNT="2" SCENEHEIGHT="9500">
+        <Catalog ROTX="6637" MAIN="VJC6.0" SCENEHEIGHT="9500" SCENEWIDTH="14900" SUBCOUNT="2">
             <BLOCK ID="41"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -33,8 +33,8 @@
                         <BLOCK ID="25"/>
                         <POS Y="4783" X="6637"/>
                         <VAL>
-                            <MOTORPARAMETER ID="132,95,-20;0,0,-20;0,0,-20;132,95,-20"/>
-                            <CURRENTPORT ID="0"/>
+                            <MOTORPARAMETER ID="132,90,-20;0,0,-20;0,0,-20;132,90,-20"/>
+                            <CURRENTPORT ID="3"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="26"/>
@@ -54,7 +54,7 @@
                                     <POS Y="5043" X="6637"/>
                                     <VAL>
                                         <MOTORPARAMETER ID="0,1,60,2,-100"/>
-                                        <CURRENTPORT ID="3"/>
+                                        <CURRENTPORT ID="2"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
                                         <BLOCK ID="12"/>
@@ -124,7 +124,7 @@
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM ID="1" TYPE="1" Y="4437" X="6637" NAME="RokuStat">
+        <SUBPROGRAM TYPE="1" Y="4437" NAME="RokuStat" X="6637" ID="1">
             <BLOCK ID="25"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -137,7 +137,7 @@
                 <VAL>
                     <NUMBERS ID="1"/>
                     <LEFTSPEED ID="50"/>
-                    <RIGHTSPEED ID="-50"/>
+                    <RIGHTSPEED ID="0"/>
                     <ENDPOSITION ID="2"/>
                     <TYPE ID="1"/>
                 </VAL>
@@ -145,7 +145,7 @@
                     <BLOCK ID="43"/>
                     <POS Y="4696" X="6637"/>
                     <VAL>
-                        <TYPE ID="1"/>
+                        <TYPE ID="0"/>
                         <SPEED ID="50"/>
                         <LEFTSPEED ID="0"/>
                         <RIGHTSPEED ID="0"/>
@@ -204,7 +204,7 @@
                                             <NUMBERS ID="1"/>
                                             <LEFTSPEED ID="20"/>
                                             <RIGHTSPEED ID="-20"/>
-                                            <ENDPOSITION ID="2"/>
+                                            <ENDPOSITION ID="1"/>
                                             <TYPE ID="1"/>
                                         </VAL>
                                     </CHILD>
@@ -215,7 +215,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM ID="2" TYPE="1" Y="4437" X="6637" NAME="RokuReturn">
+        <SUBPROGRAM TYPE="1" Y="4437" NAME="RokuReturn" X="6637" ID="2">
             <BLOCK ID="46"/>
             <POS Y="4523" X="6637"/>
             <VAL>
@@ -341,5 +341,5 @@
             </Block>
         </Catalog>
     </Catalog>
-    <Catalog SIZE="154"/>
+    <Catalog SIZE="46"/>
 </VJCC>

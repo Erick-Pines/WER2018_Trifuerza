@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC VERSION="1" TYPE="7" NAME="Set" ID="6.0">
+<VJCC TYPE="7" VERSION="1" NAME="Set" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0">
-        <VAR NAME="touch_1" INDEX="1" ID="6"/>
-        <VAR NAME="0&amp;0" INDEX="2" ID="6"/>
+        <VAR INDEX="1" NAME="touch_1" ID="6"/>
+        <VAR INDEX="2" NAME="0&amp;0" ID="6"/>
     </Catalog>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" SCENEHEIGHT="9000" SCENEWIDTH="14400" ROTX="6662" SUBCOUNT="0">
+        <Catalog ROTX="6387" MAIN="VJC6.0" SCENEHEIGHT="9000" SCENEWIDTH="14400" SUBCOUNT="0">
             <BLOCK ID="5"/>
-            <POS Y="4404" X="6662"/>
+            <POS Y="4273" X="6387"/>
             <VAL>
                 <LOOPTIMES ID="0"/>
                 <FOREVERLOOP ID="true"/>
             </VAL>
             <CHILD ID="STEPNEXT">
                 <BLOCK ID="1"/>
-                <POS Y="4501" X="6662"/>
+                <POS Y="4370" X="6387"/>
                 <VAL>
                     <CONDITION ID="touch_1 == 0"/>
                 </VAL>
                 <CHILD ID="LEFT">
                     <BLOCK ID="32"/>
-                    <POS Y="4566" X="6549"/>
+                    <POS Y="4435" X="6274"/>
                     <VAL>
                         <PORT ID="6"/>
                         <VARIRSENSOR ID="air_1"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="26"/>
-                        <POS Y="4653" X="6549"/>
+                        <POS Y="4522" X="6274"/>
                         <VAL>
                             <MOTORPARAMETER ID="0,0,0,2,0"/>
                             <CURRENTPORT ID="3"/>
@@ -36,17 +36,17 @@
                 </CHILD>
                 <CHILD ID="RIGHT">
                     <BLOCK ID="32"/>
-                    <POS Y="4566" X="6774"/>
+                    <POS Y="4435" X="6499"/>
                     <VAL>
                         <PORT ID="6"/>
                         <VARIRSENSOR ID="air_1"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="26"/>
-                        <POS Y="4653" X="6774"/>
+                        <POS Y="4522" X="6499"/>
                         <VAL>
                             <MOTORPARAMETER ID="0,0,0,2,-20"/>
-                            <CURRENTPORT ID="2"/>
+                            <CURRENTPORT ID="3"/>
                         </VAL>
                     </CHILD>
                 </CHILD>
@@ -63,5 +63,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="124"/>
+    <Catalog SIZE="123"/>
 </VJCC>
