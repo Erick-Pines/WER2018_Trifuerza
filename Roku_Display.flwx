@@ -23,6 +23,37 @@
                     <NAME ID="RokuStat"/>
                     <INDEX ID="1"/>
                 </VAL>
+                <CHILD ID="NEXT">
+                    <BLOCK ID="25"/>
+                    <POS X="6637" Y="4696"/>
+                    <VAL>
+                        <MOTORPARAMETER ID="132,100,20;0,1,-20;0,1,-20;132,100,20"/>
+                        <CURRENTPORT ID="0"/>
+                    </VAL>
+                    <CHILD ID="NEXT">
+                        <BLOCK ID="25"/>
+                        <POS X="6637" Y="4783"/>
+                        <VAL>
+                            <MOTORPARAMETER ID="0,1,140,1,-20"/>
+                            <CURRENTPORT ID="1"/>
+                        </VAL>
+                        <CHILD ID="NEXT">
+                            <BLOCK ID="12"/>
+                            <POS X="6637" Y="4870"/>
+                            <VAL>
+                                <DELAY ID="0.3"/>
+                            </VAL>
+                            <CHILD ID="NEXT">
+                                <BLOCK ID="25"/>
+                                <POS X="6637" Y="4956"/>
+                                <VAL>
+                                    <MOTORPARAMETER ID="0,1,140,1,20"/>
+                                    <CURRENTPORT ID="1"/>
+                                </VAL>
+                            </CHILD>
+                        </CHILD>
+                    </CHILD>
+                </CHILD>
             </CHILD>
         </Catalog>
         <SUBPROGRAM TYPE="1" X="6637" ID="1" Y="4437" NAME="RokuStat">
@@ -231,23 +262,7 @@
         <Catalog Calc="VJC6.0"/>
         <Catalog Log="VJC6.0"/>
         <Catalog Var="VJC6.0"/>
-        <Catalog BaseBlock="VJC6.0">
-            <Block>
-                <BLOCK ID="12"/>
-                <POS X="6883" Y="4711"/>
-                <VAL>
-                    <DELAY ID="1"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="11"/>
-                    <POS X="6883" Y="4798"/>
-                    <VAL>
-                        <NAME ID="RokuReturn"/>
-                        <INDEX ID="2"/>
-                    </VAL>
-                </CHILD>
-            </Block>
-        </Catalog>
+        <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="203"/>
+    <Catalog SIZE="9"/>
 </VJCC>
