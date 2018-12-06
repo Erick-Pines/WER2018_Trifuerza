@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC TYPE="7" VERSION="1" NAME="Shi_01" ID="6.0">
+<VJCC ID="6.0" VERSION="1" TYPE="7" NAME="Shi_01">
     <Catalog GLOBALVAL="VJC6.0">
-        <VAR INDEX="1" NAME="giro" ID="800"/>
+        <VAR ID="800" INDEX="1" NAME="giro"/>
     </Catalog>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog ROTX="7387" MAIN="VJC6.0" SCENEHEIGHT="11000" SCENEWIDTH="16400" SUBCOUNT="3">
+        <Catalog MAIN="VJC6.0" SUBCOUNT="3" SCENEHEIGHT="11000" ROTX="7662" SCENEWIDTH="16400">
             <BLOCK ID="41"/>
-            <POS Y="5273" X="7387"/>
+            <POS Y="5404" X="7662"/>
             <VAL>
                 <MOTORTYPE ID="0"/>
                 <LEFTMOTORCHANNEL ID="3"/>
@@ -14,308 +14,75 @@
                 <RIGHTMOTORCHANNEL ID="0"/>
                 <RIGHTMOTORPOWER ID="1"/>
                 <MOTORNUMBER ID="0"/>
-                <MOTORCHANNELMAP ID="1:1;2:0;3:2;4:3;5:4;6:0;7:5"/>
+                <MOTORCHANNELMAP ID="1:5;2:0;3:4;4:3;5:2;6:0;7:1"/>
                 <MOTORPLACETYPE ID="0"/>
                 <MOTORTHRESHOLD ID="0.50"/>
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="11"/>
-                <POS Y="5360" X="7387"/>
+                <POS Y="5491" X="7662"/>
                 <VAL>
                     <NAME ID="ShiStation"/>
                     <INDEX ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="25"/>
-                    <POS Y="5446" X="7387"/>
+                    <POS Y="5577" X="7662"/>
                     <VAL>
-                        <MOTORPARAMETER ID="132,150,-20;0,0,-20;0,0,-20;132,150,-20"/>
+                        <MOTORPARAMETER ID="132,50,20;0,0,-20;0,0,-20;132,100,20"/>
                         <CURRENTPORT ID="3"/>
                     </VAL>
                     <CHILD ID="NEXT">
-                        <BLOCK ID="11"/>
-                        <POS Y="5533" X="7387"/>
+                        <BLOCK ID="12"/>
+                        <POS Y="5664" X="7662"/>
                         <VAL>
-                            <NAME ID="Giro"/>
-                            <INDEX ID="3"/>
+                            <DELAY ID="0.2"/>
                         </VAL>
                         <CHILD ID="NEXT">
-                            <BLOCK ID="12"/>
-                            <POS Y="5620" X="7387"/>
+                            <BLOCK ID="25"/>
+                            <POS Y="5751" X="7662"/>
                             <VAL>
-                                <DELAY ID="0.2"/>
+                                <MOTORPARAMETER ID="0,1,280,1,-100"/>
+                                <CURRENTPORT ID="1"/>
                             </VAL>
                             <CHILD ID="NEXT">
-                                <BLOCK ID="25"/>
-                                <POS Y="5706" X="7387"/>
+                                <BLOCK ID="12"/>
+                                <POS Y="5837" X="7662"/>
                                 <VAL>
-                                    <MOTORPARAMETER ID="132,250,-20;0,0,-20;0,0,-20;132,250,-20"/>
-                                    <CURRENTPORT ID="3"/>
+                                    <DELAY ID="0.2"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="25"/>
-                                    <POS Y="5793" X="7387"/>
+                                    <POS Y="5924" X="7662"/>
                                     <VAL>
-                                        <MOTORPARAMETER ID="0,1,230,2,100"/>
+                                        <MOTORPARAMETER ID="132,100,20;0,1,-20;0,1,-20;132,100,20"/>
                                         <CURRENTPORT ID="3"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
                                         <BLOCK ID="12"/>
-                                        <POS Y="5879" X="7387"/>
+                                        <POS Y="6010" X="7662"/>
                                         <VAL>
-                                            <DELAY ID="1.5"/>
+                                            <DELAY ID="0.2"/>
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="25"/>
-                                            <POS Y="5966" X="7387"/>
-                                            <VAL>
-                                                <MOTORPARAMETER ID="0,1,230,2,-100"/>
-                                                <CURRENTPORT ID="3"/>
-                                            </VAL>
-                                            <CHILD ID="NEXT">
-                                                <BLOCK ID="11"/>
-                                                <POS Y="6053" X="7387"/>
-                                                <VAL>
-                                                    <NAME ID="ShiReturn"/>
-                                                    <INDEX ID="2"/>
-                                                </VAL>
-                                            </CHILD>
-                                        </CHILD>
-                                    </CHILD>
-                                </CHILD>
-                            </CHILD>
-                        </CHILD>
-                    </CHILD>
-                </CHILD>
-            </CHILD>
-        </Catalog>
-        <SUBPROGRAM TYPE="1" Y="5318" NAME="ShiStation" X="7662" ID="1">
-            <BLOCK ID="25"/>
-            <POS Y="5404" X="7662"/>
-            <VAL>
-                <MOTORPARAMETER ID="136,2,70;0,0,-20;0,0,-20;136,2,70"/>
-                <CURRENTPORT ID="0"/>
-            </VAL>
-            <CHILD ID="NEXT">
-                <BLOCK ID="46"/>
-                <POS Y="5490" X="7662"/>
-                <VAL>
-                    <NUMBERS ID="1"/>
-                    <LEFTSPEED ID="50"/>
-                    <RIGHTSPEED ID="0"/>
-                    <ENDPOSITION ID="0"/>
-                    <TYPE ID="1"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="43"/>
-                    <POS Y="5577" X="7662"/>
-                    <VAL>
-                        <TYPE ID="0"/>
-                        <SPEED ID="50"/>
-                        <LEFTSPEED ID="0"/>
-                        <RIGHTSPEED ID="0"/>
-                        <CYCLETIMES ID="1"/>
-                        <CROSSINGTIME ID="0.2"/>
-                        <CROSSING ID="1"/>
-                    </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="46"/>
-                        <POS Y="5663" X="7662"/>
-                        <VAL>
-                            <NUMBERS ID="1"/>
-                            <LEFTSPEED ID="-50"/>
-                            <RIGHTSPEED ID="0"/>
-                            <ENDPOSITION ID="0"/>
-                            <TYPE ID="1"/>
-                        </VAL>
-                        <CHILD ID="NEXT">
-                            <BLOCK ID="43"/>
-                            <POS Y="5750" X="7662"/>
-                            <VAL>
-                                <TYPE ID="1"/>
-                                <SPEED ID="50"/>
-                                <LEFTSPEED ID="0"/>
-                                <RIGHTSPEED ID="0"/>
-                                <CYCLETIMES ID="1"/>
-                                <CROSSINGTIME ID="0.5"/>
-                                <CROSSING ID="1"/>
-                            </VAL>
-                            <CHILD ID="NEXT">
-                                <BLOCK ID="46"/>
-                                <POS Y="5837" X="7662"/>
-                                <VAL>
-                                    <NUMBERS ID="2"/>
-                                    <LEFTSPEED ID="50"/>
-                                    <RIGHTSPEED ID="-50"/>
-                                    <ENDPOSITION ID="2"/>
-                                    <TYPE ID="1"/>
-                                </VAL>
-                                <CHILD ID="NEXT">
-                                    <BLOCK ID="43"/>
-                                    <POS Y="5923" X="7662"/>
-                                    <VAL>
-                                        <TYPE ID="1"/>
-                                        <SPEED ID="50"/>
-                                        <LEFTSPEED ID="0"/>
-                                        <RIGHTSPEED ID="0"/>
-                                        <CYCLETIMES ID="1"/>
-                                        <CROSSINGTIME ID="0.4"/>
-                                        <CROSSING ID="1"/>
-                                    </VAL>
-                                    <CHILD ID="NEXT">
-                                        <BLOCK ID="46"/>
-                                        <POS Y="6010" X="7662"/>
-                                        <VAL>
-                                            <NUMBERS ID="1"/>
-                                            <LEFTSPEED ID="-50"/>
-                                            <RIGHTSPEED ID="0"/>
-                                            <ENDPOSITION ID="0"/>
-                                            <TYPE ID="1"/>
-                                        </VAL>
-                                        <CHILD ID="NEXT">
-                                            <BLOCK ID="43"/>
-                                            <POS Y="6096" X="7662"/>
-                                            <VAL>
-                                                <TYPE ID="1"/>
-                                                <SPEED ID="50"/>
-                                                <LEFTSPEED ID="0"/>
-                                                <RIGHTSPEED ID="0"/>
-                                                <CYCLETIMES ID="1"/>
-                                                <CROSSINGTIME ID="0.2"/>
-                                                <CROSSING ID="1"/>
-                                            </VAL>
-                                            <CHILD ID="NEXT">
-                                                <BLOCK ID="44"/>
-                                                <POS Y="6183" X="7662"/>
-                                                <VAL>
-                                                    <SPEED ID="50"/>
-                                                    <LEFTSPEED ID="0"/>
-                                                    <RIGHTSPEED ID="0"/>
-                                                    <CROSSINGTIME ID="2.3"/>
-                                                    <TYPE ID="1"/>
-                                                </VAL>
-                                            </CHILD>
-                                        </CHILD>
-                                    </CHILD>
-                                </CHILD>
-                            </CHILD>
-                        </CHILD>
-                    </CHILD>
-                </CHILD>
-            </CHILD>
-        </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" Y="5318" NAME="ShiReturn" X="7662" ID="2">
-            <BLOCK ID="43"/>
-            <POS Y="5404" X="7662"/>
-            <VAL>
-                <TYPE ID="1"/>
-                <SPEED ID="50"/>
-                <LEFTSPEED ID="0"/>
-                <RIGHTSPEED ID="0"/>
-                <CYCLETIMES ID="1"/>
-                <CROSSINGTIME ID="0.4"/>
-                <CROSSING ID="1"/>
-            </VAL>
-            <CHILD ID="NEXT">
-                <BLOCK ID="46"/>
-                <POS Y="5491" X="7662"/>
-                <VAL>
-                    <NUMBERS ID="1"/>
-                    <LEFTSPEED ID="0"/>
-                    <RIGHTSPEED ID="50"/>
-                    <ENDPOSITION ID="0"/>
-                    <TYPE ID="1"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="43"/>
-                    <POS Y="5577" X="7662"/>
-                    <VAL>
-                        <TYPE ID="1"/>
-                        <SPEED ID="50"/>
-                        <LEFTSPEED ID="0"/>
-                        <RIGHTSPEED ID="0"/>
-                        <CYCLETIMES ID="1"/>
-                        <CROSSINGTIME ID="0.4"/>
-                        <CROSSING ID="1"/>
-                    </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="46"/>
-                        <POS Y="5664" X="7662"/>
-                        <VAL>
-                            <NUMBERS ID="1"/>
-                            <LEFTSPEED ID="50"/>
-                            <RIGHTSPEED ID="-50"/>
-                            <ENDPOSITION ID="2"/>
-                            <TYPE ID="1"/>
-                        </VAL>
-                        <CHILD ID="NEXT">
-                            <BLOCK ID="43"/>
-                            <POS Y="5751" X="7662"/>
-                            <VAL>
-                                <TYPE ID="0"/>
-                                <SPEED ID="50"/>
-                                <LEFTSPEED ID="0"/>
-                                <RIGHTSPEED ID="0"/>
-                                <CYCLETIMES ID="1"/>
-                                <CROSSINGTIME ID="0.4"/>
-                                <CROSSING ID="1"/>
-                            </VAL>
-                            <CHILD ID="NEXT">
-                                <BLOCK ID="46"/>
-                                <POS Y="5837" X="7662"/>
-                                <VAL>
-                                    <NUMBERS ID="1"/>
-                                    <LEFTSPEED ID="0"/>
-                                    <RIGHTSPEED ID="-50"/>
-                                    <ENDPOSITION ID="2"/>
-                                    <TYPE ID="1"/>
-                                </VAL>
-                                <CHILD ID="NEXT">
-                                    <BLOCK ID="43"/>
-                                    <POS Y="5924" X="7662"/>
-                                    <VAL>
-                                        <TYPE ID="0"/>
-                                        <SPEED ID="50"/>
-                                        <LEFTSPEED ID="0"/>
-                                        <RIGHTSPEED ID="0"/>
-                                        <CYCLETIMES ID="1"/>
-                                        <CROSSINGTIME ID="0.4"/>
-                                        <CROSSING ID="1"/>
-                                    </VAL>
-                                    <CHILD ID="NEXT">
-                                        <BLOCK ID="46"/>
-                                        <POS Y="6010" X="7662"/>
-                                        <VAL>
-                                            <NUMBERS ID="1"/>
-                                            <LEFTSPEED ID="-50"/>
-                                            <RIGHTSPEED ID="50"/>
-                                            <ENDPOSITION ID="1"/>
-                                            <TYPE ID="1"/>
-                                        </VAL>
-                                        <CHILD ID="NEXT">
-                                            <BLOCK ID="43"/>
                                             <POS Y="6097" X="7662"/>
                                             <VAL>
-                                                <TYPE ID="1"/>
-                                                <SPEED ID="50"/>
-                                                <LEFTSPEED ID="0"/>
-                                                <RIGHTSPEED ID="0"/>
-                                                <CYCLETIMES ID="1"/>
-                                                <CROSSINGTIME ID="0"/>
-                                                <CROSSING ID="1"/>
+                                                <MOTORPARAMETER ID="132,100,-20;0,1,-20;0,1,-20;132,150,-20"/>
+                                                <CURRENTPORT ID="3"/>
                                             </VAL>
                                             <CHILD ID="NEXT">
                                                 <BLOCK ID="12"/>
                                                 <POS Y="6184" X="7662"/>
                                                 <VAL>
-                                                    <DELAY ID="0.1"/>
+                                                    <DELAY ID="0.2"/>
                                                 </VAL>
                                                 <CHILD ID="NEXT">
-                                                    <BLOCK ID="25"/>
+                                                    <BLOCK ID="11"/>
                                                     <POS Y="6270" X="7662"/>
                                                     <VAL>
-                                                        <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
-                                                        <CURRENTPORT ID="0"/>
+                                                        <NAME ID="ShiReturn"/>
+                                                        <INDEX ID="2"/>
                                                     </VAL>
                                                 </CHILD>
                                             </CHILD>
@@ -327,8 +94,221 @@
                     </CHILD>
                 </CHILD>
             </CHILD>
+        </Catalog>
+        <SUBPROGRAM ID="1" Y="5318" TYPE="1" X="7662" NAME="ShiStation">
+            <BLOCK ID="25"/>
+            <POS Y="5404" X="7662"/>
+            <VAL>
+                <MOTORPARAMETER ID="132,700,50;0,0,-20;0,0,-20;132,700,50"/>
+                <CURRENTPORT ID="3"/>
+            </VAL>
+            <CHILD ID="NEXT">
+                <BLOCK ID="46"/>
+                <POS Y="5491" X="7662"/>
+                <VAL>
+                    <NUMBERS ID="1"/>
+                    <LEFTSPEED ID="40"/>
+                    <RIGHTSPEED ID="0"/>
+                    <ENDPOSITION ID="1"/>
+                    <TYPE ID="1"/>
+                </VAL>
+                <CHILD ID="NEXT">
+                    <BLOCK ID="43"/>
+                    <POS Y="5577" X="7662"/>
+                    <VAL>
+                        <TYPE ID="1"/>
+                        <SPEED ID="40"/>
+                        <LEFTSPEED ID="0"/>
+                        <RIGHTSPEED ID="0"/>
+                        <CYCLETIMES ID="1"/>
+                        <CROSSINGTIME ID="0.3"/>
+                        <CROSSING ID="1"/>
+                    </VAL>
+                    <CHILD ID="NEXT">
+                        <BLOCK ID="46"/>
+                        <POS Y="5664" X="7662"/>
+                        <VAL>
+                            <NUMBERS ID="1"/>
+                            <LEFTSPEED ID="-40"/>
+                            <RIGHTSPEED ID="0"/>
+                            <ENDPOSITION ID="0"/>
+                            <TYPE ID="1"/>
+                        </VAL>
+                        <CHILD ID="NEXT">
+                            <BLOCK ID="43"/>
+                            <POS Y="5751" X="7662"/>
+                            <VAL>
+                                <TYPE ID="1"/>
+                                <SPEED ID="40"/>
+                                <LEFTSPEED ID="0"/>
+                                <RIGHTSPEED ID="0"/>
+                                <CYCLETIMES ID="1"/>
+                                <CROSSINGTIME ID="0.55"/>
+                                <CROSSING ID="1"/>
+                            </VAL>
+                            <CHILD ID="NEXT">
+                                <BLOCK ID="46"/>
+                                <POS Y="5837" X="7662"/>
+                                <VAL>
+                                    <NUMBERS ID="2"/>
+                                    <LEFTSPEED ID="40"/>
+                                    <RIGHTSPEED ID="-40"/>
+                                    <ENDPOSITION ID="0"/>
+                                    <TYPE ID="1"/>
+                                </VAL>
+                                <CHILD ID="NEXT">
+                                    <BLOCK ID="43"/>
+                                    <POS Y="5924" X="7662"/>
+                                    <VAL>
+                                        <TYPE ID="1"/>
+                                        <SPEED ID="40"/>
+                                        <LEFTSPEED ID="0"/>
+                                        <RIGHTSPEED ID="0"/>
+                                        <CYCLETIMES ID="2"/>
+                                        <CROSSINGTIME ID="0.4"/>
+                                        <CROSSING ID="1"/>
+                                    </VAL>
+                                    <CHILD ID="NEXT">
+                                        <BLOCK ID="46"/>
+                                        <POS Y="6010" X="7662"/>
+                                        <VAL>
+                                            <NUMBERS ID="2"/>
+                                            <LEFTSPEED ID="-40"/>
+                                            <RIGHTSPEED ID="40"/>
+                                            <ENDPOSITION ID="0"/>
+                                            <TYPE ID="1"/>
+                                        </VAL>
+                                        <CHILD ID="NEXT">
+                                            <BLOCK ID="44"/>
+                                            <POS Y="6097" X="7662"/>
+                                            <VAL>
+                                                <SPEED ID="50"/>
+                                                <LEFTSPEED ID="0"/>
+                                                <RIGHTSPEED ID="0"/>
+                                                <CROSSINGTIME ID="2"/>
+                                                <TYPE ID="1"/>
+                                            </VAL>
+                                        </CHILD>
+                                    </CHILD>
+                                </CHILD>
+                            </CHILD>
+                        </CHILD>
+                    </CHILD>
+                </CHILD>
+            </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" Y="5187" NAME="Giro" X="7387" ID="3">
+        <SUBPROGRAM ID="2" Y="5318" TYPE="1" X="7662" NAME="ShiReturn">
+            <BLOCK ID="46"/>
+            <POS Y="5404" X="7662"/>
+            <VAL>
+                <NUMBERS ID="1"/>
+                <LEFTSPEED ID="40"/>
+                <RIGHTSPEED ID="-40"/>
+                <ENDPOSITION ID="1"/>
+                <TYPE ID="1"/>
+            </VAL>
+            <CHILD ID="NEXT">
+                <BLOCK ID="43"/>
+                <POS Y="5491" X="7662"/>
+                <VAL>
+                    <TYPE ID="1"/>
+                    <SPEED ID="40"/>
+                    <LEFTSPEED ID="0"/>
+                    <RIGHTSPEED ID="0"/>
+                    <CYCLETIMES ID="1"/>
+                    <CROSSINGTIME ID="0.4"/>
+                    <CROSSING ID="1"/>
+                </VAL>
+                <CHILD ID="NEXT">
+                    <BLOCK ID="46"/>
+                    <POS Y="5577" X="7662"/>
+                    <VAL>
+                        <NUMBERS ID="1"/>
+                        <LEFTSPEED ID="0"/>
+                        <RIGHTSPEED ID="40"/>
+                        <ENDPOSITION ID="0"/>
+                        <TYPE ID="1"/>
+                    </VAL>
+                    <CHILD ID="NEXT">
+                        <BLOCK ID="43"/>
+                        <POS Y="5664" X="7662"/>
+                        <VAL>
+                            <TYPE ID="1"/>
+                            <SPEED ID="40"/>
+                            <LEFTSPEED ID="0"/>
+                            <RIGHTSPEED ID="0"/>
+                            <CYCLETIMES ID="1"/>
+                            <CROSSINGTIME ID="0.4"/>
+                            <CROSSING ID="1"/>
+                        </VAL>
+                        <CHILD ID="NEXT">
+                            <BLOCK ID="46"/>
+                            <POS Y="5751" X="7662"/>
+                            <VAL>
+                                <NUMBERS ID="1"/>
+                                <LEFTSPEED ID="40"/>
+                                <RIGHTSPEED ID="-40"/>
+                                <ENDPOSITION ID="2"/>
+                                <TYPE ID="1"/>
+                            </VAL>
+                            <CHILD ID="NEXT">
+                                <BLOCK ID="43"/>
+                                <POS Y="5837" X="7662"/>
+                                <VAL>
+                                    <TYPE ID="1"/>
+                                    <SPEED ID="40"/>
+                                    <LEFTSPEED ID="0"/>
+                                    <RIGHTSPEED ID="0"/>
+                                    <CYCLETIMES ID="1"/>
+                                    <CROSSINGTIME ID="1.5"/>
+                                    <CROSSING ID="1"/>
+                                </VAL>
+                                <CHILD ID="NEXT">
+                                    <BLOCK ID="46"/>
+                                    <POS Y="5924" X="7662"/>
+                                    <VAL>
+                                        <NUMBERS ID="1"/>
+                                        <LEFTSPEED ID="-40"/>
+                                        <RIGHTSPEED ID="40"/>
+                                        <ENDPOSITION ID="1"/>
+                                        <TYPE ID="1"/>
+                                    </VAL>
+                                    <CHILD ID="NEXT">
+                                        <BLOCK ID="43"/>
+                                        <POS Y="6010" X="7662"/>
+                                        <VAL>
+                                            <TYPE ID="1"/>
+                                            <SPEED ID="40"/>
+                                            <LEFTSPEED ID="0"/>
+                                            <RIGHTSPEED ID="0"/>
+                                            <CYCLETIMES ID="1"/>
+                                            <CROSSINGTIME ID="0"/>
+                                            <CROSSING ID="1"/>
+                                        </VAL>
+                                        <CHILD ID="NEXT">
+                                            <BLOCK ID="12"/>
+                                            <POS Y="6097" X="7662"/>
+                                            <VAL>
+                                                <DELAY ID="0.1"/>
+                                            </VAL>
+                                            <CHILD ID="NEXT">
+                                                <BLOCK ID="25"/>
+                                                <POS Y="6184" X="7662"/>
+                                                <VAL>
+                                                    <MOTORPARAMETER ID="136,1,50;0,0,-20;0,0,-20;136,1,50"/>
+                                                    <CURRENTPORT ID="0"/>
+                                                </VAL>
+                                            </CHILD>
+                                        </CHILD>
+                                    </CHILD>
+                                </CHILD>
+                            </CHILD>
+                        </CHILD>
+                    </CHILD>
+                </CHILD>
+            </CHILD>
+        </SUBPROGRAM>
+        <SUBPROGRAM ID="3" Y="5187" TYPE="1" X="7387" NAME="Giro">
             <BLOCK ID="36"/>
             <POS Y="5273" X="7387"/>
             <VAL>
@@ -339,7 +319,7 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="25"/>
-                <POS Y="5360" X="7387"/>
+                <POS Y="5359" X="7387"/>
                 <VAL>
                     <MOTORPARAMETER ID="134,giro,-20;0,0,-20;0,0,-20;134,giro,20"/>
                     <CURRENTPORT ID="0"/>
@@ -360,5 +340,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="47"/>
+    <Catalog SIZE="229"/>
 </VJCC>
