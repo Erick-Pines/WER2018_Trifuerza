@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC NAME="San" TYPE="7" VERSION="1" ID="6.0">
+<VJCC ID="6.0" TYPE="7" VERSION="1" NAME="San_CD">
     <Catalog GLOBALVAL="VJC6.0">
-        <VAR NAME="gyro_1" INDEX="1" ID="4"/>
-        <VAR NAME="avanzar" INDEX="1" ID="800"/>
+        <VAR ID="4" INDEX="1" NAME="gyro_1"/>
+        <VAR ID="800" INDEX="1" NAME="avanzar"/>
     </Catalog>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SCENEHEIGHT="9500" SUBCOUNT="3" MAIN="VJC6.0" SCENEWIDTH="14900" ROTX="6637">
+        <Catalog SCENEHEIGHT="9500" MAIN="VJC6.0" ROTX="6637" SUBCOUNT="3" SCENEWIDTH="14900">
             <BLOCK ID="41"/>
             <POS X="6637" Y="4523"/>
             <VAL>
@@ -33,17 +33,40 @@
                         <DELAY ID="0.3"/>
                     </VAL>
                     <CHILD ID="NEXT">
-                        <BLOCK ID="11"/>
+                        <BLOCK ID="26"/>
                         <POS X="6637" Y="4783"/>
                         <VAL>
-                            <NAME ID="SanReturn"/>
-                            <INDEX ID="5"/>
+                            <MOTORPARAMETER ID="0,1,230,2,50"/>
+                            <CURRENTPORT ID="2"/>
                         </VAL>
+                        <CHILD ID="NEXT">
+                            <BLOCK ID="12"/>
+                            <POS X="6637" Y="4870"/>
+                            <VAL>
+                                <DELAY ID="0.5"/>
+                            </VAL>
+                            <CHILD ID="NEXT">
+                                <BLOCK ID="25"/>
+                                <POS X="6637" Y="4956"/>
+                                <VAL>
+                                    <MOTORPARAMETER ID="132,200,-50;0,1,-20;0,1,-20;132,200,-50"/>
+                                    <CURRENTPORT ID="3"/>
+                                </VAL>
+                                <CHILD ID="NEXT">
+                                    <BLOCK ID="11"/>
+                                    <POS X="6637" Y="5043"/>
+                                    <VAL>
+                                        <NAME ID="SanReturn"/>
+                                        <INDEX ID="5"/>
+                                    </VAL>
+                                </CHILD>
+                            </CHILD>
+                        </CHILD>
                     </CHILD>
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM NAME="Orientar" TYPE="1" X="6637" Y="4437" ID="1">
+        <SUBPROGRAM ID="1" TYPE="1" NAME="Orientar" X="6637" Y="4437">
             <BLOCK ID="5"/>
             <POS X="6637" Y="4523"/>
             <VAL>
@@ -112,7 +135,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="SanStation" TYPE="1" X="6637" Y="4437" ID="4">
+        <SUBPROGRAM ID="4" TYPE="1" NAME="SanStation" X="6637" Y="4437">
             <BLOCK ID="25"/>
             <POS X="6637" Y="4523"/>
             <VAL>
@@ -160,7 +183,7 @@
                                 <LEFTSPEED ID="0"/>
                                 <RIGHTSPEED ID="0"/>
                                 <CYCLETIMES ID="1"/>
-                                <CROSSINGTIME ID="0.3"/>
+                                <CROSSINGTIME ID="0.2"/>
                                 <CROSSING ID="1"/>
                             </VAL>
                             <CHILD ID="NEXT">
@@ -187,8 +210,8 @@
                                         <BLOCK ID="25"/>
                                         <POS X="6637" Y="5129"/>
                                         <VAL>
-                                            <MOTORPARAMETER ID="132,80,20;0,1,-20;0,1,-20;132,80,20"/>
-                                            <CURRENTPORT ID="3"/>
+                                            <MOTORPARAMETER ID="132,80,20;0,0,-20;0,0,-20;132,80,20"/>
+                                            <CURRENTPORT ID="0"/>
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="44"/>
@@ -197,7 +220,7 @@
                                                 <SPEED ID="40"/>
                                                 <LEFTSPEED ID="0"/>
                                                 <RIGHTSPEED ID="0"/>
-                                                <CROSSINGTIME ID="1"/>
+                                                <CROSSINGTIME ID="1.3"/>
                                                 <TYPE ID="1"/>
                                             </VAL>
                                         </CHILD>
@@ -209,12 +232,12 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="SanReturn" TYPE="1" X="6637" Y="4437" ID="5">
+        <SUBPROGRAM ID="5" TYPE="1" NAME="SanReturn" X="6637" Y="4437">
             <BLOCK ID="36"/>
             <POS X="6637" Y="4523"/>
             <VAL>
                 <LEFTVALUE ID="avanzar"/>
-                <RIGHTVARONE ID="400"/>
+                <RIGHTVARONE ID="350"/>
                 <RIGHTOPERATOR ID="0"/>
                 <RIGHTTWO ID="0"/>
             </VAL>
@@ -236,8 +259,8 @@
                         <BLOCK ID="25"/>
                         <POS X="6637" Y="4783"/>
                         <VAL>
-                            <MOTORPARAMETER ID="132,235,20;0,0,-20;0,0,-20;132,235,-20"/>
-                            <CURRENTPORT ID="3"/>
+                            <MOTORPARAMETER ID="132,240,20;0,0,-20;0,0,-20;132,240,-20"/>
+                            <CURRENTPORT ID="0"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="25"/>
@@ -265,5 +288,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="4"/>
+    <Catalog SIZE="242"/>
 </VJCC>
