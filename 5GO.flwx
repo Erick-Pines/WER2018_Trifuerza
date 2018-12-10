@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC NAME="Go" TYPE="7" VERSION="1" ID="6.0">
+<VJCC TYPE="7" VERSION="1" NAME="Go_RB" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SCENEHEIGHT="10000" SUBCOUNT="2" MAIN="VJC6.0" SCENEWIDTH="15400" ROTX="6887">
+        <Catalog SUBCOUNT="2" ROTX="6887" SCENEWIDTH="15400" MAIN="VJC6.0" SCENEHEIGHT="10000">
             <BLOCK ID="41"/>
             <POS X="6887" Y="4773"/>
             <VAL>
@@ -24,23 +24,48 @@
                     <INDEX ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
-                    <BLOCK ID="12"/>
+                    <BLOCK ID="25"/>
                     <POS X="6887" Y="4946"/>
                     <VAL>
-                        <DELAY ID="0.5"/>
+                        <MOTORPARAMETER ID="132,140,-20;0,1,-20;0,1,-20;132,140,-20"/>
+                        <CURRENTPORT ID="0"/>
                     </VAL>
                     <CHILD ID="NEXT">
-                        <BLOCK ID="11"/>
+                        <BLOCK ID="26"/>
                         <POS X="6887" Y="5033"/>
                         <VAL>
-                            <NAME ID="GoReturn"/>
-                            <INDEX ID="2"/>
+                            <MOTORPARAMETER ID="0,1,280,2,-100"/>
+                            <CURRENTPORT ID="2"/>
                         </VAL>
+                        <CHILD ID="NEXT">
+                            <BLOCK ID="25"/>
+                            <POS X="6887" Y="5120"/>
+                            <VAL>
+                                <MOTORPARAMETER ID="132,40,-20;0,1,-20;0,1,-20;132,40,-20"/>
+                                <CURRENTPORT ID="3"/>
+                            </VAL>
+                            <CHILD ID="NEXT">
+                                <BLOCK ID="26"/>
+                                <POS X="6887" Y="5206"/>
+                                <VAL>
+                                    <MOTORPARAMETER ID="0,1,280,2,100"/>
+                                    <CURRENTPORT ID="2"/>
+                                </VAL>
+                                <CHILD ID="NEXT">
+                                    <BLOCK ID="11"/>
+                                    <POS X="6887" Y="5293"/>
+                                    <VAL>
+                                        <NAME ID="GoReturn"/>
+                                        <INDEX ID="2"/>
+                                    </VAL>
+                                </CHILD>
+                            </CHILD>
+                        </CHILD>
                     </CHILD>
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM NAME="GoStation" TYPE="1" X="7162" Y="4818" ID="1">
+        <SUBPROGRAM X="7162" TYPE="1" NAME="GoStation" Y="4818" ID="1">
             <BLOCK ID="25"/>
             <POS X="7162" Y="4904"/>
             <VAL>
@@ -146,15 +171,22 @@
                                                     <TYPE ID="1"/>
                                                 </VAL>
                                                 <CHILD ID="NEXT">
-                                                    <BLOCK ID="44"/>
+                                                    <BLOCK ID="12"/>
                                                     <POS X="7162" Y="5770"/>
                                                     <VAL>
-                                                        <SPEED ID="50"/>
-                                                        <LEFTSPEED ID="0"/>
-                                                        <RIGHTSPEED ID="0"/>
-                                                        <CROSSINGTIME ID="0.2"/>
-                                                        <TYPE ID="1"/>
+                                                        <DELAY ID="0.2"/>
                                                     </VAL>
+                                                    <CHILD ID="NEXT">
+                                                        <BLOCK ID="44"/>
+                                                        <POS X="7162" Y="5856"/>
+                                                        <VAL>
+                                                            <SPEED ID="20"/>
+                                                            <LEFTSPEED ID="0"/>
+                                                            <RIGHTSPEED ID="0"/>
+                                                            <CROSSINGTIME ID="1.5"/>
+                                                            <TYPE ID="1"/>
+                                                        </VAL>
+                                                    </CHILD>
                                                 </CHILD>
                                             </CHILD>
                                         </CHILD>
@@ -166,7 +198,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="GoReturn" TYPE="1" X="7162" Y="4818" ID="2">
+        <SUBPROGRAM X="7162" TYPE="1" NAME="GoReturn" Y="4818" ID="2">
             <BLOCK ID="46"/>
             <POS X="7162" Y="4904"/>
             <VAL>
@@ -275,7 +307,7 @@
     <Catalog GLOABLETIP="VJC6.0">
         <Catalog ID="0"/>
         <Catalog ID="1">
-            <POS X="7405" NOTE="Deberia de ser una (dobles de la cancha)" Y="5424"/>
+            <POS X="7405" Y="5424" NOTE="Deberia de ser una (dobles de la cancha)"/>
         </Catalog>
         <Catalog ID="2"/>
     </Catalog>
@@ -285,5 +317,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="193"/>
+    <Catalog SIZE="51"/>
 </VJCC>
